@@ -1,0 +1,58 @@
+{
+  "checkpoint_load_count": 1,
+  "durability": "DictWriter_append_flush_fsync_then_counter",
+  "final_status_candidate": "M4A4B_BENCHMARK_READY_FOR_LOCAL_AUDIT_COEXISTENCE_OPEN",
+  "first_blocker": null,
+  "forward_call_count": 305,
+  "initialize_call_count": 2,
+  "model_object_ids": [
+    128767270452928,
+    128767434915328,
+    128767341856096,
+    128767362731568,
+    128767268700624
+  ],
+  "phases": {
+    "concurrency_2": {
+      "attempted": 100,
+      "bytes": 42569,
+      "csv_path": "evidence/concurrency_2_100_calls.csv",
+      "durable_rows": 100,
+      "exception": 0,
+      "integrity_pass": 100,
+      "sha256": "1c21478c56c6146288b9a5d8b3e4a1919a4b6039b57c21a6b7cedc2e92ce78dd",
+      "success": 100
+    },
+    "concurrency_4": {
+      "attempted": 100,
+      "bytes": 42633,
+      "csv_path": "evidence/concurrency_4_100_calls.csv",
+      "durable_rows": 100,
+      "exception": 0,
+      "integrity_pass": 100,
+      "sha256": "693ae8c1c450bc108d2726adc50fd00be515e863a7641a821c03c6893fe72279",
+      "success": 100
+    },
+    "sequential": {
+      "attempted": 100,
+      "bytes": 39464,
+      "csv_path": "evidence/sequential_100_calls.csv",
+      "durable_rows": 100,
+      "exception": 0,
+      "integrity_pass": 100,
+      "sha256": "9042b6cd62531ecb0d7cbf5f5d1f6e5cc8374dd38c022eeae372b5db8d9abfb0",
+      "success": 100
+    },
+    "warmups": {
+      "attempted": 5,
+      "bytes": 2099,
+      "csv_path": "evidence/warmup_calls.csv",
+      "durable_rows": 5,
+      "exception": 0,
+      "integrity_pass": 5,
+      "sha256": "2a25220ea288a38854e5c7612674d9800478ee6e24c3957778dd508c572850e1",
+      "success": 5
+    }
+  },
+  "runtime_object_id": 128767600859504
+}

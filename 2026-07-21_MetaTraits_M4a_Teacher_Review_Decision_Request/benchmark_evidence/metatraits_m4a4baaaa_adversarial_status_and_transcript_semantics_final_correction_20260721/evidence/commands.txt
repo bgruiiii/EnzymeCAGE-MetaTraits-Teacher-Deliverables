@@ -1,0 +1,38 @@
+{
+  "argv": [
+    "/usrdata/EnzymeCAGE_envs/enzymecage_py312/bin/python",
+    "/root/projects/EnzymeCAGE-master/HPC_Returned_Result_Summaries/metatraits_m4a4b_pyg_provenance_durable_evidence_status_aware_benchmark_20260720/scripts/run_m4a4b_formal_gpu_benchmark.py",
+    "--return-root",
+    "/root/projects/EnzymeCAGE-master/HPC_Returned_Result_Summaries/metatraits_m4a4b_pyg_provenance_durable_evidence_status_aware_benchmark_20260720",
+    "--selected-gpu-uuid",
+    "GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e",
+    "--gpu-inventory-json",
+    "[{\"compute_mode\":\"Default\",\"compute_processes\":[],\"driver\":\"570.144\",\"free_mib\":48520,\"index\":0,\"monotonic_ns\":22072944695426228,\"name\":\"NVIDIA GeForce RTX 4090 D\",\"nvidia_smi_L\":\"GPU 0: NVIDIA GeForce RTX 4090 D (UUID: GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e)\\n\",\"sample\":1,\"total_mib\":49140,\"used_mib\":0,\"utc\":\"2026-07-20T13:27:38.985072400Z\",\"utilization_percent\":0,\"uuid\":\"GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e\"},{\"compute_mode\":\"Default\",\"compute_processes\":[],\"driver\":\"570.144\",\"free_mib\":48520,\"index\":0,\"monotonic_ns\":22072946752922275,\"name\":\"NVIDIA GeForce RTX 4090 D\",\"nvidia_smi_L\":\"GPU 0: NVIDIA GeForce RTX 4090 D (UUID: GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e)\\n\",\"sample\":2,\"total_mib\":49140,\"used_mib\":0,\"utc\":\"2026-07-20T13:27:41.042589706Z\",\"utilization_percent\":0,\"uuid\":\"GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e\"},{\"compute_mode\":\"Default\",\"compute_processes\":[],\"driver\":\"570.144\",\"free_mib\":48520,\"index\":0,\"monotonic_ns\":22072948812890464,\"name\":\"NVIDIA GeForce RTX 4090 D\",\"nvidia_smi_L\":\"GPU 0: NVIDIA GeForce RTX 4090 D (UUID: GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e)\\n\",\"sample\":3,\"total_mib\":49140,\"used_mib\":0,\"utc\":\"2026-07-20T13:27:43.102528601Z\",\"utilization_percent\":0,\"uuid\":\"GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e\"}]",
+    "--sample-three-monotonic-ns",
+    "22072948812890464",
+    "--sample-three-utc",
+    "2026-07-20T13:27:43.102528601Z"
+  ],
+  "cpu_gates": [
+    "fixed identities PASS",
+    "tar safety/internal manifests PASS",
+    "PBB packaged captured/live PASS",
+    "accepted static source/T3G1A PASS"
+  ],
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e",
+    "ENZYMECAGE_V1_PACKAGE_ROOT": "/root/projects/EnzymeCAGE-master/HPC_Returned_Result_Summaries/enzymecage_v1_20260714",
+    "PIP_DISABLE_PIP_VERSION_CHECK": "1",
+    "PIP_NO_CACHE_DIR": "1",
+    "PIP_NO_INDEX": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONNOUSERSITE": "1",
+    "PYTHONPATH": "/usrdata/EnzymeCAGE_runs/metatraits_m4a4pb_pydantic_overlay_20260720:/root/projects/EnzymeCAGE-master/HPC_Returned_Result_Summaries/d4b1a_wrapper_hash_relative_path_final_package_correction_20260716:/usrdata/EnzymeCAGE_data/EnzymeCAGE-master",
+    "TOKENIZERS_PARALLELISM": "false"
+  },
+  "prelaunch_commands": [
+    "/usr/bin/nvidia-smi -L",
+    "nvidia-smi query-gpu x exactly three separated samples",
+    "nvidia-smi query-compute-apps for selected UUID each sample"
+  ]
+}

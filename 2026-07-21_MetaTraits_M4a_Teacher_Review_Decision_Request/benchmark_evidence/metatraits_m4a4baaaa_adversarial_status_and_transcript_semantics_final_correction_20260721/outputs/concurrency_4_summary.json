@@ -1,0 +1,15 @@
+{
+  "attempted": 100,
+  "bounded_observed_throughput_per_second": 0.368892530484118,
+  "elapsed_seconds": 271.081661287,
+  "max_ms": 13306.579189,
+  "mean_ms": 10820.75335835,
+  "min_ms": 7112.255629,
+  "nearest_rank": true,
+  "p50_ms": 10689.236941,
+  "p95_ms": 12525.973469,
+  "p99_ms": 13187.767843,
+  "phase_end_ns": 22074012417406835,
+  "phase_start_ns": 22073741335745548,
+  "successful_integrity": 100
+}

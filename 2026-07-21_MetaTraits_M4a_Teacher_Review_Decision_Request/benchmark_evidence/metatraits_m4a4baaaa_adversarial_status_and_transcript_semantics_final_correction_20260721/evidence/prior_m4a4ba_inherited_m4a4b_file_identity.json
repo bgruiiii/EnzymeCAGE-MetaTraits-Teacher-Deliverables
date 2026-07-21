@@ -1,0 +1,368 @@
+{
+  "authorized_replacement_count": 5,
+  "files": [
+    {
+      "classification": "immutable",
+      "new_bytes": 55,
+      "new_sha256": "84164d22f0cb1b4cc09f558f35d5f991248d8ee3343cf7ddb87960786e7b5bf3",
+      "path": "FINAL_STATUS.txt",
+      "prior_bytes": 55,
+      "prior_sha256": "84164d22f0cb1b4cc09f558f35d5f991248d8ee3343cf7ddb87960786e7b5bf3"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 532,
+      "new_sha256": "d069ab67f235bc6823cd5579e936fe2d4873c06fc1b3a698fe3aba36909d7e0c",
+      "path": "M4A4B_FORMAL_GPU_BENCHMARK_REPORT.md",
+      "prior_bytes": 532,
+      "prior_sha256": "d069ab67f235bc6823cd5579e936fe2d4873c06fc1b3a698fe3aba36909d7e0c"
+    },
+    {
+      "classification": "authorized_replacement",
+      "new_bytes": 4421,
+      "new_sha256": "1b2ab7e25ce15f8fa3502be673c141ac182486a1e5d3afd6bf3009d6bc1d0e3e",
+      "path": "MANIFEST.sha256",
+      "prior_bytes": 4421,
+      "prior_sha256": "1b2ab7e25ce15f8fa3502be673c141ac182486a1e5d3afd6bf3009d6bc1d0e3e"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 293,
+      "new_sha256": "2c7873ac4781026f84672fab3f200ea8889da79acfbc2bbddadc1da61d54775c",
+      "path": "evidence/benchmark_process_start.json",
+      "prior_bytes": 293,
+      "prior_sha256": "2c7873ac4781026f84672fab3f200ea8889da79acfbc2bbddadc1da61d54775c"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 3105,
+      "new_sha256": "e4704f1a2a86b78eb99fc2a8ced9b38ca204b4da4bf12329d1414a22e1d61cb7",
+      "path": "evidence/commands.txt",
+      "prior_bytes": 3105,
+      "prior_sha256": "e4704f1a2a86b78eb99fc2a8ced9b38ca204b4da4bf12329d1414a22e1d61cb7"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 42569,
+      "new_sha256": "1c21478c56c6146288b9a5d8b3e4a1919a4b6039b57c21a6b7cedc2e92ce78dd",
+      "path": "evidence/concurrency_2_100_calls.csv",
+      "prior_bytes": 42569,
+      "prior_sha256": "1c21478c56c6146288b9a5d8b3e4a1919a4b6039b57c21a6b7cedc2e92ce78dd"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 42633,
+      "new_sha256": "693ae8c1c450bc108d2726adc50fd00be515e863a7641a821c03c6893fe72279",
+      "path": "evidence/concurrency_4_100_calls.csv",
+      "prior_bytes": 42633,
+      "prior_sha256": "693ae8c1c450bc108d2726adc50fd00be515e863a7641a821c03c6893fe72279"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 863,
+      "new_sha256": "ddea824f41df94337c9147a9366d3df870fa0f309f93cc1249fca9714dd52ea8",
+      "path": "evidence/environment.txt",
+      "prior_bytes": 863,
+      "prior_sha256": "ddea824f41df94337c9147a9366d3df870fa0f309f93cc1249fca9714dd52ea8"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 18209,
+      "new_sha256": "6113ad073ee745691ed400ee26bb31b11cd5b5abfaef2a5dec95f4cd924d12d7",
+      "path": "evidence/first_response_concurrency_2.json",
+      "prior_bytes": 18209,
+      "prior_sha256": "6113ad073ee745691ed400ee26bb31b11cd5b5abfaef2a5dec95f4cd924d12d7"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 18214,
+      "new_sha256": "479dac0d023b878c180712aba57a3ca21be8c4f0f5fba8bd9e24356a9349bf86",
+      "path": "evidence/first_response_concurrency_4.json",
+      "prior_bytes": 18214,
+      "prior_sha256": "479dac0d023b878c180712aba57a3ca21be8c4f0f5fba8bd9e24356a9349bf86"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 18224,
+      "new_sha256": "becc910b0a91640f6eae755161a49748d99e6b8bbda6fc572f748a040d2223bb",
+      "path": "evidence/first_response_sequential.json",
+      "prior_bytes": 18224,
+      "prior_sha256": "becc910b0a91640f6eae755161a49748d99e6b8bbda6fc572f748a040d2223bb"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 18219,
+      "new_sha256": "88d1bd3b5f725051240fdee110d00815e78df12c2918c0a94ad3e7bc559b2b4a",
+      "path": "evidence/first_response_warmups.json",
+      "prior_bytes": 18219,
+      "prior_sha256": "88d1bd3b5f725051240fdee110d00815e78df12c2918c0a94ad3e7bc559b2b4a"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 30689,
+      "new_sha256": "946d73644f40326dffcfaac60cc4be81d682d34b341530a859118be9e61c1cb0",
+      "path": "evidence/generated_module_provenance.json",
+      "prior_bytes": 30689,
+      "prior_sha256": "946d73644f40326dffcfaac60cc4be81d682d34b341530a859118be9e61c1cb0"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 645,
+      "new_sha256": "9599c89a38d76d24739cdd793f5df4e5670379d93190e913b43e26229d1ea594",
+      "path": "evidence/gpu_gate_samples.csv",
+      "prior_bytes": 645,
+      "prior_sha256": "9599c89a38d76d24739cdd793f5df4e5670379d93190e913b43e26229d1ea594"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 10214,
+      "new_sha256": "91633e99318b07556fd4bf2763a33da50cc1c1ce374fd3c8bc56d37b6f4854ce",
+      "path": "evidence/imported_enzymecage_modules.json",
+      "prior_bytes": 10214,
+      "prior_sha256": "91633e99318b07556fd4bf2763a33da50cc1c1ce374fd3c8bc56d37b6f4854ce"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 901314,
+      "new_sha256": "17ba53f4f1e6c38ac28f045149453ddb9216ca99ced54fba1b3ef0684bf22e18",
+      "path": "evidence/nvidia_smi_memory_samples.csv",
+      "prior_bytes": 901314,
+      "prior_sha256": "17ba53f4f1e6c38ac28f045149453ddb9216ca99ced54fba1b3ef0684bf22e18"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 1763,
+      "new_sha256": "6026f17f5098e8ca94a6bb6ecc8040d697e79181cda3fd7c9c6939297ce17409",
+      "path": "evidence/runtime_source_tree_after.sha256",
+      "prior_bytes": 1763,
+      "prior_sha256": "6026f17f5098e8ca94a6bb6ecc8040d697e79181cda3fd7c9c6939297ce17409"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 1763,
+      "new_sha256": "6026f17f5098e8ca94a6bb6ecc8040d697e79181cda3fd7c9c6939297ce17409",
+      "path": "evidence/runtime_source_tree_before.sha256",
+      "prior_bytes": 1763,
+      "prior_sha256": "6026f17f5098e8ca94a6bb6ecc8040d697e79181cda3fd7c9c6939297ce17409"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 39464,
+      "new_sha256": "9042b6cd62531ecb0d7cbf5f5d1f6e5cc8374dd38c022eeae372b5db8d9abfb0",
+      "path": "evidence/sequential_100_calls.csv",
+      "prior_bytes": 39464,
+      "prior_sha256": "9042b6cd62531ecb0d7cbf5f5d1f6e5cc8374dd38c022eeae372b5db8d9abfb0"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 2099,
+      "new_sha256": "2a25220ea288a38854e5c7612674d9800478ee6e24c3957778dd508c572850e1",
+      "path": "evidence/warmup_calls.csv",
+      "prior_bytes": 2099,
+      "prior_sha256": "2a25220ea288a38854e5c7612674d9800478ee6e24c3957778dd508c572850e1"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 2487,
+      "new_sha256": "31f801ab65ca3007f71ab50f9229e08cb917138c2877c58f19bd791047af50b9",
+      "path": "inputs/formal_benchmark_contract.json",
+      "prior_bytes": 2487,
+      "prior_sha256": "31f801ab65ca3007f71ab50f9229e08cb917138c2877c58f19bd791047af50b9"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 2,
+      "new_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "path": "logs/benchmark.exit_code.txt",
+      "prior_bytes": 2,
+      "prior_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 495170,
+      "new_sha256": "a7c1295ee56992b1a446b6aaf292d64d2ced627121ba5cb5b9412d1d4117f16e",
+      "path": "logs/benchmark.stderr.txt",
+      "prior_bytes": 495170,
+      "prior_sha256": "a7c1295ee56992b1a446b6aaf292d64d2ced627121ba5cb5b9412d1d4117f16e"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 50715,
+      "new_sha256": "51dd242362a3b76ef1a4dccf50e02abf9d3f9b7d7dd2d4b4b46a142defc5238b",
+      "path": "logs/benchmark.stdout.txt",
+      "prior_bytes": 50715,
+      "prior_sha256": "51dd242362a3b76ef1a4dccf50e02abf9d3f9b7d7dd2d4b4b46a142defc5238b"
+    },
+    {
+      "classification": "authorized_replacement",
+      "new_bytes": 3373,
+      "new_sha256": "c7ebf7cf52a07082274b1ac6245409a0e8249b529b955048f0f20b10309942d8",
+      "path": "logs/validator_negative_tests.csv",
+      "prior_bytes": 1473,
+      "prior_sha256": "97fd8db137800911825e7bca6f2ed725f8c8e5ce23b0e1a775550a572a6d62cd"
+    },
+    {
+      "classification": "authorized_replacement",
+      "new_bytes": 7331,
+      "new_sha256": "0843a47604d70594dcb3bc2003b883b0dbc2cc63e930f2c0f5136f043f405f01",
+      "path": "logs/validator_negative_tests.stdout.txt",
+      "prior_bytes": 3823,
+      "prior_sha256": "0e933f384f58623a06b47a48aef4c3c391abbc535e511f00114aaa1924a45c3d"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 1692,
+      "new_sha256": "cb4e3bcff6bd9ddd7a980c9bebabfd5f6143ee469836a1275db8deec3fc54530",
+      "path": "outputs/benchmark_progress.json",
+      "prior_bytes": 1692,
+      "prior_sha256": "cb4e3bcff6bd9ddd7a980c9bebabfd5f6143ee469836a1275db8deec3fc54530"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 432,
+      "new_sha256": "6d9051a9d556758b60b968e555c8951ef1c6d6de8af00003b6eafe97cf14265b",
+      "path": "outputs/benchmark_provenance.json",
+      "prior_bytes": 432,
+      "prior_sha256": "6d9051a9d556758b60b968e555c8951ef1c6d6de8af00003b6eafe97cf14265b"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 270,
+      "new_sha256": "ab671a1f6f6acbf42644f93226ac59dadb1ff5ede72bdb21c189700f84555e67",
+      "path": "outputs/coexistence_boundary.json",
+      "prior_bytes": 270,
+      "prior_sha256": "ab671a1f6f6acbf42644f93226ac59dadb1ff5ede72bdb21c189700f84555e67"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 406,
+      "new_sha256": "5969a9d88ad5b80777f2c1fbb9817a653979b2182a995faf116375189b121172",
+      "path": "outputs/concurrency_2_summary.json",
+      "prior_bytes": 406,
+      "prior_sha256": "5969a9d88ad5b80777f2c1fbb9817a653979b2182a995faf116375189b121172"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 411,
+      "new_sha256": "4917fc8c04e23f6daf1c19db118de61b0f9a51ec5ab95329dbfe97b0a0bef6c8",
+      "path": "outputs/concurrency_4_summary.json",
+      "prior_bytes": 411,
+      "prior_sha256": "4917fc8c04e23f6daf1c19db118de61b0f9a51ec5ab95329dbfe97b0a0bef6c8"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 554,
+      "new_sha256": "76afd19b9b0e759acf7eeb69d5c4a225703a5e13154adca19b7bff6dc7d56516",
+      "path": "outputs/gpu_selection_or_block.json",
+      "prior_bytes": 554,
+      "prior_sha256": "76afd19b9b0e759acf7eeb69d5c4a225703a5e13154adca19b7bff6dc7d56516"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 271,
+      "new_sha256": "da18bca72431d268297f1c8c1711e293006cb3881628b62695e428aaf0181599",
+      "path": "outputs/latency_degradation.json",
+      "prior_bytes": 271,
+      "prior_sha256": "da18bca72431d268297f1c8c1711e293006cb3881628b62695e428aaf0181599"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 222,
+      "new_sha256": "11d4e8e1747cd27c6937897075f0cef452b508dc948dc8ecfb0f41af59d3c483",
+      "path": "outputs/live_runtime_overlay_gate.json",
+      "prior_bytes": 222,
+      "prior_sha256": "11d4e8e1747cd27c6937897075f0cef452b508dc948dc8ecfb0f41af59d3c483"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 2202,
+      "new_sha256": "a3369c3cd34ec8ec79dc287a83229989153b2c6e03ecc64ec5437a98c6dc49a4",
+      "path": "outputs/memory_summary.json",
+      "prior_bytes": 2202,
+      "prior_sha256": "a3369c3cd34ec8ec79dc287a83229989153b2c6e03ecc64ec5437a98c6dc49a4"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 636,
+      "new_sha256": "bfeb084d7426d42fe9990ff8f313acffddcbfbc456648c0d1fead3999bd0a1ef",
+      "path": "outputs/required_input_identity.json",
+      "prior_bytes": 636,
+      "prior_sha256": "bfeb084d7426d42fe9990ff8f313acffddcbfbc456648c0d1fead3999bd0a1ef"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 505,
+      "new_sha256": "7ac24c6ab462be1c7842657b2fc5408c3aad7392ae973fc48ea19aba00acf967",
+      "path": "outputs/response_integrity.json",
+      "prior_bytes": 505,
+      "prior_sha256": "7ac24c6ab462be1c7842657b2fc5408c3aad7392ae973fc48ea19aba00acf967"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 2057,
+      "new_sha256": "c6650f15cc040696bd1fcb64b648cb106d5a64e46c9d5e44fda8542a388f8376",
+      "path": "outputs/runtime_preload.json",
+      "prior_bytes": 2057,
+      "prior_sha256": "c6650f15cc040696bd1fcb64b648cb106d5a64e46c9d5e44fda8542a388f8376"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 1601,
+      "new_sha256": "3dd4f79de5f8fa94523d1a064fe495dae04b13a4616f561bfbf72b6bf72185b1",
+      "path": "outputs/runtime_source_identity.json",
+      "prior_bytes": 1601,
+      "prior_sha256": "3dd4f79de5f8fa94523d1a064fe495dae04b13a4616f561bfbf72b6bf72185b1"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 542,
+      "new_sha256": "631a94d8faf4f2dfded542225343bd5d7cc595c7ecd8a77a295a2ced186efed6",
+      "path": "outputs/scope_compliance.json",
+      "prior_bytes": 542,
+      "prior_sha256": "631a94d8faf4f2dfded542225343bd5d7cc595c7ecd8a77a295a2ced186efed6"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 341,
+      "new_sha256": "593a0e34f434058be415a764bafce92d8bd15b7046e9043f591e60d77f09818f",
+      "path": "outputs/sequential_summary.json",
+      "prior_bytes": 341,
+      "prior_sha256": "593a0e34f434058be415a764bafce92d8bd15b7046e9043f591e60d77f09818f"
+    },
+    {
+      "classification": "authorized_replacement",
+      "new_bytes": 539,
+      "new_sha256": "306b7b76150261667d697b53579bd0ee43ea2750c75e6645da88211ec0d34bb8",
+      "path": "outputs/validator_results.json",
+      "prior_bytes": 346,
+      "prior_sha256": "ed874b465ea124375d17ec00f86270bd2254b2d9d0b90a647845e76cba18818b"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 100,
+      "new_sha256": "b3fae5d78704674466b663777811280659c702ce17aceee25c5a7a74ca6a8300",
+      "path": "outputs/warmup_audit.json",
+      "prior_bytes": 100,
+      "prior_sha256": "b3fae5d78704674466b663777811280659c702ce17aceee25c5a7a74ca6a8300"
+    },
+    {
+      "classification": "immutable",
+      "new_bytes": 32818,
+      "new_sha256": "d58b5e0de0e435dace7f5894bd8d7c7eb3869d2c1d80a2dad4a5bddcec398bb7",
+      "path": "scripts/run_m4a4b_formal_gpu_benchmark.py",
+      "prior_bytes": 32818,
+      "prior_sha256": "d58b5e0de0e435dace7f5894bd8d7c7eb3869d2c1d80a2dad4a5bddcec398bb7"
+    },
+    {
+      "classification": "authorized_replacement",
+      "new_bytes": 46752,
+      "new_sha256": "df3411d6adbd32ce0fcfbfd70176e004bdb23ccc8f60627919c468ffad5c0a82",
+      "path": "scripts/validate_m4a4b_formal_gpu_benchmark.py",
+      "prior_bytes": 18975,
+      "prior_sha256": "f3d0604e6431dc2d4099fa59b45ade586f425c6422173e9e51bd1c465b035cfd"
+    }
+  ],
+  "immutable_count": 40,
+  "preserved_historical_copy_count": 4,
+  "prior_regular_file_count": 45
+}

@@ -1,0 +1,7 @@
+{
+  "device_process_rows_and_peaks": "raw_and_independently_recomputable",
+  "raw_memory_row_count": 6917,
+  "simultaneous_additional_local_adrmats_model": "measured_none_present",
+  "torch_fields_recomputed_from_nvidia_csv": false,
+  "torch_phase_boundary_values": "captured_only_and_structurally_validated"
+}

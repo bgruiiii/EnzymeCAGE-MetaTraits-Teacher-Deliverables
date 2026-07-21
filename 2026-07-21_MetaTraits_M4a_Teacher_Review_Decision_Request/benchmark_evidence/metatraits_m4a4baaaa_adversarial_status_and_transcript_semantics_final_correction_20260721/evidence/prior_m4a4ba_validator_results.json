@@ -1,0 +1,14 @@
+{
+  "actual_status_positive": "PASS",
+  "actual_status_token": "M4A4B_BENCHMARK_READY_FOR_LOCAL_AUDIT_COEXISTENCE_OPEN",
+  "captured_evidence_validation": "PASS",
+  "captured_packaged_validation": "PASS",
+  "cross_consistent_negative_tests": "41/41_PASS",
+  "live_packaged_validation": "PASS",
+  "negative_tests_skipped": [],
+  "positive_status_fixtures": "6/6_PASS",
+  "reverse_negative_tests": "41/41_PASS",
+  "reverse_packaged_validation": "PASS",
+  "reverse_positive_status_fixtures": "6/6_PASS",
+  "validator_status_dispatch": true
+}

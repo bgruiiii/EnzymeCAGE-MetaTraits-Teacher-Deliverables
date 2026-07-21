@@ -1,0 +1,7 @@
+{
+  "additional_local_adrmats_gpu_models_proven": 0,
+  "adrmats_remote_model_names": 6,
+  "coexistence_classification": "COEXISTENCE_LOCAL_MODEL_SET_NOT_ESTABLISHED",
+  "coexistence_pass": false,
+  "coexistence_teacher_requirement": "OPEN_WAIT_TEACHER_INTERPRETATION"
+}

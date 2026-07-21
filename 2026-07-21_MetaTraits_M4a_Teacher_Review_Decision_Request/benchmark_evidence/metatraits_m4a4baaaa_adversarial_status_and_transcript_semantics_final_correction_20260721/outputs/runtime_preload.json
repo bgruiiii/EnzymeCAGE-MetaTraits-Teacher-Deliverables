@@ -1,0 +1,53 @@
+{
+  "checkpoint_load_count": 1,
+  "checkpoints": [
+    {
+      "bytes": 72266498,
+      "path": "/root/projects/EnzymeCAGE-master/HPC_Returned_Result_Summaries/enzymecage_v1_20260714/3b_ensemble/seed_40/best_model.pth",
+      "seed": 40,
+      "sha256": "a95d4687e2cadad1c12f7c1defd21dbdf43db3cce96aa9caace39dbcc226586d"
+    },
+    {
+      "bytes": 72266498,
+      "path": "/root/projects/EnzymeCAGE-master/HPC_Returned_Result_Summaries/enzymecage_v1_20260714/3b_ensemble/seed_41/best_model.pth",
+      "seed": 41,
+      "sha256": "c429a98bc265e20d415c3d6f479e0f0d6c47d81c13135c589e2a5e173978dbef"
+    },
+    {
+      "bytes": 72266498,
+      "path": "/root/projects/EnzymeCAGE-master/HPC_Returned_Result_Summaries/enzymecage_v1_20260714/3b_ensemble/seed_42/best_model.pth",
+      "seed": 42,
+      "sha256": "cc54be33a23b78fb89c183f0bca6f87b442a5be4dad9666428d05a72a9b7f7a3"
+    },
+    {
+      "bytes": 72266498,
+      "path": "/root/projects/EnzymeCAGE-master/HPC_Returned_Result_Summaries/enzymecage_v1_20260714/3b_ensemble/seed_43/best_model.pth",
+      "seed": 43,
+      "sha256": "3eb80be83cb41574204239c80f11008f728029dd9e4ba14c639749d8176b5220"
+    },
+    {
+      "bytes": 72266498,
+      "path": "/root/projects/EnzymeCAGE-master/HPC_Returned_Result_Summaries/enzymecage_v1_20260714/3b_ensemble/seed_44/best_model.pth",
+      "seed": 44,
+      "sha256": "b9547d3ba17725a5910cf243d33af9367abb12b3215f4b526405f8bdb14acd16"
+    }
+  ],
+  "duration_ms": 538196.997319,
+  "initialization_end_ns": 22073494727231386,
+  "initialization_start_ns": 22072956530234067,
+  "initialization_start_utc": "2026-07-20T13:27:50.819973Z",
+  "initialize_call_count": 2,
+  "model_object_ids": [
+    128767270452928,
+    128767434915328,
+    128767341856096,
+    128767362731568,
+    128767268700624
+  ],
+  "runtime_object_id": 128767600859504,
+  "singleton_same_five_models": true,
+  "singleton_same_runtime": true,
+  "visible_device_count": 1,
+  "visible_device_name": "NVIDIA GeForce RTX 4090 D",
+  "visible_physical_uuid": "GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e"
+}

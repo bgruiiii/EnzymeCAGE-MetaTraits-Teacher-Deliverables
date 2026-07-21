@@ -1,0 +1,45 @@
+{
+  "accepted_core_sources": [
+    {
+      "bytes": 14585,
+      "relative_path": "enzymecage/model.py",
+      "sha256": "005037a1d2c063bd7d71b8ff08ed4361c139ba37be3b822c87c8fa2d84890348"
+    },
+    {
+      "bytes": 2420,
+      "relative_path": "enzymecage/base.py",
+      "sha256": "abdfe7875a2b0c49032031dbc54915c435ed0bda895e0cce14c92be0be7421de"
+    },
+    {
+      "bytes": 2196,
+      "relative_path": "enzymecage/attention.py",
+      "sha256": "388db15eac48ac4c6251879b3b1be695bbe632ab1be3040e45df7cfaf2a3ca95"
+    },
+    {
+      "bytes": 4994,
+      "relative_path": "enzymecage/interaction.py",
+      "sha256": "1e03b0a4bcf5bf68019c9af4542bb673eb8f8f717427b652674ac88bc706ada3"
+    },
+    {
+      "bytes": 17852,
+      "relative_path": "enzymecage/dataset/geometric.py",
+      "sha256": "8415f772f2b4a723c6a2895d74db3b54b28b514c259a1424d2b1e83073657dfb"
+    },
+    {
+      "bytes": 4629,
+      "relative_path": "enzymecage/dataset/sharded_protein.py",
+      "sha256": "64ba8a97280fc1b4b7112139ada0487758c4f848ebb15981abf8eba098054811"
+    }
+  ],
+  "accepted_static_module_count": 10,
+  "code_root": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master",
+  "gate": "PASS",
+  "imported_module_count": 12,
+  "proven_generated_helper_count": 2,
+  "rejected_or_unknown_count": 0,
+  "source_tree_after_sha256": "6026f17f5098e8ca94a6bb6ecc8040d697e79181cda3fd7c9c6939297ce17409",
+  "source_tree_before_after_equal": true,
+  "source_tree_before_sha256": "6026f17f5098e8ca94a6bb6ecc8040d697e79181cda3fd7c9c6939297ce17409",
+  "source_tree_py_file_count": 17,
+  "t3g1a_source_identity": "PASS_SAME_SIX_RECORDS"
+}

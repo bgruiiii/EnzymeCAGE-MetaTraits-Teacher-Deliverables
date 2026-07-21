@@ -1,0 +1,46 @@
+{
+  "actual_status_positive": "PASS",
+  "actual_status_token": "M4A4B_BENCHMARK_READY_FOR_LOCAL_AUDIT_COEXISTENCE_OPEN",
+  "captured_evidence_validation": "PASS",
+  "captured_packaged_validation": "PASS",
+  "coexistence": "OPEN/NOT_ESTABLISHED",
+  "coexistence_pass": false,
+  "cross_consistent_negative_tests": "68/68_PASS",
+  "deterministic_tar_reconstruction": "PASS_FINAL",
+  "m4b_authorized": false,
+  "m4c_authorized": false,
+  "negative_tests_skipped": [],
+  "positive_status_fixtures": "6/6_PASS",
+  "reverse_negative_tests": "ALL_PASS_FINAL",
+  "reverse_packaged_validation": "PASS_FINAL",
+  "reverse_positive_status_fixtures": "6/6_PASS_FINAL",
+  "source_tree_unchanged_by_test_runners": "PASS_FINAL",
+  "teacher_pending": [
+    "abc_complete_comparison",
+    "snapshot_review",
+    "maintainer_inquiry_unsent",
+    "strain_species_policy",
+    "final_checkpoint_strategy",
+    "zero_additional_local_model_coexistence_interpretation",
+    "m4a_full_closure"
+  ],
+  "test_evidence_identities": {
+    "negative_csv": {
+      "bytes": 6418,
+      "sha256": "6cd57ab9f4b022113e12eaca7ede0b238e1a913ab33fad7e7517aab1246b5ba5"
+    },
+    "negative_stdout": {
+      "bytes": 15663,
+      "sha256": "0a62e8370c4c2838407e38d58fc91010b9dbe281760f14cee89147619642c176"
+    },
+    "positive_csv": {
+      "bytes": 533,
+      "sha256": "2f70cc00854949705fd678645117a8b1df89f5ec0299693cdc781a156bfea9c0"
+    },
+    "positive_stdout": {
+      "bytes": 1734,
+      "sha256": "54301e9c526894231b36112900ae24cede2d724d6b4c2b83daf1ee5b5f6f2b4b"
+    }
+  },
+  "validator_status_dispatch": true
+}

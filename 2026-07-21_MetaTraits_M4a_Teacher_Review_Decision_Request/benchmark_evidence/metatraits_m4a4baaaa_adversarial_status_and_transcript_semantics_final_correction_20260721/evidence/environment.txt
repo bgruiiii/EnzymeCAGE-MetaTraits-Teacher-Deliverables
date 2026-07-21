@@ -1,0 +1,16 @@
+PYTHONDONTWRITEBYTECODE=1
+PYTHONNOUSERSITE=1
+PIP_NO_INDEX=1
+PIP_DISABLE_PIP_VERSION_CHECK=1
+PIP_NO_CACHE_DIR=1
+TOKENIZERS_PARALLELISM=false
+PYTHONPATH=/usrdata/EnzymeCAGE_runs/metatraits_m4a4pb_pydantic_overlay_20260720:/root/projects/EnzymeCAGE-master/HPC_Returned_Result_Summaries/d4b1a_wrapper_hash_relative_path_final_package_correction_20260716:/usrdata/EnzymeCAGE_data/EnzymeCAGE-master
+ENZYMECAGE_V1_PACKAGE_ROOT=/root/projects/EnzymeCAGE-master/HPC_Returned_Result_Summaries/enzymecage_v1_20260714
+CUDA_VISIBLE_DEVICES=GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e
+python=3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]
+pydantic=2.12.5
+pydantic_file=/usrdata/EnzymeCAGE_runs/metatraits_m4a4pb_pydantic_overlay_20260720/pydantic/__init__.py
+torch=2.7.1+cu126
+torch_cuda=12.6
+torch_geometric=2.8.0
+accepted_code_root=/usrdata/EnzymeCAGE_data/EnzymeCAGE-master

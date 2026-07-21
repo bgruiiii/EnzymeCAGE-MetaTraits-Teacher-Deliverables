@@ -1,0 +1,479 @@
+{
+  "authority": {
+    "accepted_mt_d5_source_manifest_sha256": "9f646442d7ccd8ac24de4feb446825309059a92be8ca9d5d60b3d002edcb9503",
+    "pinned_adrmats_commit": "ca5eabe1d521bbcb8aae67c0b2fd24f9f16667a5",
+    "teacher_reply": "TEACHER_REPLY_MTD5_ACCEPTED_AND_MTD1_D8_DECISIONS_2026-07-18.md"
+  },
+  "boundaries": [
+    "ten fixed UIDs do not prove production-wide coverage",
+    "missing KEGG is preserved as missing",
+    "species evidence does not prove strain preservation",
+    "host mapping is not wastewater suitability",
+    "no confidence float or complete A/B/C formula is derived"
+  ],
+  "cases": [
+    {
+      "expected": {
+        "kegg": {
+          "gene_ids": [
+            "son:SO_1922"
+          ],
+          "multiplicity": 1,
+          "raw_path": "raw/kegg/Q8EFP8/conversion.txt.attempt2",
+          "raw_sha256": "2eb87d2b3f67363efb964b265a82f36046b94066e1a1b68d257c20dddf4b21da",
+          "state": "single"
+        },
+        "uniprot": {
+          "annotation_score": 2.0,
+          "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+          "lineage": [
+            "Bacteria",
+            "Pseudomonadati",
+            "Pseudomonadota",
+            "Gammaproteobacteria",
+            "Alteromonadales",
+            "Shewanellaceae",
+            "Shewanella"
+          ],
+          "ncbi_taxon_id": 211586,
+          "primary_accession": "Q8EFP8",
+          "protein_existence": "3: Inferred from homology",
+          "raw_path": "raw/uniprot/Q8EFP8/response.json",
+          "raw_sha256": "b5024ea962a4a4a2ebfbe6eabb21c8e06bdde1aedd7c228eca3195614aed4736",
+          "reviewed": true,
+          "scientific_organism_name": "Shewanella oneidensis (strain ATCC 700550 / JCM 31522 / CIP 106686 / LMG 19005 / NCIMB 14063 / MR-1)"
+        }
+      },
+      "input": {
+        "enzyme_score_text": "0.99999926000000006",
+        "example_id": "TR137892_RHEA62932_Q8EFP8",
+        "positive_rank": 1,
+        "rhea_id": 62932
+      },
+      "source_probe": {
+        "d5_mapping_state": "exact",
+        "note": "D5 diagnostic provenance; not an M4a expected output field"
+      },
+      "uid": "Q8EFP8"
+    },
+    {
+      "expected": {
+        "kegg": {
+          "gene_ids": [
+            "mbu:Mbur_1182"
+          ],
+          "multiplicity": 1,
+          "raw_path": "raw/kegg/Q12WS1/conversion.txt",
+          "raw_sha256": "3e5becc04755222093438ed38163c9e03df5da0f6f71b50b309e25847cf4e373",
+          "state": "single"
+        },
+        "uniprot": {
+          "annotation_score": 4.0,
+          "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+          "lineage": [
+            "Archaea",
+            "Methanobacteriati",
+            "Methanobacteriota",
+            "Stenosarchaea group",
+            "Methanomicrobia",
+            "Methanosarcinales",
+            "Methanosarcinaceae",
+            "Methanococcoides"
+          ],
+          "ncbi_taxon_id": 259564,
+          "primary_accession": "Q12WS1",
+          "protein_existence": "3: Inferred from homology",
+          "raw_path": "raw/uniprot/Q12WS1/response.json",
+          "raw_sha256": "fbb5455d8edf9a9661410c89bfec612d61b8061fd64fff6be38b9948e6c14a69",
+          "reviewed": true,
+          "scientific_organism_name": "Methanococcoides burtonii (strain DSM 6242 / NBRC 107633 / OCM 468 / ACE-M)"
+        }
+      },
+      "input": {
+        "enzyme_score_text": "0.99999659799999985",
+        "example_id": "TR097033_RHEA24408_Q12WS1",
+        "positive_rank": 1,
+        "rhea_id": 24408
+      },
+      "source_probe": {
+        "d5_mapping_state": "exact",
+        "note": "D5 diagnostic provenance; not an M4a expected output field"
+      },
+      "uid": "Q12WS1"
+    },
+    {
+      "expected": {
+        "kegg": {
+          "gene_ids": [
+            "ccs:CCNA_01212"
+          ],
+          "multiplicity": 1,
+          "raw_path": "raw/kegg/A0A0H3C8X0/conversion.txt",
+          "raw_sha256": "ebea48b505069974b527d35db50fb0d6c55ebda2eebd1723fbf64a00548404d3",
+          "state": "single"
+        },
+        "uniprot": {
+          "annotation_score": 5.0,
+          "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+          "lineage": [
+            "Bacteria",
+            "Pseudomonadati",
+            "Pseudomonadota",
+            "Alphaproteobacteria",
+            "Caulobacterales",
+            "Caulobacteraceae",
+            "Caulobacter"
+          ],
+          "ncbi_taxon_id": 565050,
+          "primary_accession": "A0A0H3C8X0",
+          "protein_existence": "1: Evidence at protein level",
+          "raw_path": "raw/uniprot/A0A0H3C8X0/response.json",
+          "raw_sha256": "f03e1a44ec08faf679ab10f5f5d3bc653fca7e250ac662c38b576219a8072e85",
+          "reviewed": true,
+          "scientific_organism_name": "Caulobacter vibrioides (strain NA1000 / CB15N)"
+        }
+      },
+      "input": {
+        "enzyme_score_text": "0.99973942400000004",
+        "example_id": "TR139257_RHEA70387_A0A0H3C8X0",
+        "positive_rank": 1,
+        "rhea_id": 70387
+      },
+      "source_probe": {
+        "d5_mapping_state": "exact",
+        "note": "D5 diagnostic provenance; not an M4a expected output field"
+      },
+      "uid": "A0A0H3C8X0"
+    },
+    {
+      "expected": {
+        "kegg": {
+          "gene_ids": [],
+          "multiplicity": 0,
+          "raw_path": "raw/kegg/P29931/conversion.txt",
+          "raw_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "state": "missing"
+        },
+        "uniprot": {
+          "annotation_score": 5.0,
+          "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+          "lineage": [
+            "Bacteria",
+            "Pseudomonadati",
+            "Pseudomonadota",
+            "Alphaproteobacteria",
+            "Hyphomicrobiales",
+            "Rhizobiaceae",
+            "Sinorhizobium/Ensifer group",
+            "Sinorhizobium"
+          ],
+          "ncbi_taxon_id": 42445,
+          "primary_accession": "P29931",
+          "protein_existence": "1: Evidence at protein level",
+          "raw_path": "raw/uniprot/P29931/response.json",
+          "raw_sha256": "66614a4987fe0603bce5cfc462cec2245deee61bd6b04ba0b6833e64e4a11e2c",
+          "reviewed": true,
+          "scientific_organism_name": "Sinorhizobium sp"
+        }
+      },
+      "input": {
+        "enzyme_score_text": "0.99950407200000002",
+        "example_id": "TR040569_RHEA15765_P29931",
+        "positive_rank": 1,
+        "rhea_id": 15765
+      },
+      "source_probe": {
+        "d5_mapping_state": "MAPPING_DRIFT_OR_CONFLICT",
+        "note": "D5 diagnostic provenance; not an M4a expected output field"
+      },
+      "uid": "P29931"
+    },
+    {
+      "expected": {
+        "kegg": {
+          "gene_ids": [
+            "dha:DEHA2E04576g"
+          ],
+          "multiplicity": 1,
+          "raw_path": "raw/kegg/Q6BQK1/conversion.txt",
+          "raw_sha256": "8ef82e2e6ee4eae8f3563f258a241f9a4484933bfd83cff10b3f4a51e5ae0355",
+          "state": "single"
+        },
+        "uniprot": {
+          "annotation_score": 3.0,
+          "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+          "lineage": [
+            "Eukaryota",
+            "Fungi",
+            "Dikarya",
+            "Ascomycota",
+            "Saccharomycotina",
+            "Pichiomycetes",
+            "Debaryomycetaceae",
+            "Debaryomyces"
+          ],
+          "ncbi_taxon_id": 284592,
+          "primary_accession": "Q6BQK1",
+          "protein_existence": "3: Inferred from homology",
+          "raw_path": "raw/uniprot/Q6BQK1/response.json",
+          "raw_sha256": "7cce2c2be928480937134ade716df1961ac3b523a8b2850c28350416e0ff06e7",
+          "reviewed": true,
+          "scientific_organism_name": "Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 21394 / JCM 1990 / NBRC 0083 / IGC 2968)"
+        }
+      },
+      "input": {
+        "enzyme_score_text": "0.99935443000000002",
+        "example_id": "TR084645_RHEA22642_Q6BQK1",
+        "positive_rank": 1,
+        "rhea_id": 22642
+      },
+      "source_probe": {
+        "d5_mapping_state": "exact",
+        "note": "D5 diagnostic provenance; not an M4a expected output field"
+      },
+      "uid": "Q6BQK1"
+    },
+    {
+      "expected": {
+        "kegg": {
+          "gene_ids": [
+            "mtu:Rv3526",
+            "mtv:RVBD_3526"
+          ],
+          "multiplicity": 2,
+          "raw_path": "raw/kegg/P71875/conversion.txt",
+          "raw_sha256": "5e3e24b02a59086462d4a4944739462eedcdf0d92d4c9a775144d8ad44ff5f2f",
+          "state": "multiple"
+        },
+        "uniprot": {
+          "annotation_score": 5.0,
+          "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+          "lineage": [
+            "Bacteria",
+            "Bacillati",
+            "Actinomycetota",
+            "Actinomycetes",
+            "Mycobacteriales",
+            "Mycobacteriaceae",
+            "Mycobacterium",
+            "Mycobacterium tuberculosis complex"
+          ],
+          "ncbi_taxon_id": 83332,
+          "primary_accession": "P71875",
+          "protein_existence": "1: Evidence at protein level",
+          "raw_path": "raw/uniprot/P71875/response.json",
+          "raw_sha256": "17ab90f2b62916e188306fc04d681df6fe43e1d23acf4dc49b7c8c89c4ae83b3",
+          "reviewed": true,
+          "scientific_organism_name": "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)"
+        }
+      },
+      "input": {
+        "enzyme_score_text": "0.99931395799999989",
+        "example_id": "TR126599_RHEA45976_P71875",
+        "positive_rank": 1,
+        "rhea_id": 45976
+      },
+      "source_probe": {
+        "d5_mapping_state": "exact",
+        "note": "D5 diagnostic provenance; not an M4a expected output field"
+      },
+      "uid": "P71875"
+    },
+    {
+      "expected": {
+        "kegg": {
+          "gene_ids": [
+            "syb:TZ53_25070"
+          ],
+          "multiplicity": 1,
+          "raw_path": "raw/kegg/S5SC42/conversion.txt",
+          "raw_sha256": "8edeb7a7e4a4611ded0fac784ea3bde6f9a5153fe82e976779c24646ade5c3c4",
+          "state": "single"
+        },
+        "uniprot": {
+          "annotation_score": 4.0,
+          "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+          "lineage": [
+            "Bacteria",
+            "Pseudomonadati",
+            "Pseudomonadota",
+            "Alphaproteobacteria",
+            "Sphingomonadales",
+            "Sphingobiaceae",
+            "Sphingobium"
+          ],
+          "ncbi_taxon_id": 484429,
+          "primary_accession": "S5SC42",
+          "protein_existence": "1: Evidence at protein level",
+          "raw_path": "raw/uniprot/S5SC42/response.json",
+          "raw_sha256": "0ac8116a694faec9dfdf92d933e47a5d2220b426e1c7b86bd09523b01a132a95",
+          "reviewed": true,
+          "scientific_organism_name": "Sphingobium sp. (strain YBL2)"
+        }
+      },
+      "input": {
+        "enzyme_score_text": "0.99909963800000001",
+        "example_id": "TR138478_RHEA65792_S5SC42",
+        "positive_rank": 1,
+        "rhea_id": 65792
+      },
+      "source_probe": {
+        "d5_mapping_state": "exact",
+        "note": "D5 diagnostic provenance; not an M4a expected output field"
+      },
+      "uid": "S5SC42"
+    },
+    {
+      "expected": {
+        "kegg": {
+          "gene_ids": [
+            "eco:b1449",
+            "ecj:JW5907",
+            "ecoc:C3026_08430"
+          ],
+          "multiplicity": 3,
+          "raw_path": "raw/kegg/P76113/conversion.txt",
+          "raw_sha256": "8ed56073f8214f3d30b57a2109acefaad8fabbdba6fc1719dc95c6639a5109c3",
+          "state": "multiple"
+        },
+        "uniprot": {
+          "annotation_score": 5.0,
+          "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+          "lineage": [
+            "Bacteria",
+            "Pseudomonadati",
+            "Pseudomonadota",
+            "Gammaproteobacteria",
+            "Enterobacterales",
+            "Enterobacteriaceae",
+            "Escherichia"
+          ],
+          "ncbi_taxon_id": 83333,
+          "primary_accession": "P76113",
+          "protein_existence": "1: Evidence at protein level",
+          "raw_path": "raw/uniprot/P76113/response.json",
+          "raw_sha256": "d8ed8054225bb2eaa1541c4583e0ed3ebb9afe31b9189cd6bab8fcd7b12e9c79",
+          "reviewed": true,
+          "scientific_organism_name": "Escherichia coli (strain K12)"
+        }
+      },
+      "input": {
+        "enzyme_score_text": "0.99909789999999998",
+        "example_id": "TR122268_RHEA34817_P76113",
+        "positive_rank": 1,
+        "rhea_id": 34817
+      },
+      "source_probe": {
+        "d5_mapping_state": "exact",
+        "note": "D5 diagnostic provenance; not an M4a expected output field"
+      },
+      "uid": "P76113"
+    },
+    {
+      "expected": {
+        "kegg": {
+          "gene_ids": [
+            "ele:Elen_2529"
+          ],
+          "multiplicity": 1,
+          "raw_path": "raw/kegg/C8WLM1/conversion.txt",
+          "raw_sha256": "2710bd1041a63c5c2c7129bdf2793409cb80dbbeaaf89607bf0d96b56e288638",
+          "state": "single"
+        },
+        "uniprot": {
+          "annotation_score": 5.0,
+          "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+          "lineage": [
+            "Bacteria",
+            "Bacillati",
+            "Actinomycetota",
+            "Coriobacteriia",
+            "Eggerthellales",
+            "Eggerthellaceae",
+            "Eggerthella"
+          ],
+          "ncbi_taxon_id": 479437,
+          "primary_accession": "C8WLM1",
+          "protein_existence": "1: Evidence at protein level",
+          "raw_path": "raw/uniprot/C8WLM1/response.json",
+          "raw_sha256": "7fd72fd5c92016acb15a2466354fa79776d711e91da516fae93581308d148808",
+          "reviewed": true,
+          "scientific_organism_name": "Eggerthella lenta (strain ATCC 25559 / DSM 2243 / CCUG 17323 / JCM 9979 / KCTC 3265 / NCTC 11813 / VPI 0255 / 1899 B)"
+        }
+      },
+      "input": {
+        "enzyme_score_text": "0.99867322800000002",
+        "example_id": "TR137734_RHEA62540_C8WLM1",
+        "positive_rank": 1,
+        "rhea_id": 62540
+      },
+      "source_probe": {
+        "d5_mapping_state": "exact",
+        "note": "D5 diagnostic provenance; not an M4a expected output field"
+      },
+      "uid": "C8WLM1"
+    },
+    {
+      "expected": {
+        "kegg": {
+          "gene_ids": [
+            "ag:AAB17356"
+          ],
+          "multiplicity": 1,
+          "raw_path": "raw/kegg/Q02198/conversion.txt",
+          "raw_sha256": "20a70415e1c3134733ac39da5915f0e871c646bdba3689b43bd1d31b48d5f651",
+          "state": "single"
+        },
+        "uniprot": {
+          "annotation_score": 4.0,
+          "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+          "lineage": [
+            "Bacteria",
+            "Pseudomonadati",
+            "Pseudomonadota",
+            "Gammaproteobacteria",
+            "Pseudomonadales",
+            "Pseudomonadaceae",
+            "Pseudomonas"
+          ],
+          "ncbi_taxon_id": 303,
+          "primary_accession": "Q02198",
+          "protein_existence": "1: Evidence at protein level",
+          "raw_path": "raw/uniprot/Q02198/response.json",
+          "raw_sha256": "ff1708906da933b1296ca6d035348b919118c42b6b9fcf62361c189792d039cf",
+          "reviewed": true,
+          "scientific_organism_name": "Pseudomonas putida"
+        }
+      },
+      "input": {
+        "enzyme_score_text": "0.99838246200000003",
+        "example_id": "TR032104_RHEA14317_Q02198",
+        "positive_rank": 1,
+        "rhea_id": 14317
+      },
+      "source_probe": {
+        "d5_mapping_state": "exact",
+        "note": "D5 diagnostic provenance; not an M4a expected output field"
+      },
+      "uid": "Q02198"
+    }
+  ],
+  "contract": {
+    "abc_complete_formula_encoded": false,
+    "kegg_independent_supplement": true,
+    "kegg_multiplicity_preserved": true,
+    "organism_confidence_present": false,
+    "taxonomy_key": "NCBI_taxon_ID",
+    "trembl_included": false,
+    "uniprot_reviewed_primary": true
+  },
+  "expected_summary": {
+    "kegg_missing": 1,
+    "kegg_multiple": 2,
+    "kegg_single": 7,
+    "uid_count": 10,
+    "uniprot_exact": 10,
+    "uniprot_unreviewed": 0
+  },
+  "fixture_version": "m4a2c_host_mapping_20260719_v1"
+}

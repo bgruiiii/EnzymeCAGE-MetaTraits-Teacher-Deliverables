@@ -1,0 +1,21 @@
+{
+  "checkpoint_identity_count": 5,
+  "fixed_identity_count": 20,
+  "gate": "PASS",
+  "pbb_captured_live": "PASS",
+  "prior_m4a4a": {
+    "identity_bytes": 1805,
+    "identity_sha256": "90b3166bde06bfdfc44b203a7f330f4b3e95a8f868912580d1d6bc9fed30a5ca",
+    "manifest_bytes": 2740,
+    "manifest_sha256": "31f2613b5f9b9f49ee882423a7af6f63cbf79737aa36954d82cc3ba2bc21795a",
+    "tar_bytes": 993280,
+    "tar_sha256": "88c7d81f3f2a10e6ff169d72c7aacb58de9a18853cb0f9da6919ab0ff8c7c0a2"
+  },
+  "t3g1a_six_records": "PASS",
+  "tar_safety_and_internal_manifests": {
+    "d4b1a": 70,
+    "m4a3a": 93,
+    "pbb": 67,
+    "prior_m4a4a": 27
+  }
+}

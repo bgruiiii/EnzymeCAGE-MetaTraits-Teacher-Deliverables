@@ -1,0 +1,52 @@
+{
+  "actual_status_positive": "PASS",
+  "actual_status_token": "M4A4B_BENCHMARK_READY_FOR_LOCAL_AUDIT_COEXISTENCE_OPEN",
+  "captured_evidence_validation": "PASS",
+  "captured_packaged_validation": "PASS",
+  "coexistence": "OPEN/NOT_ESTABLISHED",
+  "coexistence_pass": false,
+  "cross_consistent_negative_tests": "73/73_PASS",
+  "deterministic_tar_reconstruction": "PASS_FINAL",
+  "formal_m4a_closure": false,
+  "gpu_queried_or_used": false,
+  "m4b_authorized": false,
+  "m4c_authorized": false,
+  "model_modified_or_trained": false,
+  "negative_tests_skipped": [],
+  "new_adversarial_regressions": "5/5_REJECTED",
+  "positive_status_fixtures": "6/6_PASS",
+  "prediction_executed": false,
+  "reverse_negative_tests": "ALL_PASS_FINAL",
+  "reverse_packaged_validation": "PASS_FINAL",
+  "reverse_positive_status_fixtures": "6/6_PASS_FINAL",
+  "source_tree_unchanged_by_test_runners": "PASS_FINAL",
+  "teacher_pending": [
+    "abc_complete_comparison",
+    "snapshot_review",
+    "maintainer_inquiry_unsent",
+    "strain_species_policy",
+    "final_checkpoint_strategy",
+    "zero_additional_local_model_coexistence_interpretation",
+    "m4a_full_closure"
+  ],
+  "test_evidence_identities": {
+    "negative_csv": {
+      "bytes": 6959,
+      "sha256": "63638054bdebdb9d1910ca32323c2be32148bea048f0d8d7370d32903fc2d695"
+    },
+    "negative_stdout": {
+      "bytes": 16919,
+      "sha256": "95b53935742624e63660573c620a553b02ccf91b1895a555558fc269b7f01766"
+    },
+    "positive_csv": {
+      "bytes": 533,
+      "sha256": "2f70cc00854949705fd678645117a8b1df89f5ec0299693cdc781a156bfea9c0"
+    },
+    "positive_stdout": {
+      "bytes": 1734,
+      "sha256": "39b5444e8ebc06c865c7adfd489cf0568095766fa82198fc6a4b63c5ce2da959"
+    }
+  },
+  "torch_imported": false,
+  "validator_status_dispatch": true
+}

@@ -1,0 +1,8 @@
+{
+  "launch_gap_seconds": 0.186677903,
+  "process_start_monotonic_ns": 22072948999568367,
+  "process_start_utc": "2026-07-20T13:27:43.289286Z",
+  "sample_three_monotonic_ns": 22072948812890464,
+  "sample_three_utc": "2026-07-20T13:27:43.102528601Z",
+  "torch_imported_at_record_time": false
+}

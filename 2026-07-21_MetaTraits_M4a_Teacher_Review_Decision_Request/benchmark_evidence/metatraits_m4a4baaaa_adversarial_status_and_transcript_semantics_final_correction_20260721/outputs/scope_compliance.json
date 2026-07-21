@@ -1,0 +1,19 @@
+{
+  "additional_local_model_loaded": false,
+  "dependency_changed": false,
+  "hard_trait_filter_implemented": false,
+  "m4b_authorized": false,
+  "m4c_authorized": false,
+  "model_modified_or_trained": false,
+  "network_api_called": false,
+  "source_or_overlay_modified": false,
+  "teacher_pending": [
+    "abc_complete_comparison",
+    "snapshot_review",
+    "maintainer_inquiry_unsent",
+    "strain_species_policy",
+    "final_checkpoint_strategy",
+    "zero_additional_local_model_coexistence_interpretation",
+    "m4a_full_closure"
+  ]
+}

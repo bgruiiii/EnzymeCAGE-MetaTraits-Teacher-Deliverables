@@ -1,0 +1,254 @@
+[
+  {
+    "bytes": 0,
+    "classification": "ACCEPTED_STATIC_ENZYMECAGE_MODULE",
+    "classification_reasons": [
+      "regular_single_link_below_CODE_ROOT",
+      "relative_enzymecage_path"
+    ],
+    "file": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/__init__.py",
+    "hardlink_count": 1,
+    "loader_class": "SourceFileLoader",
+    "module": "enzymecage",
+    "package": "enzymecage",
+    "realpath": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/__init__.py",
+    "regular_file": true,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "spec_loader_class": "SourceFileLoader",
+    "spec_name": "enzymecage",
+    "spec_origin": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/__init__.py",
+    "symlink": false
+  },
+  {
+    "bytes": 2196,
+    "classification": "ACCEPTED_STATIC_ENZYMECAGE_MODULE",
+    "classification_reasons": [
+      "regular_single_link_below_CODE_ROOT",
+      "relative_enzymecage_path"
+    ],
+    "file": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/attention.py",
+    "hardlink_count": 1,
+    "loader_class": "SourceFileLoader",
+    "module": "enzymecage.attention",
+    "package": "enzymecage",
+    "realpath": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/attention.py",
+    "regular_file": true,
+    "sha256": "388db15eac48ac4c6251879b3b1be695bbe632ab1be3040e45df7cfaf2a3ca95",
+    "spec_loader_class": "SourceFileLoader",
+    "spec_name": "enzymecage.attention",
+    "spec_origin": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/attention.py",
+    "symlink": false
+  },
+  {
+    "bytes": 2420,
+    "classification": "ACCEPTED_STATIC_ENZYMECAGE_MODULE",
+    "classification_reasons": [
+      "regular_single_link_below_CODE_ROOT",
+      "relative_enzymecage_path"
+    ],
+    "file": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/base.py",
+    "hardlink_count": 1,
+    "loader_class": "SourceFileLoader",
+    "module": "enzymecage.base",
+    "package": "enzymecage",
+    "realpath": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/base.py",
+    "regular_file": true,
+    "sha256": "abdfe7875a2b0c49032031dbc54915c435ed0bda895e0cce14c92be0be7421de",
+    "spec_loader_class": "SourceFileLoader",
+    "spec_name": "enzymecage.base",
+    "spec_origin": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/base.py",
+    "symlink": false
+  },
+  {
+    "bytes": 0,
+    "classification": "ACCEPTED_STATIC_ENZYMECAGE_MODULE",
+    "classification_reasons": [
+      "regular_single_link_below_CODE_ROOT",
+      "relative_enzymecage_path"
+    ],
+    "file": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/dataset/__init__.py",
+    "hardlink_count": 1,
+    "loader_class": "SourceFileLoader",
+    "module": "enzymecage.dataset",
+    "package": "enzymecage.dataset",
+    "realpath": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/dataset/__init__.py",
+    "regular_file": true,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "spec_loader_class": "SourceFileLoader",
+    "spec_name": "enzymecage.dataset",
+    "spec_origin": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/dataset/__init__.py",
+    "symlink": false
+  },
+  {
+    "bytes": 17852,
+    "classification": "ACCEPTED_STATIC_ENZYMECAGE_MODULE",
+    "classification_reasons": [
+      "regular_single_link_below_CODE_ROOT",
+      "relative_enzymecage_path"
+    ],
+    "file": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/dataset/geometric.py",
+    "hardlink_count": 1,
+    "loader_class": "SourceFileLoader",
+    "module": "enzymecage.dataset.geometric",
+    "package": "enzymecage.dataset",
+    "realpath": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/dataset/geometric.py",
+    "regular_file": true,
+    "sha256": "8415f772f2b4a723c6a2895d74db3b54b28b514c259a1424d2b1e83073657dfb",
+    "spec_loader_class": "SourceFileLoader",
+    "spec_name": "enzymecage.dataset.geometric",
+    "spec_origin": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/dataset/geometric.py",
+    "symlink": false
+  },
+  {
+    "bytes": 4629,
+    "classification": "ACCEPTED_STATIC_ENZYMECAGE_MODULE",
+    "classification_reasons": [
+      "regular_single_link_below_CODE_ROOT",
+      "relative_enzymecage_path"
+    ],
+    "file": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/dataset/sharded_protein.py",
+    "hardlink_count": 1,
+    "loader_class": "SourceFileLoader",
+    "module": "enzymecage.dataset.sharded_protein",
+    "package": "enzymecage.dataset",
+    "realpath": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/dataset/sharded_protein.py",
+    "regular_file": true,
+    "sha256": "64ba8a97280fc1b4b7112139ada0487758c4f848ebb15981abf8eba098054811",
+    "spec_loader_class": "SourceFileLoader",
+    "spec_name": "enzymecage.dataset.sharded_protein",
+    "spec_origin": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/dataset/sharded_protein.py",
+    "symlink": false
+  },
+  {
+    "bytes": 15188,
+    "classification": "ACCEPTED_STATIC_ENZYMECAGE_MODULE",
+    "classification_reasons": [
+      "regular_single_link_below_CODE_ROOT",
+      "relative_enzymecage_path"
+    ],
+    "file": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/gvp/__init__.py",
+    "hardlink_count": 1,
+    "loader_class": "SourceFileLoader",
+    "module": "enzymecage.gvp",
+    "package": "enzymecage.gvp",
+    "realpath": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/gvp/__init__.py",
+    "regular_file": true,
+    "sha256": "b00e7695c7794f61127214a1fa53e7be3d8508ea26aab25db8948a3d8d18b27d",
+    "spec_loader_class": "SourceFileLoader",
+    "spec_name": "enzymecage.gvp",
+    "spec_origin": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/gvp/__init__.py",
+    "symlink": false
+  },
+  {
+    "bytes": 11029,
+    "classification": "PYG_GENERATED_MESSAGE_PASSING_HELPER",
+    "classification_reasons": [
+      "live_class_method_module_exact",
+      "module_spec_name_exact",
+      "module_spec_origin_realpath_exact",
+      "regular_single_link_temporary_python_source",
+      "owning_parent_below_code_root",
+      "owning_parent_unchanged_contract",
+      "generated_dir_absent_from_sys_path",
+      "package_agrees"
+    ],
+    "file": "/tmp/enzymecage.gvp_GVPConv_propagate_cfuqmisk.py",
+    "hardlink_count": 1,
+    "loader_class": "SourceFileLoader",
+    "module": "enzymecage.gvp_GVPConv_propagate",
+    "package": "enzymecage",
+    "realpath": "/tmp/enzymecage.gvp_GVPConv_propagate_cfuqmisk.py",
+    "regular_file": true,
+    "sha256": "3919e24653619ccd165327b1392a1a9881e9255edfcfaedad714862fb9089e7b",
+    "spec_loader_class": "SourceFileLoader",
+    "spec_name": "enzymecage.gvp_GVPConv_propagate",
+    "spec_origin": "/tmp/enzymecage.gvp_GVPConv_propagate_cfuqmisk.py",
+    "symlink": false
+  },
+  {
+    "bytes": 4994,
+    "classification": "ACCEPTED_STATIC_ENZYMECAGE_MODULE",
+    "classification_reasons": [
+      "regular_single_link_below_CODE_ROOT",
+      "relative_enzymecage_path"
+    ],
+    "file": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/interaction.py",
+    "hardlink_count": 1,
+    "loader_class": "SourceFileLoader",
+    "module": "enzymecage.interaction",
+    "package": "enzymecage",
+    "realpath": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/interaction.py",
+    "regular_file": true,
+    "sha256": "1e03b0a4bcf5bf68019c9af4542bb673eb8f8f717427b652674ac88bc706ada3",
+    "spec_loader_class": "SourceFileLoader",
+    "spec_name": "enzymecage.interaction",
+    "spec_origin": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/interaction.py",
+    "symlink": false
+  },
+  {
+    "bytes": 14585,
+    "classification": "ACCEPTED_STATIC_ENZYMECAGE_MODULE",
+    "classification_reasons": [
+      "regular_single_link_below_CODE_ROOT",
+      "relative_enzymecage_path"
+    ],
+    "file": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/model.py",
+    "hardlink_count": 1,
+    "loader_class": "SourceFileLoader",
+    "module": "enzymecage.model",
+    "package": "enzymecage",
+    "realpath": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/model.py",
+    "regular_file": true,
+    "sha256": "005037a1d2c063bd7d71b8ff08ed4361c139ba37be3b822c87c8fa2d84890348",
+    "spec_loader_class": "SourceFileLoader",
+    "spec_name": "enzymecage.model",
+    "spec_origin": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/model.py",
+    "symlink": false
+  },
+  {
+    "bytes": 7094,
+    "classification": "ACCEPTED_STATIC_ENZYMECAGE_MODULE",
+    "classification_reasons": [
+      "regular_single_link_below_CODE_ROOT",
+      "relative_enzymecage_path"
+    ],
+    "file": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/schnet.py",
+    "hardlink_count": 1,
+    "loader_class": "SourceFileLoader",
+    "module": "enzymecage.schnet",
+    "package": "enzymecage",
+    "realpath": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/schnet.py",
+    "regular_file": true,
+    "sha256": "4c581c3e4a4ed4d8bf699d1b3dd0f02641c5188a491ca5abfa3af9c0de56d22c",
+    "spec_loader_class": "SourceFileLoader",
+    "spec_name": "enzymecage.schnet",
+    "spec_origin": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/enzymecage/schnet.py",
+    "symlink": false
+  },
+  {
+    "bytes": 8176,
+    "classification": "PYG_GENERATED_MESSAGE_PASSING_HELPER",
+    "classification_reasons": [
+      "live_class_method_module_exact",
+      "module_spec_name_exact",
+      "module_spec_origin_realpath_exact",
+      "regular_single_link_temporary_python_source",
+      "owning_parent_below_code_root",
+      "owning_parent_unchanged_contract",
+      "generated_dir_absent_from_sys_path",
+      "package_agrees"
+    ],
+    "file": "/tmp/enzymecage.schnet_CFConv_propagate_03myffy8.py",
+    "hardlink_count": 1,
+    "loader_class": "SourceFileLoader",
+    "module": "enzymecage.schnet_CFConv_propagate",
+    "package": "enzymecage",
+    "realpath": "/tmp/enzymecage.schnet_CFConv_propagate_03myffy8.py",
+    "regular_file": true,
+    "sha256": "8f4fd01a1fed11c62c69e470e9802557a25ed9ce36c0cd7852b655c36050b433",
+    "spec_loader_class": "SourceFileLoader",
+    "spec_name": "enzymecage.schnet_CFConv_propagate",
+    "spec_origin": "/tmp/enzymecage.schnet_CFConv_propagate_03myffy8.py",
+    "symlink": false
+  }
+]

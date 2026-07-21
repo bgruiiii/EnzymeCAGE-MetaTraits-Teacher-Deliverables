@@ -1,0 +1,9 @@
+{
+  "actual_status_positive": "PASS",
+  "actual_status_token": "M4A4B_BENCHMARK_READY_FOR_LOCAL_AUDIT_COEXISTENCE_OPEN",
+  "canonical_negative_tests": "21/21_PASS",
+  "negative_tests_skipped": [],
+  "reverse_negative_tests": "PENDING_EXTERNAL_GATE",
+  "reverse_packaged_validation": "PENDING_EXTERNAL_GATE",
+  "validator_status_dispatch": true
+}

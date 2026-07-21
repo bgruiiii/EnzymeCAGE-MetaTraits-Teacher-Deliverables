@@ -1,0 +1,14 @@
+{
+  "attempted": 100,
+  "elapsed_seconds": 102.135238289,
+  "max_ms": 2897.820144,
+  "mean_ms": 1008.08467694,
+  "min_ms": 926.954445,
+  "nearest_rank": true,
+  "p50_ms": 960.868765,
+  "p95_ms": 1140.189438,
+  "p99_ms": 1600.174253,
+  "phase_end_ns": 22073602246446573,
+  "phase_start_ns": 22073500111208284,
+  "successful_integrity": 100
+}

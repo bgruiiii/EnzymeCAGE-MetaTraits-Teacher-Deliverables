@@ -1,0 +1,44 @@
+canonical_evidence_immutable=true
+N01	unknown_status	exit=1	expected=unknown_final_status	observed=unknown_final_status	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:unknown_final_status:M4A4B_UNKNOWN
+N02	cross_contamination	exit=1	expected=status_file_set	observed=status_file_set	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:status_file_set:missing=[] extra=['outputs/runtime_environment_block.json']
+N03	missing_row	exit=1	expected=durable_row_count	observed=durable_row_count	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:durable_row_count:sequential
+N04	progress_count	exit=1	expected=progress_count	observed=progress_count	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:progress_count:sequential
+N05	failed_success	exit=1	expected=call_failure	observed=call_failure	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:call_failure:sequential
+N06	worker_split	exit=1	expected=concurrency_worker_split	observed=concurrency_worker_split	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:concurrency_worker_split:concurrency_2
+N07	wrong_p95	exit=1	expected=percentile_recomputation	observed=percentile_recomputation	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:percentile_recomputation:sequential:p95_ms
+N08	wrong_degradation	exit=1	expected=degradation_ratio	observed=degradation_ratio	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:degradation_ratio:concurrency_2
+N09	nonfinite	exit=1	expected=nonfinite_value	observed=nonfinite_value	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:nonfinite_value:nan
+N10	memory_peak	exit=1	expected=memory_peak	observed=memory_peak	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:memory_peak:baseline
+N11	source_mismatch	exit=1	expected=source_ledger_mismatch	observed=source_ledger_mismatch	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:source_ledger_mismatch:ready
+N12	unknown_module	exit=1	expected=unknown_outside_module	observed=unknown_outside_module	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:unknown_outside_module:accepted ready
+N13	linkage_by_name	exit=1	expected=generated_class_linkage	observed=generated_class_linkage	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:generated_class_linkage:enzymecage.gvp_GVPConv_propagate
+N14	generated_hash	exit=1	expected=generated_source_hash	observed=generated_source_hash	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:generated_source_hash:enzymecage.gvp_GVPConv_propagate
+N15	gpu_spacing	exit=1	expected=gpu_sample_spacing	observed=gpu_sample_spacing	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:gpu_sample_spacing:below_two
+N16	gpu_gap	exit=1	expected=gpu_launch_gap	observed=gpu_launch_gap	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:gpu_launch_gap:mismatch
+N17	coexistence	exit=1	expected=coexistence_boundary	observed=coexistence_boundary	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:coexistence_boundary:mismatch
+N18	scope	exit=1	expected=scope_boundary	observed=scope_boundary	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:scope_boundary:m4b_authorized
+N19	undeclared	exit=1	expected=status_file_set	observed=status_file_set	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:status_file_set:missing=[] extra=['undeclared.txt']
+N20	empty_dir	exit=1	expected=package_structure	observed=package_structure	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:package_structure:directories=['undeclared_empty']
+N21	secret	exit=1	expected=secret_like_payload	observed=secret_like_payload	stderr_empty=True	result=PASS
+M4A4B_BENCHMARK_VALIDATION_ERROR:secret_like_payload:secret_mutation.txt
+summary=21/21_PASS

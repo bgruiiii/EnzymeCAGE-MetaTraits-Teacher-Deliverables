@@ -1,0 +1,10 @@
+{
+  "all_305_calls_successful": true,
+  "all_response_integrity_pass": true,
+  "fixed_evidence_hash": "e0e0729cf12576de9a6e1135ea747004ddb82105f2c17595c7d03c0f8f47be2a",
+  "forward_call_count_actual": 305,
+  "forward_call_count_expected": 305,
+  "request_canonical_sha256_after": "a46aa80fd0f00cf2cd177f39910971b5b746b744cc24748c8858e6f98b2173c4",
+  "request_canonical_sha256_before": "a46aa80fd0f00cf2cd177f39910971b5b746b744cc24748c8858e6f98b2173c4",
+  "same_runtime_and_models_after_all_calls": true
+}

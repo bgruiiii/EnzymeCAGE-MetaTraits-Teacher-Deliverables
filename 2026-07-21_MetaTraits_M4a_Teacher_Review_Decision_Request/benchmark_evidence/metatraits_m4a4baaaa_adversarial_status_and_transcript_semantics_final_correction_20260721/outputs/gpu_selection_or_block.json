@@ -1,0 +1,18 @@
+{
+  "baseline_free_mib": 48520,
+  "compute_mode": "Default",
+  "driver": "570.144",
+  "gate": "PASS",
+  "memory_total_mib": 49140,
+  "name": "NVIDIA GeForce RTX 4090 D",
+  "nvidia_smi_L": "GPU 0: NVIDIA GeForce RTX 4090 D (UUID: GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e)\n",
+  "physical_index": 0,
+  "preexisting_compute_process_count": 0,
+  "sample_count": 3,
+  "sample_spacings_seconds": [
+    2.057496047,
+    2.059968189
+  ],
+  "sample_three_to_process_start_seconds": 0.186677903,
+  "selected_gpu_uuid": "GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e"
+}

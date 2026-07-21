@@ -1,0 +1,33 @@
+{
+  "actual_status_positive": "PASS",
+  "actual_status_token": "M4A4B_BENCHMARK_READY_FOR_LOCAL_AUDIT_COEXISTENCE_OPEN",
+  "captured_evidence_validation": "PASS",
+  "captured_packaged_validation": "PASS",
+  "cross_consistent_negative_tests": "53/53_PASS",
+  "deterministic_tar_reconstruction": "PASS_FINAL",
+  "negative_tests_skipped": [],
+  "positive_status_fixtures": "6/6_PASS",
+  "reverse_negative_tests": "ALL_PASS_FINAL",
+  "reverse_packaged_validation": "PASS_FINAL",
+  "reverse_positive_status_fixtures": "6/6_PASS_FINAL",
+  "source_tree_unchanged_by_test_runners": "PASS_FINAL",
+  "test_evidence_identities": {
+    "negative_csv": {
+      "bytes": 4748,
+      "sha256": "a3eb76d94c14ee26e0215c455706b8e4c5aa2a2059c6f41a79347dc6441bf6b6"
+    },
+    "negative_stdout": {
+      "bytes": 11966,
+      "sha256": "412e48a4b9b84d6323669a1206bcc29d28c0788dafd4b1fe71f3175e715e6046"
+    },
+    "positive_csv": {
+      "bytes": 533,
+      "sha256": "2f70cc00854949705fd678645117a8b1df89f5ec0299693cdc781a156bfea9c0"
+    },
+    "positive_stdout": {
+      "bytes": 1734,
+      "sha256": "96c5cb5cc1b97cfbcac926863c00b4952e3e30e9e93881ee2032595866ff49cb"
+    }
+  },
+  "validator_status_dispatch": true
+}

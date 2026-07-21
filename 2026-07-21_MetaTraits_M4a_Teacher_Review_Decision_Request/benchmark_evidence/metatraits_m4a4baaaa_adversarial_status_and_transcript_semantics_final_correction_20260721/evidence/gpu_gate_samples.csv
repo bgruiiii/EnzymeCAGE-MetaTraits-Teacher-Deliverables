@@ -1,0 +1,4 @@
+sample,utc_timestamp,monotonic_ns,gpu_index,gpu_uuid,name,driver,total_mib,used_mib,free_mib,utilization_percent,compute_mode,compute_process_count,compute_process_rows_json
+1,2026-07-20T13:27:38.985072400Z,22072944695426228,0,GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e,NVIDIA GeForce RTX 4090 D,570.144,49140,0,48520,0,Default,0,[]
+2,2026-07-20T13:27:41.042589706Z,22072946752922275,0,GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e,NVIDIA GeForce RTX 4090 D,570.144,49140,0,48520,0,Default,0,[]
+3,2026-07-20T13:27:43.102528601Z,22072948812890464,0,GPU-7f3c7b8a-c363-32da-1c0a-69ce29e7a69e,NVIDIA GeForce RTX 4090 D,570.144,49140,0,48520,0,Default,0,[]

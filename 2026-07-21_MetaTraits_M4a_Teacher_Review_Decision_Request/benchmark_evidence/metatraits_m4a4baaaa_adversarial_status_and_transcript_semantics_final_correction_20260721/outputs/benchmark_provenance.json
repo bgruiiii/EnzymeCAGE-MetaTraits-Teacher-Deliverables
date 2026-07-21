@@ -1,0 +1,11 @@
+{
+  "actual_forward_call_count": 305,
+  "benchmark_end_utc": "2026-07-20T13:45:28.157774Z",
+  "benchmark_pid": 319897,
+  "benchmark_start_utc": "2026-07-20T13:27:43.308905Z",
+  "bounded_observed_throughput_not_production_qps": true,
+  "durable_evidence_before_provenance_audit": true,
+  "final_status": "M4A4B_BENCHMARK_READY_FOR_LOCAL_AUDIT_COEXISTENCE_OPEN",
+  "first_blocker": null,
+  "runtime_source_before_after_equal": true
+}

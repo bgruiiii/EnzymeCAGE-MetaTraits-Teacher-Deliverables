@@ -1,0 +1,78 @@
+{
+  "added_path_count": 9,
+  "authorized_replacement_count": 10,
+  "benchmark_streams": {
+    "stderr": {
+      "bytes": 495170,
+      "sha256": "a7c1295ee56992b1a446b6aaf292d64d2ced627121ba5cb5b9412d1d4117f16e"
+    },
+    "stdout": {
+      "bytes": 50715,
+      "sha256": "51dd242362a3b76ef1a4dccf50e02abf9d3f9b7d7dd2d4b4b46a142defc5238b"
+    }
+  },
+  "captured_packaged_validation": "PASS",
+  "checkpoint_loaded": false,
+  "coexistence": "OPEN/NOT_ESTABLISHED",
+  "coexistence_pass": false,
+  "correction_stage": "M4a-4BAA",
+  "cross_consistent_negative_tests": "53/53_PASS",
+  "dependency_changed": false,
+  "deterministic_tar_reconstruction": "PASS_FINAL",
+  "gpu_queried_or_used": false,
+  "immutable_path_count": 47,
+  "m4b_authorized": false,
+  "m4c_authorized": false,
+  "model_modified_or_trained": false,
+  "network_api_called": false,
+  "positive_status_fixtures": "6/6_PASS",
+  "prediction_executed": false,
+  "preserved_historical_copy_count": 4,
+  "prior_m4a4b_tar_bytes": 1822720,
+  "prior_m4a4b_tar_sha256": "6c62faa574635c2e5db6d50e9806a2b188eb7f2b7c177b80b74a995e8c606044",
+  "prior_m4a4ba_identity_bytes": 1649,
+  "prior_m4a4ba_identity_sha256": "256822aeacd7ed14361eddd070373046032bc695ff5bd4698f43b205578a16f6",
+  "prior_m4a4ba_manifest_bytes": 5699,
+  "prior_m4a4ba_manifest_sha256": "d543e866388f804ba90dabf3e0c0405f33fc3c173db73e6bb2d3ddffe0e70efd",
+  "prior_m4a4ba_tar_bytes": 1935360,
+  "prior_m4a4ba_tar_sha256": "28bccf0d535245988ddc93e233102ec841953442737a15116dc5dcd09866705f",
+  "reverse_negative_tests": "ALL_PASS_FINAL",
+  "reverse_packaged_validation": "PASS_FINAL",
+  "reverse_positive_status_fixtures": "6/6_PASS_FINAL",
+  "source_or_overlay_modified": false,
+  "source_tree_unchanged_by_test_runners": "PASS_FINAL",
+  "teacher_pending": [
+    "abc_complete_comparison",
+    "snapshot_review",
+    "maintainer_inquiry_unsent",
+    "strain_species_policy",
+    "final_checkpoint_strategy",
+    "zero_additional_local_model_coexistence_interpretation",
+    "m4a_full_closure"
+  ],
+  "test_evidence_identities": {
+    "negative_csv": {
+      "bytes": 4748,
+      "sha256": "a3eb76d94c14ee26e0215c455706b8e4c5aa2a2059c6f41a79347dc6441bf6b6"
+    },
+    "negative_stdout": {
+      "bytes": 11966,
+      "sha256": "412e48a4b9b84d6323669a1206bcc29d28c0788dafd4b1fe71f3175e715e6046"
+    },
+    "positive_csv": {
+      "bytes": 533,
+      "sha256": "2f70cc00854949705fd678645117a8b1df89f5ec0299693cdc781a156bfea9c0"
+    },
+    "positive_stdout": {
+      "bytes": 1734,
+      "sha256": "96c5cb5cc1b97cfbcac926863c00b4952e3e30e9e93881ee2032595866ff49cb"
+    }
+  },
+  "torch_imported": false,
+  "warning_classification": {
+    "classification": "metric_only_auc_warnings_all_zero_synthetic_labels",
+    "invalid_scalar_divide": 1513,
+    "mean_of_empty_slice": 1525,
+    "warning_free": false
+  }
+}
