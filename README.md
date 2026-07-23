@@ -1,5 +1,18 @@
 # MetaTraits Teacher Deliverables
 
+## Current Task 7 contract delivery — 2026-07-24
+
+The teacher-authorized contract-only Task 7 delivery is placed directly at
+repository root:
+
+- [`TRAIT_VALUE_NOT_APPLICABLE_SCHEMA_CONTRACT.md`](TRAIT_VALUE_NOT_APPLICABLE_SCHEMA_CONTRACT.md)
+- dated path index, independent audit, and SHA256 manifest:
+  [`2026-07-24_Task7_TraitValue_Not_Applicable_Contract/`](2026-07-24_Task7_TraitValue_Not_Applicable_Contract/)
+
+Status: student delivery; teacher acceptance not yet claimed. It defines the
+`reason`/`note` contract and required `not_applicable` example without adding
+Pydantic code, tests, `MicrobeTraitTool`, or M4b/M4c implementation.
+
 ## Current prerequisite resubmission — 2026-07-24
 
 The P0 MT-D5 evidence requested by the 2026-07-24 supplement was originally
