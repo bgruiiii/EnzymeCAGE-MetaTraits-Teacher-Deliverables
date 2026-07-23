@@ -1,0 +1,3014 @@
+[
+  {
+    "name": "acidophilic",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "OMP:0005009"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "aerotolerant",
+    "is_ai": true,
+    "num_observations": 42,
+    "unique_databases": 9,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "MICRO:0000502"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "biosafety level",
+    "is_ai": false,
+    "num_observations": 8,
+    "unique_databases": 1,
+    "majority_label": "level 2: (88%)",
+    "unit": "factor",
+    "ontology_ids": [
+      "NCIT:C164457"
+    ],
+    "percentages": {
+      "level 1": 12.5,
+      "level 2": 87.5
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "cell color: yellow pigment",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "OMP:0000116"
+    ],
+    "percentages": {
+      "true": 81.82,
+      "false": 18.18
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "cell shape",
+    "is_ai": false,
+    "num_observations": 9,
+    "unique_databases": 3,
+    "majority_label": "rod-shaped: (100%)",
+    "unit": "factor",
+    "ontology_ids": [
+      "OMP:0000073"
+    ],
+    "percentages": {
+      "rod-shaped": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "coding density",
+    "is_ai": false,
+    "num_observations": 13,
+    "unique_databases": 2,
+    "majority_label": "Median: 89.0%",
+    "unit": "%",
+    "ontology_ids": [
+      "SIO:001276",
+      "mesh:D059646",
+      "SNOMED:258755000"
+    ],
+    "percentages": {},
+    "minimum": 88.44000244140625,
+    "median": 89.0199966430664,
+    "mean": 89.17384338378906,
+    "maximum": 89.9800033569336
+  },
+  {
+    "name": "estimated gene count",
+    "is_ai": false,
+    "num_observations": 14,
+    "unique_databases": 2,
+    "majority_label": "Median: 3831.2 genes",
+    "unit": "genes",
+    "ontology_ids": [
+      "OBI:0002568",
+      "gene",
+      "NCIT:C25498"
+    ],
+    "percentages": {},
+    "minimum": 3703.0,
+    "median": 3831.199951171875,
+    "mean": 4140.74951171875,
+    "maximum": 5438.89990234375
+  },
+  {
+    "name": "estimated genome size",
+    "is_ai": false,
+    "num_observations": 14,
+    "unique_databases": 2,
+    "majority_label": "Median: 4140875.2 bp",
+    "unit": "bp",
+    "ontology_ids": [
+      "GENEPIO:0001561"
+    ],
+    "percentages": {},
+    "minimum": 3966436.0,
+    "median": 4140875.25,
+    "mean": 4351135.0,
+    "maximum": 5322709.5
+  },
+  {
+    "name": "GC percentage",
+    "is_ai": false,
+    "num_observations": 13,
+    "unique_databases": 2,
+    "majority_label": "Median: 67.2%",
+    "unit": "%",
+    "ontology_ids": [
+      "mesh:D001482"
+    ],
+    "percentages": {},
+    "minimum": 66.9000015258789,
+    "median": 67.19999694824219,
+    "mean": 67.52307891845703,
+    "maximum": 69.4000015258789
+  },
+  {
+    "name": "gene count",
+    "is_ai": false,
+    "num_observations": 14,
+    "unique_databases": 2,
+    "majority_label": "Median: 3790.0 genes",
+    "unit": "genes",
+    "ontology_ids": [
+      "OBI:0002568",
+      "gene"
+    ],
+    "percentages": {},
+    "minimum": 2832.0,
+    "median": 3790.0,
+    "mean": 3814.357177734375,
+    "maximum": 4793.0
+  },
+  {
+    "name": "genome size",
+    "is_ai": false,
+    "num_observations": 14,
+    "unique_databases": 2,
+    "majority_label": "Median: 4091974.0 bp",
+    "unit": "bp",
+    "ontology_ids": [
+      "GENEPIO:0001561"
+    ],
+    "percentages": {},
+    "minimum": 2564431.0,
+    "median": 4091974.0,
+    "mean": 4040379.25,
+    "maximum": 5322177.0
+  },
+  {
+    "name": "gram negative",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "OMP:0000189"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "gram positive",
+    "is_ai": true,
+    "num_observations": 34,
+    "unique_databases": 8,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "OMP:0000188"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "indole test",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "MICRO:0000430"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "methyl red test",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:5894006"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "facultative anaerobe",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "OMP:0000087"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "obligate aerobic",
+    "is_ai": true,
+    "num_observations": 22,
+    "unique_databases": 4,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "OMP:0000185"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "obligate anaerobic",
+    "is_ai": true,
+    "num_observations": 22,
+    "unique_databases": 4,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "OMP:0000184"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "oxygen preference",
+    "is_ai": false,
+    "num_observations": 6,
+    "unique_databases": 3,
+    "majority_label": "No robust majority",
+    "unit": "factor",
+    "ontology_ids": [
+      "MICRO:0000491"
+    ],
+    "percentages": {
+      "obligate aerobic": 50.0,
+      "facultative anaerobic": 16.67,
+      "aerobic": 33.33
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "capnophilic",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:413748004"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "pH growth",
+    "is_ai": true,
+    "num_observations": 14,
+    "unique_databases": 2,
+    "majority_label": "Median: 6.9 pH",
+    "unit": "pH",
+    "ontology_ids": [
+      "OMP:0005008"
+    ],
+    "percentages": {},
+    "minimum": 6.15394401550293,
+    "median": 6.904877185821533,
+    "mean": 6.704024791717529,
+    "maximum": 6.984375476837158
+  },
+  {
+    "name": "pH maximum",
+    "is_ai": true,
+    "num_observations": 14,
+    "unique_databases": 2,
+    "majority_label": "Median: 9.2 pH",
+    "unit": "pH",
+    "ontology_ids": [
+      "OMP:0005008"
+    ],
+    "percentages": {},
+    "minimum": 8.429122924804688,
+    "median": 9.175363540649414,
+    "mean": 9.00301456451416,
+    "maximum": 9.369033813476562
+  },
+  {
+    "name": "pH minimum",
+    "is_ai": true,
+    "num_observations": 14,
+    "unique_databases": 2,
+    "majority_label": "Median: 5.3 pH",
+    "unit": "pH",
+    "ontology_ids": [
+      "OMP:0005008"
+    ],
+    "percentages": {},
+    "minimum": 4.661468029022217,
+    "median": 5.265692710876465,
+    "mean": 5.082375526428223,
+    "maximum": 5.326837062835693
+  },
+  {
+    "name": "presence of hemolysis",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "factor",
+    "ontology_ids": [
+      "OMP:0005117"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "presence of motility",
+    "is_ai": true,
+    "num_observations": 31,
+    "unique_databases": 7,
+    "majority_label": "true: (97%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "OMP:0000005"
+    ],
+    "percentages": {
+      "true": 96.77,
+      "false": 3.23
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "psychrophilic",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "MICRO:0001306"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "salinity growth",
+    "is_ai": true,
+    "num_observations": 17,
+    "unique_databases": 3,
+    "majority_label": "Median: 0% NaCl (w/v)",
+    "unit": "% NaCl (w/v)",
+    "ontology_ids": [
+      "OMP:0005013"
+    ],
+    "percentages": {},
+    "minimum": 0.0,
+    "median": 0.0,
+    "mean": 0.10171334445476532,
+    "maximum": 0.9554898738861084
+  },
+  {
+    "name": "salinity maximum",
+    "is_ai": true,
+    "num_observations": 16,
+    "unique_databases": 3,
+    "majority_label": "Median: 1.3% NaCl (w/v)",
+    "unit": "% NaCl (w/v)",
+    "ontology_ids": [
+      "OMP:0005013"
+    ],
+    "percentages": {},
+    "minimum": 0.3917814791202545,
+    "median": 1.2759206295013428,
+    "mean": 1.4817622900009155,
+    "maximum": 4.0
+  },
+  {
+    "name": "salinity minimum",
+    "is_ai": true,
+    "num_observations": 16,
+    "unique_databases": 3,
+    "majority_label": "Median: 0.0198% NaCl (w/v)",
+    "unit": "% NaCl (w/v)",
+    "ontology_ids": [
+      "OMP:0005013"
+    ],
+    "percentages": {},
+    "minimum": 0.0,
+    "median": 0.01979932002723217,
+    "mean": 0.11596332490444183,
+    "maximum": 0.7073071599006653
+  },
+  {
+    "name": "sporulation",
+    "is_ai": true,
+    "num_observations": 22,
+    "unique_databases": 4,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0043934"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "temperature growth",
+    "is_ai": true,
+    "num_observations": 27,
+    "unique_databases": 5,
+    "majority_label": "Median: 31.5 Celsius",
+    "unit": "Celsius",
+    "ontology_ids": [
+      "OMP:0005002"
+    ],
+    "percentages": {},
+    "minimum": 28.0,
+    "median": 31.501102447509766,
+    "mean": 31.292434692382812,
+    "maximum": 35.0
+  },
+  {
+    "name": "temperature maximum",
+    "is_ai": true,
+    "num_observations": 19,
+    "unique_databases": 3,
+    "majority_label": "Median: 41.6 Celsius",
+    "unit": "Celsius",
+    "ontology_ids": [
+      "OMP:0005002"
+    ],
+    "percentages": {},
+    "minimum": 37.0,
+    "median": 41.58386993408203,
+    "mean": 41.0416259765625,
+    "maximum": 43.45005416870117
+  },
+  {
+    "name": "temperature minimum",
+    "is_ai": true,
+    "num_observations": 19,
+    "unique_databases": 3,
+    "majority_label": "Median: 15.8 Celsius",
+    "unit": "Celsius",
+    "ontology_ids": [
+      "OMP:0005002"
+    ],
+    "percentages": {},
+    "minimum": 10.0,
+    "median": 15.84640121459961,
+    "mean": 17.308433532714844,
+    "maximum": 25.0
+  },
+  {
+    "name": "temperature preference",
+    "is_ai": false,
+    "num_observations": 2,
+    "unique_databases": 1,
+    "majority_label": "mesophilic: (100%)",
+    "unit": "factor",
+    "ontology_ids": [
+      "OMP:0005002"
+    ],
+    "percentages": {
+      "mesophilic": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "thermophilic",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "MICRO:0000118"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "voges-proskauer test",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:66592006"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "aerobic growth: chemoheterotrophy",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "PATO:0001455",
+      "ECOCORE:00000132"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "aerobic growth: anoxygenic phototrophy",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "PATO:0001455",
+      "ECOCORE:00000131"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "builds acid from: amygdalin",
+    "is_ai": false,
+    "num_observations": 3,
+    "unique_databases": 1,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016053",
+      "CHEBI:27613"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "builds acid from: arbutin",
+    "is_ai": false,
+    "num_observations": 4,
+    "unique_databases": 1,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016053",
+      "CHEBI:18305"
+    ],
+    "percentages": {
+      "false": 50.0,
+      "true": 50.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "builds acid from: cellobiose",
+    "is_ai": false,
+    "num_observations": 3,
+    "unique_databases": 1,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016053",
+      "CHEBI:17057"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "builds acid from: D-arabinose",
+    "is_ai": false,
+    "num_observations": 4,
+    "unique_databases": 1,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016053",
+      "CHEBI:17108"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "builds acid from: D-arabitol",
+    "is_ai": false,
+    "num_observations": 4,
+    "unique_databases": 1,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016053",
+      "CHEBI:18333"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "builds acid from: D-fructose",
+    "is_ai": false,
+    "num_observations": 4,
+    "unique_databases": 1,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016053",
+      "CHEBI:15824"
+    ],
+    "percentages": {
+      "false": 50.0,
+      "true": 50.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "builds acid from: D-fucose",
+    "is_ai": false,
+    "num_observations": 4,
+    "unique_databases": 1,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016053",
+      "CHEBI:28847"
+    ],
+    "percentages": {
+      "true": 25.0,
+      "false": 75.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "builds acid from: D-galactose",
+    "is_ai": false,
+    "num_observations": 3,
+    "unique_databases": 1,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016053",
+      "CHEBI:12936"
+    ],
+    "percentages": {
+      "true": 33.33,
+      "false": 66.67
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "builds acid from: D-glucose",
+    "is_ai": false,
+    "num_observations": 3,
+    "unique_databases": 1,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016053",
+      "CHEBI:17634"
+    ],
+    "percentages": {
+      "true": 66.67,
+      "false": 33.33
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "builds acid from: D-lyxose",
+    "is_ai": false,
+    "num_observations": 3,
+    "unique_databases": 1,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016053",
+      "CHEBI:62318"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "builds acid from: D-mannitol",
+    "is_ai": false,
+    "num_observations": 2,
+    "unique_databases": 1,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016053",
+      "CHEBI:16899"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "builds acid from: D-sorbitol",
+    "is_ai": false,
+    "num_observations": 1,
+    "unique_databases": 1,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016053",
+      "CHEBI:17924"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "carbon source: citrate",
+    "is_ai": false,
+    "num_observations": 3,
+    "unique_databases": 1,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0015976",
+      "CHEBI:16947"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "carbon source: methyl",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0015976",
+      "CHEBI:29309"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "degradation: aromatic hydrocarbon",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:34862004",
+      "GO:0019439"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "degradation: aromatic compound",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0019439"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "degradation: cellulose",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0009056",
+      "CHEBI:62968"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "degradation: chitin",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0009056",
+      "CHEBI:17029"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "degradation: hydrocarbon",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0120253"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "degradation: lignin",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0046274"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "degradation: plastic",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "ENVO:06105015"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "electron acceptor: arsenate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "CHEBI:17654",
+      "CHEBI:29125"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "electron acceptor: elemental sulfur",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "CHEBI:17654",
+      "CHEBI:33403"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "electron acceptor: fumarate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "CHEBI:17654",
+      "CHEBI:29806"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "electron acceptor: manganese",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "CHEBI:17654",
+      "CHEBI:18291"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "nitrification",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "OMIT:0027217"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "nitrogen fixation",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0009399"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "ammonification: nitrate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0071941",
+      "CHEBI:17632"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "ammonification: nitrite",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0071941",
+      "CHEBI:16301"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "denitrification: nitrate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0019333",
+      "CHEBI:17632"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "denitrification: nitrite",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0019333",
+      "CHEBI:16301"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "denitrification: nitrous oxide",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0019333",
+      "SNOMED:111132001"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "denitrification pathway",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0019333"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "electron acceptor: nitrate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "CHEBI:17654",
+      "CHEBI:17632"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "electron acceptor: nitrite",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "CHEBI:17654",
+      "CHEBI:16301"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "electron acceptor: sulfate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "CHEBI:17654",
+      "CHEBI:16189"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "electron acceptor: sulfite",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "CHEBI:17654",
+      "CHEBI:17359"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "electron acceptor: sulfur compounds",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "CHEBI:17654",
+      "CHEBI:26833"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "electron acceptor: thiosulfate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "CHEBI:17654",
+      "CHEBI:16094"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: acid phosphatase (EC3.1.3.2)",
+    "is_ai": false,
+    "num_observations": 4,
+    "unique_databases": 1,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC3.1.3.2"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: alcohol dehydrogenase (EC1.1.1.1)",
+    "is_ai": false,
+    "num_observations": 4,
+    "unique_databases": 1,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC1.1.1.1"
+    ],
+    "percentages": {
+      "true": 25.0,
+      "false": 75.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: alkaline phosphatase (EC3.1.3.1)",
+    "is_ai": true,
+    "num_observations": 15,
+    "unique_databases": 3,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC3.1.3.1"
+    ],
+    "percentages": {
+      "true": 73.33,
+      "false": 26.67
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: alpha-chymotrypsin (EC3.4.21.1)",
+    "is_ai": false,
+    "num_observations": 4,
+    "unique_databases": 1,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC3.4.21.1"
+    ],
+    "percentages": {
+      "false": 50.0,
+      "true": 50.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: alpha-fucosidase (EC3.2.1.51)",
+    "is_ai": false,
+    "num_observations": 4,
+    "unique_databases": 1,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC3.2.1.51"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: alpha-galactosidase (EC3.2.1.22)",
+    "is_ai": false,
+    "num_observations": 4,
+    "unique_databases": 1,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC3.2.1.22"
+    ],
+    "percentages": {
+      "true": 50.0,
+      "false": 50.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: alpha-glucosidase (EC3.2.1.20)",
+    "is_ai": false,
+    "num_observations": 4,
+    "unique_databases": 1,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC3.2.1.20"
+    ],
+    "percentages": {
+      "true": 50.0,
+      "false": 50.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: alpha-mannosidase (EC3.2.1.24)",
+    "is_ai": false,
+    "num_observations": 4,
+    "unique_databases": 1,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC3.2.1.24"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: amylase",
+    "is_ai": false,
+    "num_observations": 2,
+    "unique_databases": 1,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: arginine dihydrolase (EC3.5.3.6)",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC3.5.3.6"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: beta-galactosidase (EC3.2.1.23)",
+    "is_ai": false,
+    "num_observations": 4,
+    "unique_databases": 1,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC3.2.1.23"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: beta-glucosidase (EC3.2.1.21)",
+    "is_ai": false,
+    "num_observations": 2,
+    "unique_databases": 1,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC3.2.1.21"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: catalase (EC1.11.1.6)",
+    "is_ai": true,
+    "num_observations": 12,
+    "unique_databases": 3,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC1.11.1.6"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: coagulase",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009"
+    ],
+    "percentages": {
+      "true": 27.27,
+      "false": 72.73
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: DNase",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: lipase",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: lysine decarboxylase (EC4.1.1.18)",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC4.1.1.18"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: ornithine decarboxylase (EC4.1.1.17)",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC4.1.1.17"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: oxidase",
+    "is_ai": true,
+    "num_observations": 12,
+    "unique_databases": 3,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009"
+    ],
+    "percentages": {
+      "true": 83.33,
+      "false": 16.67
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "enzyme activity: pyrrolidonyl arylamidase (EC3.4.19.3)",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "SNOMED:424017009",
+      "EC3.4.19.3"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "fermentation",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0006113"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "fermentation: glucose",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0006113",
+      "CHEBI:17234"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: phototrophy",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "ECOCORE:00000017"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: anoxygenic photoautotrophy",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "ECOCORE:00000130"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: photoautotrophy",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "ECOCORE:00000130"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: photoheterotrophy",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "ECOCORE:00000131"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: chemoheterotrophy",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "ECOCORE:00000132"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: acetate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:30089"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: bile acid susceptible",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:3098"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: cellobiose",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (91%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:17057"
+    ],
+    "percentages": {
+      "true": 90.91,
+      "false": 9.09
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: D-mannitol",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:16899"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: D-mannose",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:16024"
+    ],
+    "percentages": {
+      "true": 18.18,
+      "false": 81.82
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: D-sorbitol",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:17924"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: D-xylose",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:65327"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "utilizes: galactarate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0008152",
+      "CHEBI:16537"
+    ],
+    "percentages": {
+      "false": 54.55,
+      "true": 45.45
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: glycerol",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:17754"
+    ],
+    "percentages": {
+      "false": 36.36,
+      "true": 63.64
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: L-arabinose",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (91%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:30849"
+    ],
+    "percentages": {
+      "false": 90.91,
+      "true": 9.09
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: L-rhamnose",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:62345"
+    ],
+    "percentages": {
+      "false": 72.73,
+      "true": 27.27
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: lactose",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (91%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:17716"
+    ],
+    "percentages": {
+      "false": 90.91,
+      "true": 9.09
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: malonate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (91%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:15792"
+    ],
+    "percentages": {
+      "false": 9.09,
+      "true": 90.91
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: maltose",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:17306"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: 42 degrees Celsius",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "OMP:0005002"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: 6.5% NaCl",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "MICRO:0000989"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: potassium cyanide",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:33191"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: MacConkey agar",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "SNOMED:409550005"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: blood agar",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "NCIT:C127517"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: melibiose",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:28053"
+    ],
+    "percentages": {
+      "true": 18.18,
+      "false": 81.82
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: myo-inositol",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:17268"
+    ],
+    "percentages": {
+      "true": 27.27,
+      "false": 72.73
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: raffinose",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:16634"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: salicin",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:17814"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: sucrose",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:17992"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: tartrate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:132950"
+    ],
+    "percentages": {
+      "true": 45.45,
+      "false": 54.55
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "growth: trehalose",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (91%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0040007",
+      "CHEBI:27082"
+    ],
+    "percentages": {
+      "true": 90.91,
+      "false": 9.09
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "hydrolysis: 4-nitrophenyl beta-D-galactopyranoside",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016787",
+      "CHEBI:355715"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "hydrolysis: casein",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016787"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "hydrolysis: esculin",
+    "is_ai": true,
+    "num_observations": 12,
+    "unique_databases": 3,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016787",
+      "CHEBI:4853"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "hydrolysis: gelatin",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016787",
+      "CHEBI:5291"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "hydrolysis: starch",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016787",
+      "CHEBI:28017"
+    ],
+    "percentages": {
+      "true": 54.55,
+      "false": 45.45
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "hydrolysis: urea",
+    "is_ai": true,
+    "num_observations": 22,
+    "unique_databases": 4,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016787",
+      "CHEBI:16199"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "hydrolysis: xylan",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0016787",
+      "CHEBI:37166"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "oxidation: ammonia",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0055114",
+      "CHEBI:16134"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "oxidation: glucose",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0055114",
+      "CHEBI:17234"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "oxidation in darkness: sulfur compounds",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0055114",
+      "CHEBI:26833",
+      "OMIT:0004907"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "oxidation in darkness: sulfide",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0055114",
+      "CHEBI:15138",
+      "OMIT:0004907"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "oxidation in darkness: hydrogen",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0055114",
+      "CHEBI:49637",
+      "OMIT:0004907"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "oxidation in darkness: iron",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0055114",
+      "CHEBI:18248",
+      "OMIT:0004907"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "oxidation: manganese",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0055114",
+      "CHEBI:18291"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "oxidation: methanol",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0055114",
+      "CHEBI:17790"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "produces: acetate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0009058",
+      "CHEBI:30089"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "produces: hydrogen sulfide",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0009058",
+      "CHEBI:16136"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "produces: indole",
+    "is_ai": false,
+    "num_observations": 4,
+    "unique_databases": 1,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0009058",
+      "CHEBI:35581"
+    ],
+    "percentages": {
+      "false": 75.0,
+      "true": 25.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "produces: methane from formate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:2001127"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "produces: methane from acetate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0019385"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "reduction: arsenate detoxification",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0055114",
+      "CHEBI:29125"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "reduction: arsenate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0055114",
+      "CHEBI:29125"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "reduction: chlorate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0055114",
+      "CHEBI:49709"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "reduction: nitrate",
+    "is_ai": true,
+    "num_observations": 23,
+    "unique_databases": 5,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0055114",
+      "CHEBI:17632"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "reduction: nitrite",
+    "is_ai": true,
+    "num_observations": 12,
+    "unique_databases": 3,
+    "majority_label": "No robust majority",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0055114",
+      "CHEBI:16301"
+    ],
+    "percentages": {
+      "false": 75.0,
+      "true": 25.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "respiration: iron",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0009061",
+      "CHEBI:82663"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "respiration: nitrogen",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0045333",
+      "CHEBI:33267"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "utilizes: citrate",
+    "is_ai": true,
+    "num_observations": 11,
+    "unique_databases": 2,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0008152",
+      "CHEBI:16947"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "generalism score",
+    "is_ai": true,
+    "num_observations": 1,
+    "unique_databases": 1,
+    "majority_label": "Median: 0.166 score",
+    "unit": "score",
+    "ontology_ids": [
+      "inbio:000022"
+    ],
+    "percentages": {},
+    "minimum": 0.16610504686832428,
+    "median": 0.16610504686832428,
+    "mean": 0.16610504686832428,
+    "maximum": 0.16610504686832428
+  },
+  {
+    "name": "generalist",
+    "is_ai": true,
+    "num_observations": 1,
+    "unique_databases": 1,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "inbio:000022"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "habitat count",
+    "is_ai": true,
+    "num_observations": 1,
+    "unique_databases": 1,
+    "majority_label": "Median: 6.0 count",
+    "unit": "count",
+    "ontology_ids": [
+      "ENVO:01000739"
+    ],
+    "percentages": {},
+    "minimum": 6.0,
+    "median": 6.0,
+    "mean": 6.0,
+    "maximum": 6.0
+  }
+]

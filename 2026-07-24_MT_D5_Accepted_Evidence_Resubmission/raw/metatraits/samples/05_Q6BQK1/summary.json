@@ -1,0 +1,160 @@
+[
+  {
+    "name": "aerotolerant",
+    "is_ai": false,
+    "num_observations": 1,
+    "unique_databases": 1,
+    "majority_label": "true: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "MICRO:0000502"
+    ],
+    "percentages": {
+      "true": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "cell color",
+    "is_ai": false,
+    "num_observations": 1,
+    "unique_databases": 1,
+    "majority_label": "white: (100%)",
+    "unit": "factor",
+    "ontology_ids": [
+      "OMP:0000116"
+    ],
+    "percentages": {
+      "white": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "cell shape",
+    "is_ai": false,
+    "num_observations": 1,
+    "unique_databases": 1,
+    "majority_label": "sphere-shaped: (100%)",
+    "unit": "factor",
+    "ontology_ids": [
+      "OMP:0000073"
+    ],
+    "percentages": {
+      "sphere-shaped": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "oxygen preference",
+    "is_ai": false,
+    "num_observations": 1,
+    "unique_databases": 1,
+    "majority_label": "aerobic: (100%)",
+    "unit": "factor",
+    "ontology_ids": [
+      "MICRO:0000491"
+    ],
+    "percentages": {
+      "aerobic": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "pH growth",
+    "is_ai": false,
+    "num_observations": 1,
+    "unique_databases": 1,
+    "majority_label": "Median: 7.0 pH",
+    "unit": "pH",
+    "ontology_ids": [
+      "OMP:0005008"
+    ],
+    "percentages": {},
+    "minimum": 7.0,
+    "median": 7.0,
+    "mean": 7.0,
+    "maximum": 7.0
+  },
+  {
+    "name": "presence of motility",
+    "is_ai": false,
+    "num_observations": 1,
+    "unique_databases": 1,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "OMP:0000005"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "salinity preference",
+    "is_ai": false,
+    "num_observations": 2,
+    "unique_databases": 1,
+    "majority_label": "halotolerant: (100%)",
+    "unit": "factor",
+    "ontology_ids": [
+      "OMP:0005013"
+    ],
+    "percentages": {
+      "halotolerant": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "sporulation",
+    "is_ai": false,
+    "num_observations": 1,
+    "unique_databases": 1,
+    "majority_label": "false: (100%)",
+    "unit": "boolean",
+    "ontology_ids": [
+      "GO:0043934"
+    ],
+    "percentages": {
+      "false": 100.0
+    },
+    "minimum": null,
+    "median": null,
+    "mean": null,
+    "maximum": null
+  },
+  {
+    "name": "temperature growth",
+    "is_ai": false,
+    "num_observations": 1,
+    "unique_databases": 1,
+    "majority_label": "Median: 25.0 Celsius",
+    "unit": "Celsius",
+    "ontology_ids": [
+      "OMP:0005002"
+    ],
+    "percentages": {},
+    "minimum": 25.0,
+    "median": 25.0,
+    "mean": 25.0,
+    "maximum": 25.0
+  }
+]
