@@ -7,6 +7,8 @@ Verdict:
 ```text
 P0_TOP_MRR_SOURCE_IDENTITY_PASS
 TOP10_SELECTION_INDEPENDENT_RECOMPUTATION_PASS
+FROZEN_POSITIVE_LABEL_50_OF_50_SOURCE_ROWS_PASS
+UNIPROT_TARGET_RHEA_REFERENCE_10_OF_10_PASS
 TEN_ENZYME_TO_HOST_CROSSWALK_PASS_WITH_ONE_DISCLOSED_CONFLICT
 FIVE_ORIGINAL_METATRAITS_JSON_PASS
 FOUR_REQUIRED_REAL_SAMPLE_CHECKS_PASS_WITH_BOUNDED_CONCLUSIONS
@@ -44,7 +46,19 @@ ensemble means exactly:
 TOP10_MATCH_STORED=TRUE
 ```
 
-All ten selected rows have `positive_rank=1` and MRR@10 contribution 1.0.
+Correctness and rank were audited independently. The selected-source ledger
+contains 50 rows (10 UIDs x 5 seeds), all with frozen test `Label=1`. Direct
+lookup in the five actual frozen test tables reproduced `Label=1` for 50/50
+source rows and `candidate_source=positive_deduplicated_step4` for 50/50 rows.
+The saved reviewed UniProt entries separately reference the exact target RHEA
+ID for 10/10 selected UIDs: eight in `reactionCrossReferences` and two in
+`physiologicalReactions`. Separately, all ten selected enzymes have
+`positive_rank=1` and MRR@10 contribution 1.0.
+
+The crosswalk exposes the frozen label, positive candidate source, exact
+UniProt target-RHEA reference location and raw evidence path as separate
+fields from `positive_rank`.
+
 All ten exact primary accessions have reviewed UniProt organism/taxon
 annotations. The combined crosswalk retains nine `exact` states and one
 explicit `MAPPING_DRIFT_OR_CONFLICT` state for `P29931`.

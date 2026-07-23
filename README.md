@@ -2,6 +2,11 @@
 
 ## P0 current delivery: D5 new-contract reaudit — 2026-07-24
 
+Combined index for the two teacher-defined P0 items (D5 and the original
+2026-07-22 clarification bytes):
+
+- [`M3_P0_PREREQUISITES_COMPLETION_INDEX_2026-07-24.md`](M3_P0_PREREQUISITES_COMPLETION_INDEX_2026-07-24.md)
+
 The current teacher-facing D5 report does not rely on filename identity or
 earlier acceptance. It explicitly audits the P0 Top-MRR enzyme-to-host chain,
 five original metaTraits JSON bodies, four required real-sample checks and the

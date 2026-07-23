@@ -9,12 +9,14 @@ Status: student resubmission; teacher acceptance not yet claimed
 - [`metatraits_probe_report.md`](metatraits_probe_report.md): current
   new-contract report and bounded usefulness decision.
 - [`P0_TOP_MRR_ENZYME_TO_HOST_METATRAITS_CROSSWALK.csv`](P0_TOP_MRR_ENZYME_TO_HOST_METATRAITS_CROSSWALK.csv):
+  frozen positive labels, exact UniProt target-RHEA references and ranks for
   ten P0 enzymes, ten UniProt hosts, the five metaTraits samples and all ten
   documented TaxID API outcomes.
 - [`audits/METATRAITS_D5_NEW_CONTRACT_INDEPENDENT_REAUDIT_2026-07-24.md`](audits/METATRAITS_D5_NEW_CONTRACT_INDEPENDENT_REAUDIT_2026-07-24.md):
   requirement-by-requirement audit.
 - [`DELIVERABLE_SHA256SUMS.txt`](DELIVERABLE_SHA256SUMS.txt): identities for
-  this report, crosswalk, audit and the five original JSON bodies.
+  this report, crosswalk, audit, the combined P0 index and the five original
+  JSON bodies.
 
 ## Original JSON bodies
 

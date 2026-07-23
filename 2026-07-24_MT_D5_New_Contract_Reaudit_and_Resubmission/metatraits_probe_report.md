@@ -71,10 +71,41 @@ The deterministic selection procedure was:
 4. sort by positive rank, then ensemble mean and deterministic tie-breakers;
 5. retain the first ten distinct enzyme UIDs.
 
-All ten selected enzymes have `positive_rank=1` and
-`mrr_at_10_contribution=1.0`. Therefore "Top-MRR enzyme" here means the
-first-positive enzyme from a maximum-MRR-contribution reaction group. MRR is a
-reaction-group ranking metric, not an independent per-enzyme metric.
+Correctness and rank are separate checks:
+
+```text
+correctness  frozen P0 test field Label=1
+rank         positive_rank=1 inside the reaction candidate group
+```
+
+The selected-source ledger contains 50 rows (10 UIDs x 5 seeds), and all 50
+carry `Label=1`. A second read against the five actual frozen
+`test_result.csv` tables also found `Label=1` in 50/50 source rows. Thus these
+are not merely the highest-scoring candidates: they are frozen-label positive
+enzymes that rank first in their reaction candidate groups.
+
+The positive designation also has an independently visible reaction link.
+All 50 frozen source rows use
+`candidate_source=positive_deduplicated_step4`, and the saved reviewed UniProt
+entry for each of the ten UIDs explicitly points to that row's target RHEA ID:
+
+```text
+target RHEA in reaction.reactionCrossReferences          8/10
+target RHEA in physiologicalReactions                    2/10
+target RHEA referenced in total                         10/10
+```
+
+The exact reference location and raw UniProt evidence path for every UID are
+disclosed in the crosswalk. This UniProt check is supporting source evidence;
+the frozen `Label=1` remains the formal test-set correctness field.
+
+All ten selected enzymes also have `mrr_at_10_contribution=1.0`. Therefore
+"Top-MRR enzyme" here means the first frozen-label positive enzyme from a
+maximum-MRR-contribution reaction group. MRR is a reaction-group ranking
+metric, not an independent per-enzyme metric.
+
+`Label=1` is the accepted frozen-test ground-truth designation. This report
+does not claim that a new biochemical experiment was performed in D5.
 
 An independent 2026-07-24 recomputation reproduced all ten rows exactly:
 
