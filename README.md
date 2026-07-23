@@ -1,5 +1,20 @@
 # MetaTraits Teacher Deliverables
 
+## P0 current delivery: D5 new-contract reaudit — 2026-07-24
+
+The current teacher-facing D5 report does not rely on filename identity or
+earlier acceptance. It explicitly audits the P0 Top-MRR enzyme-to-host chain,
+five original metaTraits JSON bodies, four required real-sample checks and the
+TaxID direct-query result:
+
+- [`2026-07-24_MT_D5_New_Contract_Reaudit_and_Resubmission/metatraits_probe_report.md`](2026-07-24_MT_D5_New_Contract_Reaudit_and_Resubmission/metatraits_probe_report.md)
+- [dated path index, ten-row crosswalk, independent audit and manifest](2026-07-24_MT_D5_New_Contract_Reaudit_and_Resubmission/)
+
+Bounded decision: the data support soft-trait prototyping on the five sampled
+hosts, but not hard filtering, exact strain attribution or production. The
+documented TaxID API returned 404 for all ten P0-derived host tax IDs, so a
+working production `organism_uid -> traits` path remains unresolved.
+
 ## Current Task 7 contract delivery — 2026-07-24
 
 The teacher-authorized contract-only Task 7 delivery is placed directly at
