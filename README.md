@@ -1,5 +1,19 @@
 # MetaTraits Teacher Deliverables
 
+## Current prerequisite status closure — 2026-07-26
+
+The 2026-07-23 and 2026-07-24 teacher lists are closed item by item without
+replacing earlier adjudications:
+
+- teacher-facing status matrix:
+  [`M3_P1_MICROBE_PREREQUISITES_EXISTING_DECISIONS_AND_STATUS_CLOSURE_2026-07-26.md`](M3_P1_MICROBE_PREREQUISITES_EXISTING_DECISIONS_AND_STATUS_CLOSURE_2026-07-26.md)
+- byte-identical authority copies, local audit and SHA256 manifest:
+  [`2026-07-26_M3_P1_Microbe_Prerequisites_Status_Closure/`](2026-07-26_M3_P1_Microbe_Prerequisites_Status_Closure/)
+
+The resubmitted decisions show that v1 does not create an
+`organism_confidence` float, D1--D8 are not wholly undecided, and only the D4
+expert upgrade remains for the biological meeting. M4b/M4c remain locked.
+
 ## P0 current delivery: D5 new-contract reaudit — 2026-07-24
 
 Combined index for the two teacher-defined P0 items (D5 and the original
@@ -65,9 +79,9 @@ The submission hash manifest is
 [`2026-07-23_MetaTraits_Tasks_4_6_and_Task7_Decision_Request/DELIVERABLE_SHA256SUMS.txt`](2026-07-23_MetaTraits_Tasks_4_6_and_Task7_Decision_Request/DELIVERABLE_SHA256SUMS.txt).
 
 Tasks 4 and 6 were subsequently accepted by the teacher on 2026-07-23.
-Task 7 was adjudicated as contract-only: the schema contract and example remain
-an upcoming student delivery, while live code and tests are deferred to a
-future separately authorized M4b. M4b and M4c remain unauthorized.
+Task 7 was adjudicated as contract-only and was delivered on 2026-07-24 at
+the root path listed above; live code and tests remain deferred to a future
+separately authorized M4b. M4b and M4c remain unauthorized.
 
 The 2026-07-21 folder and commit are retained unchanged as historical
 evidence. Its nested snapshot has the same bytes as the current root
