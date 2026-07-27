@@ -1,15 +1,36 @@
 # MetaTraits Teacher Deliverables
 
-## Pending D4 biological selection — 2026-07-27
+## Final 07-23/07-24 response and D4 soft decision — 2026-07-27
+
+The complete item-by-item response is placed directly at repository root so
+earlier completed work is not missed:
+
+- [`M3_2026_07_23_24_TEACHER_TASK_LIST_FINAL_RESPONSE_2026-07-27.md`](M3_2026_07_23_24_TEACHER_TASK_LIST_FINAL_RESPONSE_2026-07-27.md)
+- [`M3_NEXT_ROUND_HUANG_TEACHER_ADJUDICATION_REQUEST_AFTER_BIOLOGICAL_DECISIONS_2026-07-27.md`](M3_NEXT_ROUND_HUANG_TEACHER_ADJUDICATION_REQUEST_AFTER_BIOLOGICAL_DECISIONS_2026-07-27.md)
+
+The biological meeting selected T1: retain all wastewater-relevant traits as
+soft evidence for reference, advice, explanation and uncertainty. Traits do
+not automatically delete microorganisms, and species/strain inheritance
+remains forbidden.
+
+- decision record, audit and hashes:
+  [`2026-07-27_M3_D4_Wastewater_Trait_Soft_Policy_Decision/`](2026-07-27_M3_D4_Wastewater_Trait_Soft_Policy_Decision/)
+
+The cross-side response is duplicated byte-for-byte in the enzyme
+teacher-deliverables repository. Enzyme and microbe evidence assets remain
+separated by repository. M4b and M4c remain locked.
+
+## Historical pre-decision D4 material — 2026-07-27
 
 The detailed T1/T2/T3 biological selection card, visual meeting version and
-independent audits are now indexed without claiming that Liu-laoshi has made a
-selection:
+independent audits are retained as the evidence reviewed before the
+2026-07-27 meeting:
 
 - [`2026-07-27_M3_D4_Wastewater_Trait_Biological_Selection_Pending/`](2026-07-27_M3_D4_Wastewater_Trait_Biological_Selection_Pending/)
 
-Status: evidence review complete; T1/T2/T3 selection pending; currently
-effective v1 behavior remains all-soft and M4b/M4c remain locked.
+Status at the time of that package: T1/T2/T3 selection was pending. The current
+T1 decision is recorded in the newer package above. Effective v1 behavior
+remains all-soft and M4b/M4c remain locked.
 
 ## Current prerequisite status closure — 2026-07-26
 
