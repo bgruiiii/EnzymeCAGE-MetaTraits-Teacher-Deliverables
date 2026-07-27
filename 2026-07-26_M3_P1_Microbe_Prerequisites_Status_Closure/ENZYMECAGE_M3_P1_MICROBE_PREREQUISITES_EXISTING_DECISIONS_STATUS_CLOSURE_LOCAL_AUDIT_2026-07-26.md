@@ -111,10 +111,19 @@ interface / coverage / no_robust_majority / rate limit:
   all reported
 NCBI tax-ID direct-query initial test:
   complete negative result, 10/10 HTTP 404
+explicit exact-ID classes:
+  exact_strain = 0
+  exact_species = 0
+  no_exact_match_established = 10
+contextual fallback:
+  species-name summary only = 5
+  no delivered summary = 5
 ```
 
-报告没有把 species-name summary 冒充 exact strain path，也没有把 0 个 429
-冒充 unlimited。
+显式分类由 crosswalk 的 `metatraits_exact_id_alignment_class` 逐行重算，并由
+`METATRAITS_ORGANISM_ID_ALIGNMENT_EXPLICIT_TRISTATE_SUPPLEMENT_INDEPENDENT_AUDIT_2026-07-26.md`
+单独审计。报告没有把 species-name summary 冒充 exact species/strain path，也没有把
+`no_exact_match_established` 冒充数据库缺失声明，或把 0 个 429 冒充 unlimited。
 
 ## 6. 真正未闭合项
 

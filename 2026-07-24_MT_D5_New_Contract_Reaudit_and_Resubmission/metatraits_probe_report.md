@@ -269,6 +269,27 @@ exact strain-level trait attribution             not established
 production organism_uid -> traits path           unresolved
 ```
 
+The result is now normalized into the explicit teacher-facing three-class
+contract:
+
+```text
+exact_strain                                      0
+exact_species                                     0
+no_exact_match_established                       10
+```
+
+`no_exact_match_established` means that the delivered evidence does not
+demonstrate exact TaxID equality. It does not assert that metaTraits lacks the
+organism or trait. Five of the ten rows retain species-name summaries as
+contextual soft evidence; the other five have no delivered summary. Neither
+state may be promoted to exact strain or exact species evidence.
+
+The row-level class is in
+`P0_TOP_MRR_ENZYME_TO_HOST_METATRAITS_CROSSWALK.csv` under
+`metatraits_exact_id_alignment_class`. Definitions, the ten-row table and the
+non-inheritance boundary are in
+`ORGANISM_ID_ALIGNMENT_EXPLICIT_TRISTATE_SUPPLEMENT_2026-07-26.md`.
+
 This is a completed negative alignment finding, not a working ID-aligned data
 path. A future data-plane decision must use an official versioned snapshot,
 a restored stable API, or another separately approved mapping route.

@@ -1,5 +1,16 @@
 # MetaTraits Teacher Deliverables
 
+## Pending D4 biological selection — 2026-07-27
+
+The detailed T1/T2/T3 biological selection card, visual meeting version and
+independent audits are now indexed without claiming that Liu-laoshi has made a
+selection:
+
+- [`2026-07-27_M3_D4_Wastewater_Trait_Biological_Selection_Pending/`](2026-07-27_M3_D4_Wastewater_Trait_Biological_Selection_Pending/)
+
+Status: evidence review complete; T1/T2/T3 selection pending; currently
+effective v1 behavior remains all-soft and M4b/M4c remain locked.
+
 ## Current prerequisite status closure — 2026-07-26
 
 The 2026-07-23 and 2026-07-24 teacher lists are closed item by item without
@@ -32,7 +43,10 @@ TaxID direct-query result:
 Bounded decision: the data support soft-trait prototyping on the five sampled
 hosts, but not hard filtering, exact strain attribution or production. The
 documented TaxID API returned 404 for all ten P0-derived host tax IDs, so a
-working production `organism_uid -> traits` path remains unresolved.
+working production `organism_uid -> traits` path remains unresolved. The
+explicit normalized result is `exact_strain=0`, `exact_species=0`,
+`no_exact_match_established=10`; five rows retain species-name summaries only
+as contextual soft evidence.
 
 ## Current Task 7 contract delivery — 2026-07-24
 

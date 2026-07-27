@@ -195,11 +195,29 @@ species-name summary:
   bounded usable
 summary JSON tax_id field:
   absent
-exact strain-level attribution:
-  not established
+explicit exact-ID classes:
+  exact_strain = 0
+  exact_species = 0
+  no_exact_match_established = 10
 ```
 
 这不是“没测”，也不是工作 ID 对齐链路。后续必须跟随 ⑤ 的正式数据面方案。
+五个有数据的对象仍只是 `species-name summary only`，不得归入 exact species 或
+exact strain；另外五个没有交付 summary。
+
+显式三分类补充与逐行字段：
+
+```text
+2026-07-24_MT_D5_New_Contract_Reaudit_and_Resubmission/
+ORGANISM_ID_ALIGNMENT_EXPLICIT_TRISTATE_SUPPLEMENT_2026-07-26.md
+
+P0_TOP_MRR_ENZYME_TO_HOST_METATRAITS_CROSSWALK.csv
+column:
+  metatraits_exact_id_alignment_class
+```
+
+这里的 `no_exact_match_established` 只表示当前证据链没有证明 TaxID 精确相等，
+不表示 metaTraits 数据库一定不存在该微生物或性状。
 
 ### ⑦ 污水 Trait 硬约束
 
@@ -249,7 +267,8 @@ Task 7 契约、D6 prompt 规则和 D4 默认 allowlist 都不等于 M4b/M4c 活
 1. 07-18 与 07-21 原裁定继续有效，D1–D8 不需要重新发明一套学生立场；
 2. 2.2 继续执行 MT-D2 C 修订版：v1 不输出 `organism_confidence` float；
 3. D5 新合同版、Task 7 和 07-22 原件已在上述路径交付；
-4. ⑤ 数据面与 ⑥ ID 对齐按已披露负结果保持 fail-closed；
+4. ⑤ 数据面与 ⑥ ID 对齐按已披露负结果保持 fail-closed；⑥ 的显式分类为
+   `exact_strain=0 / exact_species=0 / no_exact_match_established=10`；
 5. D4 专家升级等待刘老师意见；意见返回后再形成确定性 allowlist/threshold 合同；
 6. M4b/M4c、M3-EXT 二阶段和反应预测活代码在分别授权前均不启动。
 

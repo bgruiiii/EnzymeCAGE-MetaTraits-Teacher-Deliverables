@@ -1,0 +1,1860 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>M3-D4 污水 Trait hard/soft 策略选择</title>
+  <style>
+    :root {
+      --ink: #182433;
+      --muted: #617080;
+      --paper: #f3f6f8;
+      --surface: #ffffff;
+      --line: #d8e1e7;
+      --navy: #12324a;
+      --teal: #0f766e;
+      --teal-soft: #e7f6f3;
+      --green: #18794e;
+      --green-soft: #eaf7ef;
+      --blue: #2563eb;
+      --blue-soft: #eaf1ff;
+      --amber: #a85d00;
+      --amber-soft: #fff4df;
+      --red: #b42318;
+      --red-soft: #fff0ee;
+      --purple: #6d3fc0;
+      --purple-soft: #f3edff;
+      --gray-soft: #edf1f4;
+      --shadow: 0 14px 40px rgba(18, 50, 74, 0.09);
+      --radius: 18px;
+      --max: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 8% 4%, rgba(15, 118, 110, 0.10), transparent 28rem),
+        radial-gradient(circle at 92% 8%, rgba(109, 63, 192, 0.07), transparent 28rem),
+        var(--paper);
+      font-family:
+        "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei",
+        system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.68;
+    }
+
+    code,
+    .mono {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    }
+
+    a {
+      color: var(--blue);
+    }
+
+    .page {
+      width: min(calc(100% - 32px), var(--max));
+      margin: 0 auto;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      margin: 24px auto 18px;
+      padding: 54px 56px 48px;
+      color: #fff;
+      border-radius: 26px;
+      background:
+        linear-gradient(128deg, rgba(18, 50, 74, 0.99), rgba(15, 118, 110, 0.98) 68%, rgba(24, 121, 78, 0.96));
+      box-shadow: var(--shadow);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 380px;
+      height: 380px;
+      right: -130px;
+      top: -170px;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 50%;
+      box-shadow:
+        0 0 0 58px rgba(255, 255, 255, 0.035),
+        0 0 0 116px rgba(255, 255, 255, 0.025);
+    }
+
+    .eyebrow {
+      position: relative;
+      z-index: 1;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+      padding: 6px 11px;
+      color: #d7fff9;
+      border: 1px solid rgba(255, 255, 255, 0.24);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+    }
+
+    .hero h1 {
+      position: relative;
+      z-index: 1;
+      max-width: 880px;
+      margin: 0 0 13px;
+      font-size: clamp(30px, 5vw, 52px);
+      line-height: 1.13;
+      letter-spacing: -0.03em;
+    }
+
+    .hero p {
+      position: relative;
+      z-index: 1;
+      max-width: 860px;
+      margin: 0;
+      color: #dceaf2;
+      font-size: 17px;
+    }
+
+    .hero-meta {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 26px;
+    }
+
+    .hero-meta span {
+      padding: 7px 11px;
+      border-radius: 9px;
+      background: rgba(255, 255, 255, 0.10);
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .nav {
+      position: sticky;
+      top: 10px;
+      z-index: 20;
+      display: flex;
+      gap: 8px;
+      margin: 0 auto 26px;
+      padding: 10px;
+      overflow-x: auto;
+      border: 1px solid rgba(216, 225, 231, 0.9);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.92);
+      box-shadow: 0 8px 26px rgba(18, 50, 74, 0.08);
+      backdrop-filter: blur(12px);
+    }
+
+    .nav a {
+      flex: 0 0 auto;
+      padding: 7px 11px;
+      color: var(--navy);
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .nav a:hover {
+      color: var(--teal);
+      background: var(--teal-soft);
+    }
+
+    main {
+      padding-bottom: 54px;
+    }
+
+    section {
+      scroll-margin-top: 82px;
+      margin: 28px 0;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 14px;
+    }
+
+    .kicker {
+      margin: 0 0 4px;
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 0;
+      color: var(--navy);
+      font-size: clamp(23px, 3vw, 32px);
+      line-height: 1.25;
+    }
+
+    h3 {
+      margin: 0;
+      color: var(--navy);
+      font-size: 20px;
+      line-height: 1.35;
+    }
+
+    h4 {
+      margin: 0;
+      color: var(--navy);
+      font-size: 16px;
+    }
+
+    p {
+      margin: 0.45em 0;
+    }
+
+    ul,
+    ol {
+      margin: 10px 0 0;
+      padding-left: 1.25em;
+    }
+
+    li + li {
+      margin-top: 7px;
+    }
+
+    .panel {
+      padding: 25px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: 0 9px 28px rgba(18, 50, 74, 0.05);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      margin: 2px 5px 2px 0;
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 850;
+    }
+
+    .badge.soft { color: var(--teal); background: var(--teal-soft); }
+    .badge.hard { color: var(--red); background: var(--red-soft); }
+    .badge.pending { color: var(--amber); background: var(--amber-soft); }
+    .badge.authority { color: var(--purple); background: var(--purple-soft); }
+    .badge.locked { color: #465462; background: var(--gray-soft); }
+    .badge.good { color: var(--green); background: var(--green-soft); }
+
+    .decision-banner {
+      display: grid;
+      grid-template-columns: 1.35fr 0.65fr;
+      gap: 18px;
+      padding: 26px;
+      border: 1px solid #b9ddd7;
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, #eefaf7, #f7fbfc);
+    }
+
+    .decision-banner strong {
+      color: var(--teal);
+    }
+
+    .decision-status {
+      display: grid;
+      align-content: center;
+      gap: 8px;
+      padding: 17px;
+      border-radius: 14px;
+      background: #fff;
+      text-align: center;
+    }
+
+    .decision-status .big {
+      color: var(--navy);
+      font-size: 25px;
+      font-weight: 950;
+    }
+
+    .decision-status .small {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .soft-hard {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: stretch;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .meaning-card {
+      padding: 20px;
+      border-radius: 15px;
+      background: #fff;
+      border: 1px solid var(--line);
+    }
+
+    .meaning-card.soft {
+      border-top: 5px solid var(--teal);
+    }
+
+    .meaning-card.hard {
+      border-top: 5px solid var(--red);
+    }
+
+    .meaning-card p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .versus {
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .authority-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .authority-card {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+    }
+
+    .authority-card.decided {
+      border-left: 5px solid var(--purple);
+    }
+
+    .authority-card.proposed {
+      border-left: 5px solid var(--amber);
+    }
+
+    .authority-card p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .flow {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr auto 1fr;
+      align-items: stretch;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .flow-step {
+      display: grid;
+      place-items: center;
+      min-height: 98px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+      text-align: center;
+    }
+
+    .flow-step b {
+      display: block;
+      color: var(--navy);
+    }
+
+    .flow-step span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .arrow {
+      display: grid;
+      place-items: center;
+      color: var(--teal);
+      font-size: 24px;
+      font-weight: 950;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .stat {
+      padding: 17px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+    }
+
+    .stat .value {
+      display: block;
+      color: var(--navy);
+      font-size: 25px;
+      font-weight: 950;
+      letter-spacing: -0.02em;
+    }
+
+    .stat .label {
+      display: block;
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      box-shadow: 0 9px 28px rgba(18, 50, 74, 0.05);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    th,
+    td {
+      padding: 13px 14px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--navy);
+      background: #f4f7f9;
+      font-size: 12px;
+      letter-spacing: 0.02em;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    td strong {
+      color: var(--navy);
+    }
+
+    .callout {
+      margin-top: 16px;
+      padding: 17px 18px;
+      border-left: 5px solid var(--teal);
+      border-radius: 0 13px 13px 0;
+      background: var(--teal-soft);
+    }
+
+    .callout.warn {
+      border-left-color: var(--amber);
+      background: var(--amber-soft);
+    }
+
+    .callout.danger {
+      border-left-color: var(--red);
+      background: var(--red-soft);
+    }
+
+    .coverage-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .coverage {
+      padding: 17px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+    }
+
+    .coverage .name {
+      display: block;
+      color: var(--navy);
+      font-weight: 850;
+    }
+
+    .coverage .num {
+      display: block;
+      margin: 5px 0 1px;
+      color: var(--teal);
+      font-size: 24px;
+      font-weight: 950;
+    }
+
+    .coverage .note {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .limitation-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .limit-card {
+      padding: 20px;
+      border: 1px solid #efc7c2;
+      border-radius: 15px;
+      background: linear-gradient(180deg, #fff, #fff7f6);
+    }
+
+    .limit-card p,
+    .limit-card li {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .semantic-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .semantic {
+      padding: 17px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+    }
+
+    .semantic h4 {
+      margin-bottom: 6px;
+    }
+
+    .semantic p {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .gate-zone {
+      padding: 24px;
+      border: 2px dashed #9a77cf;
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, #fbf8ff, #fff);
+    }
+
+    .gate-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+      margin-top: 16px;
+    }
+
+    .gate-card {
+      padding: 20px;
+      border: 1px solid #d8caee;
+      border-radius: 15px;
+      background: #fff;
+    }
+
+    .gate-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .gate-item {
+      padding: 9px;
+      border-radius: 9px;
+      background: var(--purple-soft);
+      color: #55328f;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .rule-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .rule-card {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+    }
+
+    .rule-card.oxygen {
+      border-top: 5px solid var(--blue);
+    }
+
+    .rule-card.interval {
+      border-top: 5px solid var(--teal);
+    }
+
+    .mini-flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      margin: 14px 0;
+      color: var(--navy);
+      font-size: 12px;
+      font-weight: 850;
+    }
+
+    .mini-flow span {
+      padding: 6px 8px;
+      border-radius: 7px;
+      background: #f1f5f7;
+    }
+
+    .option-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .option {
+      position: relative;
+      overflow: hidden;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      box-shadow: 0 9px 28px rgba(18, 50, 74, 0.06);
+    }
+
+    .option::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 5px;
+      background: var(--option-color);
+    }
+
+    .t1 { --option-color: var(--teal); }
+    .t2 { --option-color: var(--blue); }
+    .t3 { --option-color: var(--amber); }
+
+    .option-label {
+      display: inline-grid;
+      place-items: center;
+      width: 50px;
+      height: 42px;
+      margin-bottom: 11px;
+      color: #fff;
+      border-radius: 13px;
+      background: var(--option-color);
+      font-size: 19px;
+      font-weight: 950;
+    }
+
+    .option .current {
+      margin: 14px 0 8px;
+      padding: 11px;
+      border-radius: 11px;
+      background: var(--teal-soft);
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 850;
+    }
+
+    .option .future {
+      min-height: 92px;
+      padding: 11px;
+      border-radius: 11px;
+      background: #f4f7f9;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .metric-stack {
+      display: grid;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .metric-line {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px dashed var(--line);
+      font-size: 12px;
+    }
+
+    .metric-line span:first-child {
+      color: var(--muted);
+    }
+
+    .metric-line strong {
+      color: var(--navy);
+      text-align: right;
+    }
+
+    .recommendation {
+      display: grid;
+      grid-template-columns: 0.72fr 1.28fr;
+      gap: 18px;
+      padding: 28px;
+      color: #fff;
+      border-radius: 21px;
+      background: linear-gradient(130deg, #0f766e, #12324a);
+      box-shadow: var(--shadow);
+    }
+
+    .recommendation .choice {
+      display: grid;
+      place-items: center;
+      min-height: 190px;
+      padding: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 17px;
+      background: rgba(255, 255, 255, 0.08);
+      text-align: center;
+    }
+
+    .recommendation .choice .letter {
+      font-size: 66px;
+      font-weight: 950;
+      line-height: 1;
+    }
+
+    .recommendation .choice span {
+      color: #d9fff8;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .recommendation h3 {
+      color: #fff;
+      font-size: 25px;
+    }
+
+    .recommendation p,
+    .recommendation li {
+      color: #e1edf2;
+    }
+
+    .choice-form {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .choice-box {
+      min-height: 180px;
+      padding: 19px;
+      border: 2px solid var(--line);
+      border-radius: 15px;
+      background: #fff;
+    }
+
+    .choice-box.recommended {
+      border-color: var(--teal);
+      background: linear-gradient(180deg, #fff, #effaf8);
+    }
+
+    .checkbox {
+      display: inline-grid;
+      place-items: center;
+      width: 23px;
+      height: 23px;
+      margin-right: 7px;
+      border: 2px solid #81909d;
+      border-radius: 5px;
+      vertical-align: -5px;
+      background: #fff;
+    }
+
+    .choice-title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 18px;
+      font-weight: 950;
+    }
+
+    .choice-box p {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .scenario-zone {
+      padding: 24px;
+      border: 2px dashed #d2a65d;
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, #fffaf1, #fff);
+    }
+
+    .scenario-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 15px;
+    }
+
+    .scenario {
+      padding: 19px;
+      border: 1px solid #ead4ad;
+      border-radius: 14px;
+      background: #fff;
+    }
+
+    .scenario p {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .workflow {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      counter-reset: steps;
+    }
+
+    .workflow-step {
+      position: relative;
+      padding: 18px 15px 15px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: #fff;
+      font-size: 12px;
+    }
+
+    .workflow-step::before {
+      counter-increment: steps;
+      content: counter(steps);
+      display: grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      margin-bottom: 8px;
+      color: #fff;
+      border-radius: 9px;
+      background: var(--teal);
+      font-weight: 950;
+    }
+
+    .workflow-step b {
+      display: block;
+      color: var(--navy);
+      font-size: 13px;
+    }
+
+    .workflow-step span {
+      color: var(--muted);
+    }
+
+    .evidence-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .evidence-grid code {
+      display: block;
+      margin-top: 8px;
+      padding: 12px;
+      overflow-wrap: anywhere;
+      color: #334252;
+      border-radius: 10px;
+      background: #f1f4f6;
+      font-size: 11px;
+    }
+
+    details {
+      margin-top: 12px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: #fff;
+    }
+
+    summary {
+      padding: 14px 16px;
+      color: var(--navy);
+      cursor: pointer;
+      font-weight: 850;
+    }
+
+    details > div {
+      padding: 0 16px 16px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    footer {
+      padding: 22px 0 36px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .print-only {
+      display: none;
+    }
+
+    @media (max-width: 930px) {
+      .hero {
+        padding: 38px 28px;
+      }
+
+      .decision-banner,
+      .recommendation {
+        grid-template-columns: 1fr;
+      }
+
+      .option-grid,
+      .choice-form {
+        grid-template-columns: 1fr;
+      }
+
+      .authority-grid,
+      .gate-grid,
+      .rule-grid,
+      .scenario-grid,
+      .evidence-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .coverage-grid,
+      .stats,
+      .semantic-grid,
+      .workflow {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        width: min(calc(100% - 20px), var(--max));
+      }
+
+      .hero {
+        margin-top: 10px;
+        padding: 32px 21px;
+        border-radius: 19px;
+      }
+
+      .soft-hard,
+      .flow {
+        grid-template-columns: 1fr;
+      }
+
+      .versus,
+      .arrow {
+        transform: rotate(90deg);
+      }
+
+      .coverage-grid,
+      .stats,
+      .semantic-grid,
+      .workflow,
+      .limitation-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .panel,
+      .gate-zone,
+      .scenario-zone {
+        padding: 19px;
+      }
+    }
+
+    @media print {
+      @page {
+        size: A4;
+        margin: 12mm;
+      }
+
+      body {
+        background: #fff;
+        font-size: 10pt;
+      }
+
+      .page {
+        width: 100%;
+      }
+
+      .hero {
+        margin: 0 0 10mm;
+        padding: 12mm;
+        border-radius: 0;
+        box-shadow: none;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+
+      .nav {
+        display: none;
+      }
+
+      section {
+        margin: 8mm 0;
+      }
+
+      .panel,
+      .option,
+      .choice-box,
+      .rule-card,
+      .gate-card,
+      .scenario,
+      .table-wrap {
+        break-inside: avoid;
+        box-shadow: none;
+      }
+
+      .option-grid,
+      .choice-form {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .recommendation,
+      .gate-zone,
+      .scenario-zone,
+      .callout,
+      .badge {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+
+      .print-only {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <div class="eyebrow">M3-D4 · 刘老师会前生物学选择材料</div>
+      <h1>污水相关 Trait 证据<br>hard / soft 策略选择</h1>
+      <p>
+        不是判断“数据库有没有字段”，而是判断哪些证据只能提示风险，哪些证据未来可以
+        自动、不可逆地剔除候选微生物。
+      </p>
+      <div class="hero-meta">
+        <span>日期：2026-07-26</span>
+        <span>真实宿主：5 个</span>
+        <span>Trait records：597</span>
+        <span>当前策略：全部 soft</span>
+        <span>M4b：未授权</span>
+      </div>
+    </header>
+
+    <nav class="nav" aria-label="页面导航">
+      <a href="#decision">要选择什么</a>
+      <a href="#authority">权威分层</a>
+      <a href="#evidence-chain">证据链</a>
+      <a href="#coverage">覆盖度</a>
+      <a href="#limitations">为何不能 hard</a>
+      <a href="#gates">G/H 证据门</a>
+      <a href="#rules">未来规则</a>
+      <a href="#options">T1/T2/T3</a>
+      <a href="#choice">老师勾选</a>
+      <a href="#workflow">裁定后流程</a>
+      <a href="#evidence">证据位置</a>
+    </nav>
+
+    <main>
+      <section id="decision">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Decision</p>
+            <h2>这次只选择生物学风险边界</h2>
+          </div>
+        </div>
+
+        <div class="decision-banner">
+          <div>
+            <h3>刘老师只需在 T1 / T2 / T3 中选择一项</h3>
+            <p>
+              三个方案<strong>当前全部执行 soft</strong>。区别仅在于：未来 official
+              snapshot、exact tax-ID、证据资格门和黄老师授权均通过后，是否允许开放
+              某些 hard rejection。
+            </p>
+            <p>
+              不需要刘老师现场设计代码、数据库接口、单位换算或缺失值策略。
+            </p>
+          </div>
+          <div class="decision-status">
+            <span class="big">T1 / T2 / T3</span>
+            <span class="small">三选一 · D4 生物学策略</span>
+            <span class="badge locked">当前 hard filter = disabled</span>
+          </div>
+        </div>
+
+        <div class="soft-hard">
+          <div class="meaning-card soft">
+            <span class="badge soft">SOFT EVIDENCE</span>
+            <h3>提示，不删除</h3>
+            <p>
+              用于解释匹配度、排序参考和 uncertainty。即使不匹配，候选仍保留，供后续
+              证据与人工复核。
+            </p>
+          </div>
+          <div class="versus">VS</div>
+          <div class="meaning-card hard">
+            <span class="badge hard">HARD CONSTRAINT</span>
+            <h3>自动、不可逆过滤</h3>
+            <p>
+              一旦确定冲突，候选菌从后续链路移除，LLM 不得恢复。证据错误时可能错杀
+              正确微生物。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="authority">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Authority layers</p>
+            <h2>已经决定的，与等待审核的，必须分开</h2>
+          </div>
+        </div>
+
+        <div class="authority-grid">
+          <article class="authority-card decided">
+            <span class="badge authority">黄老师已裁定 · v1</span>
+            <h3 style="margin-top:8px">当前全部 soft</h3>
+            <ul>
+              <li>oxygen / temperature / pH / salinity：soft。</li>
+              <li>biofilm：不用，统一 unknown。</li>
+              <li>safety/pathogenicity：soft + 人工复核。</li>
+              <li>不可逆剔除：关闭。</li>
+              <li>uncertainty_flag：保留。</li>
+            </ul>
+          </article>
+
+          <article class="authority-card proposed">
+            <span class="badge pending">学生提案 · 待刘老师审核</span>
+            <h3 style="margin-top:8px">未来是否升级 hard</h3>
+            <ul>
+              <li>G1–G6 数据与授权总闸。</li>
+              <li>H1–H7 单条 hard evidence 资格门。</li>
+              <li>strict obligate oxygen conflict。</li>
+              <li>数值区间无交集算法。</li>
+              <li>W1/W2 演示场景。</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="callout warn">
+          选择 T2/T3 只表示刘老师生物学上接受相应未来路径；不等于黄老师已经批准阈值，
+          也不等于现在可以编写或启用 hard filter。
+        </div>
+      </section>
+
+      <section id="evidence-chain">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Evidence provenance</p>
+            <h2>五个宿主菌从哪里来</h2>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="flow" aria-label="P0 到 metaTraits 证据链">
+            <div class="flow-step">
+              <div>
+                <b>P0 冻结测试集</b>
+                <span>Label=1 · reaction-group positive_rank=1</span>
+              </div>
+            </div>
+            <div class="arrow">→</div>
+            <div class="flow-step">
+              <div>
+                <b>reviewed UniProt</b>
+                <span>enzyme UID → organism + NCBI tax ID</span>
+              </div>
+            </div>
+            <div class="arrow">→</div>
+            <div class="flow-step">
+              <div>
+                <b>metaTraits</b>
+                <span>species-name summary JSON</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <span class="value">70,815</span>
+              <span class="label">P0 rows independently recomputed</span>
+            </div>
+            <div class="stat">
+              <span class="value">50/50</span>
+              <span class="label">selected-source rows Label=1</span>
+            </div>
+            <div class="stat">
+              <span class="value">10/10</span>
+              <span class="label">reviewed UniProt exact primary accession</span>
+            </div>
+            <div class="stat">
+              <span class="value">5</span>
+              <span class="label">successful real-host Trait summaries</span>
+            </div>
+          </div>
+
+          <div class="callout">
+            宿主不是从 metaTraits 任意挑选的。先由 P0 正确酶反查 reviewed UniProt 宿主，
+            再查询 Trait。`Label=1` 是冻结测试集 ground truth，不表示 D5 新做了实验。
+          </div>
+        </div>
+
+        <div class="table-wrap" style="margin-top:16px">
+          <table>
+            <thead>
+              <tr>
+                <th>酶 UID</th>
+                <th>reviewed UniProt 宿主</th>
+                <th>Tax ID</th>
+                <th>metaTraits 查询</th>
+                <th>Records</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Q8EFP8</strong></td>
+                <td><em>Shewanella oneidensis</em> MR-1</td>
+                <td>211586</td>
+                <td>species name</td>
+                <td>146</td>
+              </tr>
+              <tr>
+                <td><strong>Q12WS1</strong></td>
+                <td><em>Methanococcoides burtonii</em> ACE-M</td>
+                <td>259564</td>
+                <td>species name</td>
+                <td>134</td>
+              </tr>
+              <tr>
+                <td><strong>A0A0H3C8X0</strong></td>
+                <td><em>Caulobacter vibrioides</em> NA1000</td>
+                <td>565050</td>
+                <td>species name</td>
+                <td>161</td>
+              </tr>
+              <tr>
+                <td><strong>Q6BQK1</strong></td>
+                <td><em>Debaryomyces hansenii</em> CBS 767</td>
+                <td>284592</td>
+                <td>species name</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <td><strong>P71875</strong></td>
+                <td><em>Mycobacterium tuberculosis</em> H37Rv</td>
+                <td>83332</td>
+                <td>species name</td>
+                <td>147</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="callout warn">
+          reviewed UniProt 宿主标注不等于“该菌已被证明能在实际污水条件下完成目标转化”；
+          metaTraits species summary 也不能冒充 exact strain Trait。
+        </div>
+      </section>
+
+      <section id="coverage">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Real-sample coverage</p>
+            <h2>五个真实宿主上的 Trait 覆盖度</h2>
+          </div>
+        </div>
+
+        <div class="coverage-grid">
+          <div class="coverage">
+            <span class="name">oxygen / atmosphere</span>
+            <span class="num">5/5</span>
+            <span class="note">30 records · bounded soft</span>
+          </div>
+          <div class="coverage">
+            <span class="name">temperature</span>
+            <span class="num">5/5</span>
+            <span class="note">25 records · bounded soft</span>
+          </div>
+          <div class="coverage">
+            <span class="name">pH</span>
+            <span class="num">5/5</span>
+            <span class="note">13 records · bounded soft</span>
+          </div>
+          <div class="coverage">
+            <span class="name">salinity</span>
+            <span class="num">5/5</span>
+            <span class="note">19 records · bounded soft</span>
+          </div>
+          <div class="coverage">
+            <span class="name">biofilm</span>
+            <span class="num" style="color:var(--red)">0/5</span>
+            <span class="note">0 records · unused / unknown</span>
+          </div>
+          <div class="coverage">
+            <span class="name">safety / pathogenicity</span>
+            <span class="num" style="color:var(--amber)">4/5</span>
+            <span class="note">7 records · manual review</span>
+          </div>
+          <div class="coverage">
+            <span class="name">wastewater metabolism</span>
+            <span class="num" style="color:var(--amber)">4/5</span>
+            <span class="note">158 records · contextual soft</span>
+          </div>
+          <div class="coverage">
+            <span class="name">all summary records</span>
+            <span class="num">597</span>
+            <span class="note">5 original JSON bodies</span>
+          </div>
+        </div>
+
+        <div class="callout danger">
+          <strong>有记录 ≠ hard-ready。</strong>
+          覆盖度不证明 exact strain 归属、non-AI、稳健共识、完整 min/max 区间、具体工艺
+          适用性或目标反应能力。
+        </div>
+      </section>
+
+      <section id="limitations">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Why not hard now</p>
+            <h2>为什么当前证据不能直接自动剔除</h2>
+          </div>
+        </div>
+
+        <div class="limitation-grid">
+          <article class="limit-card">
+            <span class="badge hard">ID 未闭合</span>
+            <h3 style="margin-top:8px">Tax ID API 10/10 返回 404</h3>
+            <ul>
+              <li>documented `/api/v1` probes：16/16 HTTP 404。</li>
+              <li>working route 使用 species-name summary。</li>
+              <li>summary 对象没有 tax_id。</li>
+              <li>不能从 species 静默继承到 strain。</li>
+            </ul>
+          </article>
+
+          <article class="limit-card">
+            <span class="badge hard">生产数据面未闭合</span>
+            <h3 style="margin-top:8px">没有 official versioned snapshot</h3>
+            <ul>
+              <li>5/5 summary 在有界探测中 HTTP 200。</li>
+              <li>3/3 repeat bodies 字节一致。</li>
+              <li>观察到 1 次 transient TLS timeout。</li>
+              <li>观察到 HTTP 429：0 次；不代表 unlimited；rate limit = UNKNOWN。</li>
+            </ul>
+          </article>
+
+          <article class="limit-card">
+            <span class="badge hard">共识冲突</span>
+            <h3 style="margin-top:8px">43/597 = 7.202680%</h3>
+            <p>
+              `No robust majority` 表示来源没有形成稳健多数，必须进入 uncertainty；
+              不能解释成“不具备该 Trait”。这是五样本记录比例，不是全库率。
+            </p>
+          </article>
+
+          <article class="limit-card">
+            <span class="badge hard">数值证据不足</span>
+            <h3 style="margin-top:8px">有 median 不等于有完整生长区间</h3>
+            <ul>
+              <li>多个数值边界记录主要是 AI-derived。</li>
+              <li>稀疏样本 Q6BQK1 只有 9 条记录。</li>
+              <li>缺任一 min/max 不能构造区间。</li>
+              <li>单位与记录类型必须通过 validator。</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="semantic-grid">
+          <article class="semantic">
+            <h4>unknown</h4>
+            <p>数据缺失、ID 未对齐或证据不足；不等于生物学阴性，不允许 hard reject。</p>
+          </article>
+          <article class="semantic">
+            <h4>not_applicable</h4>
+            <p>当前证据链无法归属该 Trait；不等于该微生物不存在该性状。</p>
+          </article>
+          <article class="semantic">
+            <h4>No robust majority</h4>
+            <p>聚合来源无稳健多数；进入 uncertainty，不作负证据。</p>
+          </article>
+          <article class="semantic">
+            <h4>is_ai</h4>
+            <p>与 majority_label 独立；当前可作标记后的 soft，不能触发未来 hard。</p>
+          </article>
+        </div>
+
+        <div class="callout warn">
+          safety/pathogenicity 在三个选项中始终是 soft warning + mandatory manual review；
+          biofilm 在 0/5 覆盖下始终 unused / unknown；广义 wastewater metabolism 只能作
+          contextual soft，不能替代反应—酶证据链。
+        </div>
+      </section>
+
+      <section id="gates">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Promotion gates</p>
+            <h2>T2/T3 未来升级前必须通过两级总闸</h2>
+          </div>
+        </div>
+
+        <div class="gate-zone">
+          <div class="callout warn" style="margin-top:0">
+            G/H 门属于学生侧未来提案，等待刘老师与黄老师确认。任何一门失败，系统行为
+            继续等同 T1。
+          </div>
+
+          <div class="gate-grid">
+            <article class="gate-card">
+              <span class="badge authority">G1–G6 · 数据与授权总闸</span>
+              <h3 style="margin-top:8px">先证明数据链可用于确定性决策</h3>
+              <div class="gate-list">
+                <div class="gate-item">G1 official/stable data</div>
+                <div class="gate-item">G2 exact NCBI tax ID</div>
+                <div class="gate-item">G3 no inheritance</div>
+                <div class="gate-item">G4 schema v1.1</div>
+                <div class="gate-item">G5 full provenance</div>
+                <div class="gate-item">G6 Liu + Huang authority</div>
+              </div>
+            </article>
+
+            <article class="gate-card">
+              <span class="badge authority">H1–H7 · 单条 hard evidence 门</span>
+              <h3 style="margin-top:8px">再证明这一条记录有资格触发剔除</h3>
+              <div class="gate-list">
+                <div class="gate-item">H1 exact taxon</div>
+                <div class="gate-item">H2 no inheritance</div>
+                <div class="gate-item">H3 is_ai=false</div>
+                <div class="gate-item">H4 robust majority</div>
+                <div class="gate-item">H5 ≥2 obs + ≥2 DB</div>
+                <div class="gate-item">H6 traceable source</div>
+                <div class="gate-item">H7 valid schema/unit</div>
+              </div>
+            </article>
+          </div>
+
+          <div class="callout">
+            H5 是学生为不可逆剔除提出的保守门。黄老师此前“每个正向推荐至少引用 2 条
+            evidence”是 LLM 推荐要求，不能被偷换成 hard threshold 已获批准。
+          </div>
+        </div>
+      </section>
+
+      <section id="rules">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Future deterministic rules</p>
+            <h2>未来可能开放的确定性规则</h2>
+          </div>
+        </div>
+
+        <div class="rule-grid">
+          <article class="rule-card oxygen">
+            <span class="badge pending">T2 / T3 future only</span>
+            <h3 style="margin-top:8px">Oxygen：只认 strict obligate conflict</h3>
+            <div class="mini-flow">
+              <span>aerobic 场景</span>+
+              <span>obligate anaerobic</span>→
+              <span>future hard conflict</span>
+            </div>
+            <div class="mini-flow">
+              <span>anaerobic 场景</span>+
+              <span>obligate aerobic</span>→
+              <span>future hard conflict</span>
+            </div>
+            <ul>
+              <li>facultative 不自动排除。</li>
+              <li>普通 aerobic/anaerobic 不提升为 obligate。</li>
+              <li>anoxic / unspecified 暂无 hard rule。</li>
+              <li>AI、缺失或冲突记录不触发 hard。</li>
+            </ul>
+          </article>
+
+          <article class="rule-card interval">
+            <span class="badge pending">T3 future only</span>
+            <h3 style="margin-top:8px">数值 Trait：只认完整区间无交集</h3>
+            <div class="mini-flow">
+              <span>valid minimum + maximum</span>→
+              <span>organism interval</span>∩
+              <span>confirmed scenario interval</span>→
+              <span>empty = conflict</span>
+            </div>
+            <ul>
+              <li>temperature：Celsius。</li>
+              <li>pH：pH。</li>
+              <li>salinity：% NaCl (w/v)。</li>
+              <li>缺一侧边界、只有 growth median 或混合单位：soft/unknown。</li>
+              <li>单维相容不等于整体适合污水工艺。</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="options">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Three fixed options</p>
+            <h2>T1 / T2 / T3 完整对比</h2>
+          </div>
+        </div>
+
+        <div class="option-grid">
+          <article class="option t1">
+            <div class="option-label">T1</div>
+            <h3>全部 soft</h3>
+            <span class="badge good">学生侧推荐</span>
+            <div class="current">当前：全部 soft；自动剔除 0</div>
+            <div class="future">
+              <strong>未来：</strong>
+              不预先批准 hard threshold。等 official snapshot、exact-ID 和更多证据形成后
+              再做一次专家 review。
+            </div>
+            <div class="metric-stack">
+              <div class="metric-line">
+                <span>与黄老师 v1</span><strong>完全一致</strong>
+              </div>
+              <div class="metric-line">
+                <span>错杀风险</span><strong>最低</strong>
+              </div>
+              <div class="metric-line">
+                <span>自动过滤能力</span><strong>最低</strong>
+              </div>
+              <div class="metric-line">
+                <span>依赖 W1/W2</span><strong>否</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="option t2">
+            <div class="option-label">T2</div>
+            <h3>仅 oxygen 分阶段 hard</h3>
+            <span class="badge pending">保守升级备选</span>
+            <div class="current">当前：全部 soft；自动剔除 0</div>
+            <div class="future">
+              <strong>未来：</strong>
+              G1–G6、H1–H7 和黄老师授权全部通过后，仅 strict obligate oxygen conflict
+              可 hard reject。
+            </div>
+            <div class="metric-stack">
+              <div class="metric-line">
+                <span>当前与 v1</span><strong>一致</strong>
+              </div>
+              <div class="metric-line">
+                <span>未来 hard 范围</span><strong>strict oxygen</strong>
+              </div>
+              <div class="metric-line">
+                <span>错杀风险</span><strong>低到中</strong>
+              </div>
+              <div class="metric-line">
+                <span>依赖 W1/W2</span><strong>否</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="option t3">
+            <div class="option-label">T3</div>
+            <h3>四项分阶段 hard</h3>
+            <span class="badge hard">风险最高</span>
+            <div class="current">当前：全部 soft；自动剔除 0</div>
+            <div class="future">
+              <strong>未来：</strong>
+              strict oxygen + temperature/pH/salinity 完整区间无交集可以 hard reject；
+              真实项目范围优先。
+            </div>
+            <div class="metric-stack">
+              <div class="metric-line">
+                <span>当前与 v1</span><strong>一致</strong>
+              </div>
+              <div class="metric-line">
+                <span>未来 hard 范围</span><strong>4 traits</strong>
+              </div>
+              <div class="metric-line">
+                <span>错杀风险</span><strong>最高</strong>
+              </div>
+              <div class="metric-line">
+                <span>依赖场景区间</span><strong>是</strong>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="table-wrap" style="margin-top:16px">
+          <table>
+            <thead>
+              <tr>
+                <th>维度</th>
+                <th>T1</th>
+                <th>T2</th>
+                <th>T3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>当前 hard</strong></td>
+                <td>否</td>
+                <td>否</td>
+                <td>否</td>
+              </tr>
+              <tr>
+                <td><strong>当前五样本自动剔除</strong></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td><strong>未来 hard 范围</strong></td>
+                <td>无</td>
+                <td>strict obligate oxygen conflict</td>
+                <td>oxygen + 三个数值区间无交集</td>
+              </tr>
+              <tr>
+                <td><strong>当前证据直接支持度</strong></td>
+                <td>最高</td>
+                <td>仅支持未来保守提案</td>
+                <td>最低，需更多验证</td>
+              </tr>
+              <tr>
+                <td><strong>错杀风险</strong></td>
+                <td>最低</td>
+                <td>低到中</td>
+                <td>最高</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="recommendation">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Student recommendation</p>
+            <h2>学生侧建议</h2>
+          </div>
+        </div>
+
+        <div class="recommendation">
+          <div class="choice">
+            <div>
+              <div class="letter">T1</div>
+              <span>建议维持全部 soft</span>
+            </div>
+          </div>
+          <div>
+            <h3>当前建议 T1；若预留升级方向，T2 比 T3 稳妥</h3>
+            <ul>
+              <li>official versioned snapshot 尚未取得。</li>
+              <li>exact tax-ID → Trait 路径未闭合。</li>
+              <li>working summaries 是 species-name aggregates。</li>
+              <li>biofilm 0/5；safety 4/5 且必须人工复核。</li>
+              <li>多个数值边界记录主要是 AI-derived。</li>
+              <li>W1/W2 尚未被验证为通用 hard threshold。</li>
+            </ul>
+            <p>
+              如果刘老师希望现在给未来留一个最保守的自动过滤方向，可以选择 T2；
+              但在 G/H 门和黄老师授权前，实际行为仍然是 T1。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="choice">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Liu-teacher selection</p>
+            <h2>刘老师正式勾选区</h2>
+          </div>
+        </div>
+
+        <div class="choice-form">
+          <div class="choice-box recommended">
+            <div class="choice-title"><span class="checkbox"></span>T1：全部 soft</div>
+            <p>
+              学生侧推荐。不预先批准 future hard threshold；等数据面、exact-ID 和更多证据
+              成熟后重新 review。
+            </p>
+          </div>
+          <div class="choice-box">
+            <div class="choice-title"><span class="checkbox"></span>T2：oxygen-only</div>
+            <p>
+              当前全部 soft；未来所有 G/H 门通过且黄老师授权后，仅 strict obligate oxygen
+              conflict 可 hard reject。
+            </p>
+          </div>
+          <div class="choice-box">
+            <div class="choice-title"><span class="checkbox"></span>T3：四项 staged hard</div>
+            <p>
+              当前全部 soft；未来可开放 oxygen 和三个数值区间。真实项目范围优先，
+              W1/W2 只是待审核演示值。
+            </p>
+          </div>
+        </div>
+
+        <div class="callout warn">
+          勾选只确定生物学策略。选择结果还要写入最终冻结合同和黄老师裁定卡；
+          黄老师未授权前不实现 M4b，不自动剔除任何真实候选菌。
+        </div>
+      </section>
+
+      <section id="scenarios">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Student demo ranges</p>
+            <h2>W1 / W2 只是什么演示</h2>
+          </div>
+        </div>
+
+        <div class="scenario-zone">
+          <div class="scenario-grid">
+            <article class="scenario">
+              <span class="badge pending">W1 · demo</span>
+              <h3 style="margin-top:8px">Conventional aerobic</h3>
+              <p>
+                aerobic · 15–35 °C · pH 6.5–8.5 · salinity 0–1.0% NaCl (w/v)
+              </p>
+            </article>
+            <article class="scenario">
+              <span class="badge pending">W2 · demo</span>
+              <h3 style="margin-top:8px">Mesophilic anaerobic</h3>
+              <p>
+                anaerobic · 30–40 °C · pH 6.8–7.8 · salinity 0–1.0% NaCl (w/v)
+              </p>
+            </article>
+          </div>
+          <div class="callout danger">
+            W1/W2 是学生侧演示默认，等待生物学专家 review；不是国际统一标准，不覆盖所有
+            污水工艺，也没有在当前五样本上证明可安全 hard filtering。真实项目确认范围优先。
+          </div>
+        </div>
+      </section>
+
+      <section id="workflow">
+        <div class="section-head">
+          <div>
+            <p class="kicker">After expert decisions</p>
+            <h2>两项专家选择完成后的固定流程</h2>
+          </div>
+        </div>
+
+        <div class="workflow">
+          <div class="workflow-step">
+            <b>记录专家原始选择</b>
+            <span>A/B/C 与 T1/T2/T3，不回填成学生推荐。</span>
+          </div>
+          <div class="workflow-step">
+            <b>写冻结合同</b>
+            <span>分别形成反应预测和 D4 专家选择后合同。</span>
+          </div>
+          <div class="workflow-step">
+            <b>写最终方案</b>
+            <span>当前/未来策略、证据门、阈值、禁止动作。</span>
+          </div>
+          <div class="workflow-step">
+            <b>填黄老师裁定卡</b>
+            <span>申请最小 pilot / M4b 范围，不擅自执行。</span>
+          </div>
+          <div class="workflow-step">
+            <b>酶/微生物分仓</b>
+            <span>分别更新两个 teacher-deliverables 仓库。</span>
+          </div>
+          <div class="workflow-step">
+            <b>补 7.23 / 7.24 回复</b>
+            <span>逐项写状态、结果、GitHub 路径、commit。</span>
+          </div>
+          <div class="workflow-step">
+            <b>重新审计和哈希</b>
+            <span>独立审计、SHA256、remote main 核对。</span>
+          </div>
+          <div class="workflow-step">
+            <b>反馈黄老师</b>
+            <span>发送简短结果定位和需授权事项。</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="evidence">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Evidence & audit</p>
+            <h2>证据位置与锁定边界</h2>
+          </div>
+        </div>
+
+        <div class="evidence-grid">
+          <div class="panel">
+            <h3>D5 新合同版证据</h3>
+            <code>https://github.com/bgruiiii/EnzymeCAGE-MetaTraits-Teacher-Deliverables/tree/main/2026-07-24_MT_D5_New_Contract_Reaudit_and_Resubmission</code>
+            <p>commit：</p>
+            <code>48c6e80be60cca285540c65acc5dd337762ede94</code>
+            <p>
+              学生重审提交完成；新合同版等待老师验收，不借旧验收冒充新验收。
+            </p>
+          </div>
+          <div class="panel">
+            <h3>详细 Markdown 与独立审计</h3>
+            <p>本 HTML 同目录的权威详细卡：</p>
+            <code>M3_D4_WASTEWATER_TRAIT_POLICY_BIOLOGICAL_SELECTION_CARD_2026-07-26.md</code>
+            <p>独立审计：</p>
+            <code>04_Local_Review_Audits/ENZYMECAGE_M3_D4_WASTEWATER_TRAIT_POLICY_BIOLOGICAL_SELECTION_CARD_LOCAL_AUDIT_2026-07-26.md</code>
+          </div>
+        </div>
+
+        <details>
+          <summary>选择前保持锁定的事项</summary>
+          <div>
+            <ul>
+              <li>当前全部 Trait 继续 soft。</li>
+              <li>biofilm 继续 unused / unknown。</li>
+              <li>safety/pathogenicity 继续人工复核。</li>
+              <li>exact-ID 未闭时禁止 hard rejection。</li>
+              <li>official snapshot 未取得时禁止 production。</li>
+              <li>No robust majority 不作负证据。</li>
+              <li>AI record 不触发 hard rejection。</li>
+              <li>species summary 不继承到 exact strain。</li>
+              <li>W1/W2 不冒充统一行业标准。</li>
+              <li>不提前实现 M4b/M4c 活代码。</li>
+            </ul>
+          </div>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        EnzymeCAGE M3-D4 · 老师展示版 · 2026-07-26<br>
+        单文件离线 HTML；支持浏览器打印为 PDF。
+      </p>
+      <p class="print-only">打印件以对应详细 Markdown 和独立审计为证据权威来源。</p>
+    </footer>
+  </div>
+</body>
+</html>

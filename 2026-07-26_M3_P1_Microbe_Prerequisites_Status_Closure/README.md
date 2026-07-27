@@ -29,6 +29,10 @@ separates:
 - the one D4 expert-upgrade question for the biological meeting;
 - work that remains locked.
 
+The organism-ID negative finding is now also reported under explicit
+`exact_strain` / `exact_species` / `no_exact_match_established` classes in the
+D5 new-contract directory. The current counts are `0 / 0 / 10`.
+
 ## Authority copies
 
 `authority_reference/` contains byte-identical copies of:
