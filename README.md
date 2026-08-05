@@ -1,5 +1,19 @@
 # MetaTraits Teacher Deliverables
 
+## Current 2026-08-03 teacher-requirement reconfirmation — 2026-08-04
+
+The latest MetaTraits / bacteria-layer reconfirmation package has been pushed
+and is placed at repository root so completed work is visible from the GitHub
+homepage:
+
+- [`M3_2026_08_03_METATRAITS_REQUIREMENTS_RECONFIRMATION_INDEX_2026-08-04.md`](M3_2026_08_03_METATRAITS_REQUIREMENTS_RECONFIRMATION_INDEX_2026-08-04.md)
+- [`2026-08-04_M3_Bacteria_Layer_D1_D8_Confidence_and_Task7_Reconfirmation/`](2026-08-04_M3_Bacteria_Layer_D1_D8_Confidence_and_Task7_Reconfirmation/)
+
+Status: D5, D1--D8, enzyme-to-organism confidence, organism-ID alignment,
+wastewater soft-trait policy, and Task 7 `not_applicable` contract have been
+reconfirmed with explicit evidence paths. M4b/M4c remain locked unless Huang
+laoshi separately authorizes implementation.
+
 ## Final 07-23/07-24 response and D4 soft decision — 2026-07-27
 
 The complete item-by-item response is placed directly at repository root so

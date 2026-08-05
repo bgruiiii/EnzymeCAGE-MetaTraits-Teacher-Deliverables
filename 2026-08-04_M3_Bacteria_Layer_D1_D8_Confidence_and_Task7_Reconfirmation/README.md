@@ -1,7 +1,7 @@
 # M3 菌层 D1-D8 / confidence / Task7 再确认包
 
 日期：2026-08-04  
-状态：本地 teacher-deliverables 可审阅包，待统一 GitHub push。  
+状态：已 GitHub 同步的 teacher-deliverables 可审阅包。
 目的：回应黄老师 2026-08-03 清单中菌层下半链相关要求，并避免“之前已经做过但老师没看到路径”的问题。
 
 ## 1. 本包覆盖什么
