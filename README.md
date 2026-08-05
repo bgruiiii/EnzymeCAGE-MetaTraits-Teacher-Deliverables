@@ -1,5 +1,13 @@
 # MetaTraits Teacher Deliverables
 
+## 老师当前优先审阅入口 — 2026-08-05
+
+请优先打开：
+
+- [`00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/`](00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/)
+
+该文件夹汇总了当前最新回应、已完成证据路径、仍保持锁定的 M4b/M4c 边界，以及仍需老师或外部维护方闭合的问题。根目录中保留历史文件是为了不破坏此前已经发给老师的旧 GitHub 链接；当前审阅请以本入口和下方最新回应为准。
+
 ## Current 2026-08-03 teacher-requirement reconfirmation — 2026-08-04
 
 The latest MetaTraits / bacteria-layer reconfirmation package has been pushed
