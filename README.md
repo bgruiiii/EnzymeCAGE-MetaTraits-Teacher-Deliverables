@@ -1,5 +1,32 @@
 # MetaTraits Teacher Deliverables
 
+## 老师当前优先审阅入口 — 2026-08-12
+
+请优先打开本次新增交付包：
+
+- [`2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/`](2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/)
+
+本次交付包汇总了 EnzymeCAGE 微生物侧 MetaTraits 与 BacDive 的最新探索结果：MetaTraits 作为物种级主性状矩阵来源，BacDive 作为菌株身份、代表菌株可获得性、保藏编号、培养基和分离来源补充来源。
+
+核心结果：
+
+- final clean microbe source universe: 2,478 source_signatures / 145,607 enzyme-source rows；
+- MetaTraits 覆盖 1,638 / 2,478 source_signatures = 66.1%，confirmed covered source 平均约 156.8 个 unique trait_name；
+- BacDive closure 后 validated species-or-better 覆盖 1,746 / 2,478 = 70.5%，row-weighted 83.3%；
+- BacDive exact_strain_main 覆盖 597 / 2,478 = 24.1%，hard exact 覆盖 555 / 2,478 = 22.4%；
+- BacDive 与 MetaTraits main-policy overlap: both covered 1,508，BacDive only 238，MetaTraits only 130，neither 602；
+- BacDive species-level representative strain expansion v2: 1,149 / 1,149 species-level BacDive hits 均有至少一个 representative strain record 和至少一个 culture collection number。
+
+建议阅读顺序：
+
+1. [`2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/README.md`](2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/README.md)
+2. [`03_bacdive_vs_metatraits_trait_comparison/BACDIVE_VS_METATRAITS_TRAIT_AVAILABILITY_COMPARISON_2026-08-12.md`](2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/03_bacdive_vs_metatraits_trait_comparison/BACDIVE_VS_METATRAITS_TRAIT_AVAILABILITY_COMPARISON_2026-08-12.md)
+3. [`02_bacdive_full_closure/CODEX_LOCAL_AUDIT_BACDIVE_FULL_CLOSURE_2478_2026-08-12.md`](2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/02_bacdive_full_closure/CODEX_LOCAL_AUDIT_BACDIVE_FULL_CLOSURE_2478_2026-08-12.md)
+4. [`04_bacdive_species_representative_strain_expansion/CODEX_AUDIT_BACDIVE_SPECIES_REPRESENTATIVE_STRAIN_EXPANSION_V2_2026-08-12.md`](2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/04_bacdive_species_representative_strain_expansion/CODEX_AUDIT_BACDIVE_SPECIES_REPRESENTATIVE_STRAIN_EXPANSION_V2_2026-08-12.md)
+
+解释边界：MetaTraits 是 species-level trait source，不写成 strain-level trait；BacDive species-level representative strain records 不写成原始 UniProt exact strain；exact-strain evidence 按 main/conservative/hard policy 分层。历史文件保留用于追溯，当前审阅以本 2026-08-12 入口为准。
+
+
 ## 老师当前优先审阅入口 — 2026-08-05
 
 请优先打开：

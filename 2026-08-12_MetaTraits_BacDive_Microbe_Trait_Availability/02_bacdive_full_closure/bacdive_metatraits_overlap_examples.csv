@@ -1,0 +1,369 @@
+overlap_bin_main,source_signature,row_count,taxonomy_group,bacdive_status_closure,metatraits_covered
+metatraits_only,proteome:UP000001806,228,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000000806,288,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:575|organism:raoultella planticola (klebsiella planticola),2,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:577|organism:raoultella terrigena (klebsiella terrigena),5,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:573|organism:klebsiella pneumoniae,53,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000000601,183,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000889800,194,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000000364,140,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000000416,233,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000000800,98,target_bacteria,bacdive_exact_designation,False
+bacdive_only,taxon:83558|organism:chlamydia pneumoniae (chlamydophila pneumoniae),105,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000000431,101,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001022,170,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000000554,193,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:29449|organism:rhizobium etli,5,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000001976,377,target_bacteria,bacdive_species_taxid_or_synonym_match,False
+bacdive_only,proteome:UP000001321,125,target_archaea,bacdive_exact_genome,False
+bacdive_only,proteome:UP000002698,126,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000000365,83,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000000740,56,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001169,154,target_archaea,bacdive_exact_genome,False
+bacdive_only,proteome:UP000001975,85,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001941,115,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000000663,86,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001931,112,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000005223,330,target_archaea,bacdive_exact_genome,False
+bacdive_only,proteome:UP000000240,123,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000001747,65,target_archaea,bacdive_not_found,True
+metatraits_only,proteome:UP000001350,65,target_archaea,bacdive_not_found,True
+metatraits_only,proteome:UP000002307,66,target_archaea,bacdive_not_found,True
+metatraits_only,proteome:UP000002308,67,target_archaea,bacdive_not_found,True
+metatraits_only,proteome:UP000006818,65,target_archaea,bacdive_not_found,True
+metatraits_only,proteome:UP000001479,66,target_archaea,bacdive_not_found,True
+bacdive_only,proteome:UP000000674,97,target_archaea,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000000435,60,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000000533,58,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000001021,57,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000000805,454,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP001154402,65,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP001154401,61,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000008330,137,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000001600,144,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000001596,117,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000006575,192,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001260,76,target_bacteria,bacdive_exact_designation,False
+bacdive_only,proteome:UP000001936,203,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000002532,72,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001012,78,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,taxon:163164|organism:wolbachia pipientis wmel,76,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000002193,88,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000006383,133,target_bacteria,bacdive_exact_genome,False
+bacdive_only,proteome:UP000001106,130,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001385,156,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000008545,155,target_bacteria,bacdive_species_taxid_or_synonym_match,False
+bacdive_only,proteome:UP000008842,76,target_bacteria,bacdive_exact_genome,False
+bacdive_only,proteome:UP000002565,135,target_bacteria,bacdive_species_taxid_or_synonym_match,False
+bacdive_only,proteome:UP000001748,139,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000001979,134,target_archaea,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000007058,132,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000002719,194,target_bacteria,bacdive_species_taxid_or_synonym_match,False
+bacdive_only,proteome:UP000000540,194,target_bacteria,bacdive_species_taxid_or_synonym_match,False
+bacdive_only,proteome:UP000000588,105,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000007104,231,target_bacteria,bacdive_species_taxid_or_synonym_match,False
+bacdive_only,proteome:UP000000419,234,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000000253,143,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000001107,146,target_archaea,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000001136,90,target_bacteria,bacdive_species_candidate_unvalidated,True
+metatraits_only,proteome:UP000001591,72,target_bacteria,bacdive_species_candidate_unvalidated,True
+bacdive_only,proteome:UP000002209,32,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000000798,286,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000000590,190,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001414,197,target_bacteria,bacdive_exact_genome,False
+metatraits_only,proteome:UP000001693,109,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000001822,96,target_bacteria,bacdive_exact_genome,False
+metatraits_only,proteome:UP000008332,181,target_bacteria,bacdive_species_candidate_unvalidated,True
+bacdive_only,proteome:UP000001007,185,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001826,202,target_archaea,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000002596,141,target_bacteria,bacdive_species_candidate_unvalidated,True
+metatraits_only,proteome:UP000000450,110,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000008808,98,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000001025,177,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000002200,76,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:218496|organism:tropheryma whipplei (strain tw08/27) (whipple's bacillus),78,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000000595,259,target_archaea,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000002588,150,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000009159,150,target_bacteria,bacdive_species_candidate_unvalidated,True
+metatraits_only,proteome:UP000006695,137,target_bacteria,bacdive_species_candidate_unvalidated,True
+bacdive_only,proteome:UP000006394,90,target_bacteria,bacdive_exact_genome,False
+bacdive_only,proteome:UP000001191,134,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000008825,127,target_bacteria,bacdive_species_candidate_unvalidated,True
+metatraits_only,proteome:UP000001943,45,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000008674,112,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000002533,185,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000006731,165,target_bacteria,bacdive_exact_genome,False
+bacdive_only,proteome:UP000002197,156,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000002487,284,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000006694,98,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000001572,120,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000007137,94,target_bacteria,bacdive_species_candidate_unvalidated,True
+metatraits_only,proteome:UP000008323,15,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000001681,129,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000001870,85,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000001934,24,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000001175,157,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000002523,25,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000002861,120,target_bacteria,bacdive_exact_genome,False
+metatraits_only,taxon:234826|organism:anaplasma marginale (strain st. maries),66,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000000265,324,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000001510,120,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000000611,23,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000000612,22,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000001734,311,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000000669,46,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000005216,45,target_bacteria,bacdive_species_candidate_unvalidated,True
+metatraits_only,proteome:UP000002432,112,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000000256,115,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000001691,51,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:561501|organism:buchnera aphidicola subsp. acyrthosiphon pisum (strain tuc7),100,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000006904,102,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000001383,91,target_bacteria,bacdive_species_candidate_unvalidated,True
+bacdive_only,proteome:UP000007723,104,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000000607,223,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000008701,124,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000009173,120,target_bacteria,bacdive_species_candidate_unvalidated,True
+metatraits_only,proteome:UP000000370,89,target_bacteria,bacdive_species_candidate_unvalidated,True
+bacdive_only,proteome:UP000008841,106,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000008811,121,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001208,104,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000002725,100,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000002724,110,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000002709,138,target_bacteria,bacdive_species_taxid_or_synonym_match,False
+metatraits_only,proteome:UP000002194,149,target_bacteria,bacdive_species_candidate_unvalidated,True
+metatraits_only,proteome:UP000002276,49,target_bacteria,bacdive_species_candidate_unvalidated,True
+metatraits_only,proteome:UP000002162,23,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000000423,38,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000000562,116,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000000548,29,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000000549,30,target_bacteria,bacdive_species_candidate_unvalidated,True
+metatraits_only,proteome:UP000000553,29,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000006822,30,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000006647,41,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000007065,15,target_bacteria,bacdive_species_candidate_unvalidated,True
+metatraits_only,proteome:UP000009072,33,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000001992,104,target_archaea,bacdive_exact_genome,False
+bacdive_only,taxon:2186|organism:methanothermococcus thermolithotrophicus (methanococcus thermolithotrophicus),7,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:309800|organism:haloferax volcanii (strain atcc 29605 / dsm 3757 / jcm 8879 / nbrc 14742 / ncimb 2012 / vkm b-1768 / ds2) (halobacterium volcanii),27,target_archaea,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000007307,30,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000006830,61,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000002305,53,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000005015,52,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000008548,115,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:391896|organism:rickettsia bellii (strain osu 85-389),59,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000001951,108,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000000233,172,target_bacteria,bacdive_species_candidate_unvalidated,True
+metatraits_only,proteome:UP000006900,103,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000008817,138,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:28442|organism:haloarcula vallismortis (halobacterium vallismortis),3,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:2180|organism:methanothermus fervidus,9,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:2161|organism:methanobacterium bryantii,4,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:2162|organism:methanobacterium formicicum,2,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000002146,95,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000002408,104,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,taxon:548|organism:klebsiella aerogenes (enterobacter aerogenes),24,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000006633,5,target_bacteria,bacdive_species_candidate_unvalidated,True
+bacdive_only,taxon:387|organism:rhizobium leguminosarum bv. viciae,6,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,taxon:1394|organism:bacillus caldolyticus,13,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:386|organism:rhizobium leguminosarum bv. trifolii,5,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:1092|organism:chlorobium limicola,2,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000002361,75,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:1061|organism:rhodobacter capsulatus (rhodopseudomonas capsulata),42,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,taxon:118109|organism:buchnera aphidicola subsp. rhopalosiphum maidis,2,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:98793|organism:buchnera aphidicola subsp. rhopalosiphum padi,6,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000000566,104,target_bacteria,bacdive_exact_genome,False
+bacdive_only,proteome:UP000000345,65,target_archaea,bacdive_exact_genome,False
+bacdive_only,proteome:UP000007013,50,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,taxon:118110|organism:buchnera aphidicola subsp. schlechtendalia chinensis,20,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:118101|organism:buchnera aphidicola subsp. diuraphis noxia,21,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:118103|organism:buchnera aphidicola subsp. melaphis rhois,16,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000008243,50,target_archaea,bacdive_exact_genome,False
+bacdive_only,taxon:2188|organism:methanococcus voltae,13,target_archaea,bacdive_species_exact_name_match,False
+metatraits_only,taxon:33953|organism:clostridium aminobutyricum,2,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:627192|organism:sphingobium sp. (strain nbrc 103272 / syk-6),21,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000066529,3,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000002315,19,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,taxon:29345|organism:sedimentibacter hydroxybenzoicus (clostridium hydroxybenzoicum),3,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000001031,56,target_bacteria,bacdive_exact_genome,False
+bacdive_only,taxon:2208|organism:methanosarcina barkeri,12,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:2187|organism:methanococcus vannielii,14,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000002457,68,target_archaea,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000008544,71,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000002028,3,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,taxon:779|organism:ehrlichia ruminantium (cowdria ruminantium),4,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:769|organism:anaplasma centrale,2,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000001205,18,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:1098|organism:prosthecochloris vibrioformis (chlorobium vibrioforme),2,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:382|organism:rhizobium meliloti (ensifer meliloti) (sinorhizobium meliloti),25,target_bacteria,bacdive_species_taxid_or_synonym_match,False
+bacdive_only,taxon:2209|organism:methanosarcina mazei (methanosarcina frisia),1,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:2210|organism:methanosarcina thermophila,7,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:172045|organism:elizabethkingia miricola (chryseobacterium miricola),1,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:2242|organism:halobacterium salinarum (halobacterium halobium),2,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:839|organism:xylanibacter ruminicola (prevotella ruminicola),2,target_bacteria,bacdive_species_taxid_or_synonym_match,False
+metatraits_only,proteome:UP000001686,29,target_archaea,bacdive_not_found,True
+metatraits_only,taxon:29303|organism:streptantibioticus cattleyicolor (streptomyces cattleya),4,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:571|organism:klebsiella oxytoca,17,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:2246|organism:haloferax volcanii (halobacterium volcanii),2,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:358|organism:agrobacterium tumefaciens,13,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:398|organism:rhizobium tropici,8,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000016160,3,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,taxon:362|organism:agrobacterium radiobacter,5,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:2189|organism:methanotorris igneus (methanococcus igneus),1,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000006469,4,target_archaea,bacdive_exact_genome,False
+bacdive_only,taxon:471472|organism:chlamydia trachomatis serovar l2 (strain atcc vr-902b / dsm 19102 / 434/bu),1,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,taxon:813|organism:chlamydia trachomatis,1,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:83554|organism:chlamydia psittaci (chlamydophila psittaci),1,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000002664,2,target_archaea,bacdive_not_found,True
+metatraits_only,proteome:UP000000578,5,target_archaea,bacdive_not_found,True
+bacdive_only,proteome:UP000007843,2,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:29549|organism:rhodothermus marinus (rhodothermus obamensis),5,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:2173|organism:methanobrevibacter smithii,5,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:817|organism:bacteroides fragilis,6,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:373|organism:agrobacterium vitis (rhizobium vitis),37,target_bacteria,bacdive_species_taxid_or_synonym_match,False
+bacdive_only,taxon:272131|organism:nostoc punctiforme,2,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,taxon:118118|organism:buchnera aphidicola subsp. uroleucon sonchi,3,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:118117|organism:buchnera aphidicola subsp. uroleucon ambrosiae,4,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:837|organism:porphyromonas gingivalis (bacteroides gingivalis),1,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000001296,2,target_bacteria,bacdive_species_taxid_or_synonym_match,False
+bacdive_only,taxon:523841|organism:haloferax mediterranei (strain atcc 33500 / dsm 1411 / jcm 8866 / nbrc 14739 / ncimb 2177 / r-4) (halobacterium mediterranei),10,target_archaea,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000014070,1,target_archaea,bacdive_not_found,True
+bacdive_only,proteome:UP000008514,1,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001635,1,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000011559,1,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000011571,1,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001059,6,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000000391,5,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000008680,9,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000006622,3,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000007360,1,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,taxon:143495|organism:aneurinibacillus thermoaerophilus,9,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:264691|organism:anabaena variabilis,2,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,taxon:526|organism:acidiphilium rubrum,4,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:331636|organism:chlamydophila psittaci (strain atcc vr-125 / 6bc) (chlamydia psittaci),3,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,taxon:1126|organism:microcystis aeruginosa,6,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000007485,4,target_archaea,bacdive_not_found,True
+bacdive_only,proteome:UP000001903,10,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001882,7,target_archaea,bacdive_exact_culture_collection,False
+metatraits_only,taxon:1921421|organism:geobacillus genomosp. 3,3,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000005475,2,target_bacteria,bacdive_exact_genome,False
+bacdive_only,taxon:28454|organism:sphingobacterium multivorum,2,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:258|organism:sphingobacterium spiritivorum (flavobacterium spiritivorum),2,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000002061,6,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000002063,6,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,taxon:59374|organism:fibrobacter succinogenes (strain atcc 19169 / s85),6,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,taxon:48984|organism:pantoea agglomerans pv. gypsophilae (erwinia herbicola),2,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:359|organism:rhizobium rhizogenes (agrobacterium rhizogenes),6,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:39152|organism:methanococcus maripaludis (methanococcus deltae),3,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:640131|organism:klebsiella variicola (strain at-22),10,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000001702,10,target_bacteria,bacdive_species_candidate_unvalidated,True
+bacdive_only,proteome:UP000005629,7,target_archaea,bacdive_exact_genome,False
+bacdive_only,taxon:385|organism:rhizobium leguminosarum bv. phaseoli,4,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:350893|organism:flavobacterium daejeonense,1,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000198757,1,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,taxon:641143|organism:capnocytophaga granulosa (strain atcc 51502 / dsm 11449 / jcm 8566 / lmg 16022 / nctc 12948 / b0611),2,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,taxon:1220575|organism:sphingobacterium faecium (strain dsm 11690 / jcm 21820 / nbrc 15299 / ncimb 13408 / ks 0470),1,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000183442,4,target_archaea,bacdive_exact_culture_collection,False
+metatraits_only,taxon:72607|organism:acinetobacter genomosp. 13,1,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:399|organism:neorhizobium galegae (rhizobium galegae),1,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000007842,15,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:787|organism:rickettsia australis,1,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:786|organism:rickettsia akari,1,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:35789|organism:rickettsia helvetica,3,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:35792|organism:rickettsia parkeri,3,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:33992|organism:rickettsia rhipicephali,3,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:33990|organism:rickettsia bellii,1,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000005443,1,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000008630,1,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000008560,3,target_bacteria,bacdive_exact_designation,False
+metatraits_only,proteome:UP000033699,16,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000002071,2,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000000390,3,target_archaea,bacdive_exact_genome,False
+bacdive_only,proteome:UP000001746,3,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001879,4,target_archaea,bacdive_exact_genome,False
+bacdive_only,proteome:UP000006565,1,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000001495,7,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000007722,5,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000005438,2,target_bacteria,bacdive_exact_genome,False
+bacdive_only,proteome:UP000009227,3,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000009296,2,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000007807,2,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000007490,2,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000009231,2,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,taxon:256|organism:myroides odoratus (flavobacterium odoratum),1,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,taxon:46770|organism:cenarchaeum symbiosum,1,target_archaea,bacdive_not_found,True
+bacdive_only,taxon:347834|organism:rhizobium etli (strain atcc 51251 / dsm 11541 / jcm 21823 / nbrc 15573 / cfn 42),1,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,taxon:2099|organism:mesomycoplasma hyopneumoniae (mycoplasma hyopneumoniae),2,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:57174|organism:caldococcus noboribetus,1,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:1223|organism:prochlorothrix hollandica,4,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,taxon:37692|organism:apple proliferation phytoplasma,2,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:979|organism:cellulophaga lytica (cytophaga lytica),3,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:249|organism:terrimonas ferruginea (flavobacterium ferrugineum),2,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:364030|organism:thiomonas delicata (thiomonas cuprina),2,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:145261|organism:methanothermobacter wolfeii (methanobacterium wolfei),2,target_archaea,bacdive_species_taxid_or_synonym_match,False
+bacdive_only,proteome:UP000198521,4,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,taxon:34058|organism:methylobacter marinus,3,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:145262|organism:methanothermobacter thermautotrophicus (methanobacterium thermoformicicum),1,target_archaea,bacdive_species_taxid_or_synonym_match,False
+metatraits_only,proteome:UP000002734,4,target_bacteria,bacdive_species_candidate_unvalidated,True
+metatraits_only,proteome:UP000001446,1,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000006872,2,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000006876,1,target_bacteria,bacdive_species_candidate_unvalidated,True
+bacdive_only,taxon:54291|organism:raoultella ornithinolytica (klebsiella ornithinolytica),1,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,taxon:882102|organism:vibrio anguillarum (strain atcc 68554 / 775) (listonella anguillarum),2,target_bacteria,bacdive_species_candidate_unvalidated,True
+bacdive_only,proteome:UP000002215,4,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000001303,1,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:2223|organism:methanothrix soehngenii (methanosaeta concilii),2,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:41170|organism:exiguobacterium acetylicum (brevibacterium acetylicum),4,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000006073,1,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,taxon:2221|organism:methanolobus tindarius,1,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:39831|organism:klebsiella pneumoniae subsp. rhinoscleromatis,1,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:244366|organism:klebsiella variicola,1,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:262320|organism:flavobacterium frigidimaris,1,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,taxon:98797|organism:buchnera aphidicola subsp. thelaxes suberi,3,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000000933,1,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000000377,5,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:48665|organism:streptomyces viridifaciens,4,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000007954,1,target_archaea,bacdive_exact_culture_collection,False
+bacdive_only,taxon:238|organism:elizabethkingia meningoseptica (chryseobacterium meningosepticum),8,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,taxon:1945|organism:streptomyces jumonjinensis,1,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:384|organism:rhizobium leguminosarum,1,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000001654,1,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,taxon:746361|organism:lactococcus lactis subsp. cremoris (strain nz9000),3,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,taxon:2181|organism:methanothermus sociabilis,1,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,taxon:106592|organism:ensifer adhaerens (sinorhizobium morelense),1,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000075583,1,target_bacteria,bacdive_exact_genome,False
+bacdive_only,taxon:42879|organism:methanococcus aeolicus,1,target_archaea,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000008461,10,target_bacteria,bacdive_exact_genome,False
+bacdive_only,proteome:UP000002220,1,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,taxon:55952|organism:streptomyces toyocaensis,1,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000006794,6,target_archaea,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000000323,1,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:411468|organism:clostridium scindens (strain atcc 35704 / dsm 5676 / vpi 13733 / 19),4,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000008916,1,target_bacteria,bacdive_species_candidate_unvalidated,True
+bacdive_only,taxon:480520|organism:myroides profundi,1,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,taxon:98792|organism:buchnera aphidicola subsp. pterocomma populeum,1,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:212194|organism:mycobacterium sp. (strain dsm 3803 / jc1),1,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000093197,2,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000001700,1,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:929705|organism:sulfobacillus thermosulfidooxidans (strain dsm 9293 / vkm b-1269 / at-1),1,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,taxon:1044|organism:erythrobacter longus,3,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000011524,3,target_archaea,bacdive_exact_genome,False
+metatraits_only,proteome:UP000028341,2,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000017700,2,target_bacteria,bacdive_not_found,True
+metatraits_only,taxon:104623|organism:serratia sp. (strain atcc 39006) (prodigiosinella confusarubida),1,target_bacteria,bacdive_not_found,True
+bacdive_only,taxon:818|organism:bacteroides thetaiotaomicron,3,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000305881,2,target_bacteria,bacdive_not_found,True
+metatraits_only,proteome:UP000002805,2,target_bacteria,bacdive_species_candidate_unvalidated,True
+metatraits_only,proteome:UP000001916,1,target_bacteria,bacdive_species_candidate_unvalidated,True
+bacdive_only,proteome:UP000007254,1,target_bacteria,bacdive_species_taxid_or_synonym_match,False
+metatraits_only,proteome:UP000002785,2,target_bacteria,bacdive_not_found,True
+bacdive_only,proteome:UP000002256,2,target_bacteria,bacdive_species_exact_name_match,False
+metatraits_only,proteome:UP000001627,1,target_bacteria,bacdive_species_candidate_unvalidated,True
+bacdive_only,taxon:762570|organism:rhodothermus marinus (strain sg0.5jp17-172),2,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000004478,2,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000006690,4,target_bacteria,bacdive_species_candidate_unvalidated,True
+bacdive_only,proteome:UP000247485,2,target_bacteria,bacdive_species_exact_name_match,False
+bacdive_only,proteome:UP000199679,1,target_bacteria,bacdive_exact_culture_collection,False
+metatraits_only,proteome:UP000032841,1,target_bacteria,bacdive_species_candidate_unvalidated,True
+bacdive_only,proteome:UP000000925,2,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,taxon:662548|organism:variovorax sp. (strain jcm 16519 / ra8),4,target_bacteria,bacdive_exact_culture_collection,False
+bacdive_only,proteome:UP000002970,2,target_bacteria,bacdive_species_exact_name_match,False

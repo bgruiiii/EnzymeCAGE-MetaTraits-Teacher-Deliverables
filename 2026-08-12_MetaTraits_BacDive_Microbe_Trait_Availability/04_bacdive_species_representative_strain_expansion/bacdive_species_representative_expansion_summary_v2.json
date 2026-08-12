@@ -1,0 +1,59 @@
+{
+  "date": "2026-08-12",
+  "version": "v2_allow_validated_bacdive_ids_and_subspecies",
+  "input_results": "/home/a/EnzymeCAGE/custom/docs/enzyme_feature_expansion/ENZYMECAGE_LUCAPCYCLE_MODEL_TRAINING_RUN_2026-07-01/16_MetaTraits_Integration_Research_2026-07-15/bacdive_metatraits_hybrid_probe_2026-08-12/bacdive_full_closure_2478_2026-08-12/bacdive_full_closure_results.jsonl",
+  "scope": "species-level BacDive validated source signatures only; exact-strain rows are not the main expansion target",
+  "source_signature_count": 1149,
+  "row_weighted_count": 68788,
+  "expanded_strain_record_rows": 52956,
+  "sources_with_at_least_one_representative_record": 1149,
+  "sources_without_representative_record": 0,
+  "sources_with_any_culture_collection": 1149,
+  "sources_without_culture_collection": 0,
+  "sources_with_type_strain_record": 1099,
+  "sources_with_any_culture_medium": 1067,
+  "sources_with_any_isolation_source": 1089,
+  "sources_with_any_country": 1030,
+  "sources_with_any_genome_accession": 1086,
+  "total_unique_culture_collection_cells_by_source_sum": 101433,
+  "representative_record_count_per_source": {
+    "min": 1,
+    "median": 12,
+    "mean": 46.0888,
+    "max": 201
+  },
+  "unique_culture_collection_count_per_source": {
+    "min": 1,
+    "median": 32,
+    "mean": 88.2794,
+    "max": 443
+  },
+  "representative_record_count_buckets": {
+    "2-5": 233,
+    "11-50": 296,
+    ">100": 194,
+    "51-100": 117,
+    "1": 186,
+    "6-10": 123
+  },
+  "unique_culture_collection_count_buckets": {
+    "11-50": 412,
+    "51-100": 146,
+    ">100": 317,
+    "2-5": 158,
+    "6-10": 91,
+    "1": 25
+  },
+  "status_counts": {
+    "bacdive_species_exact_name_match": 1101,
+    "bacdive_species_taxid_or_synonym_match": 48
+  },
+  "record_inclusion_basis_counts": {
+    "normalized_species_exact": 46243,
+    "base_binomial_match_or_subspecies": 3535,
+    "validated_bacdive_id_from_closure": 2779,
+    "validated_bacdive_species_exact": 399
+  },
+  "audit_notes_count": 0,
+  "audit_notes_examples": []
+}

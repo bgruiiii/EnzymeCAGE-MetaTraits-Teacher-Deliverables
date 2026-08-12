@@ -1,0 +1,66 @@
+{
+  "source_catalog": "data/processed/rhea/2026-01-21/microbe/taxonomy_filter_2026-04-28/source_signature_catalog_keep_bacteria_fungi_archaea.csv",
+  "uid_catalog": "data/processed/rhea/2026-01-21/microbe/taxonomy_filter_2026-04-28/uid_to_source_keep_bacteria_fungi_archaea.csv",
+  "metatraits_files": {
+    "ncbi_all": "data/metatraits/ncbi_species_summary_all.tsv.gz",
+    "ncbi_no_predictions": "data/metatraits/ncbi_species_summary_no_predictions.tsv.gz",
+    "ncbi2gtdb": "data/metatraits/NCBI2GTDB.tsv.gz",
+    "gtdb_no_predictions": "data/metatraits/gtdb_species_summary_no_predictions.tsv.gz"
+  },
+  "denominator_source_signatures": 3234,
+  "denominator_uid_weight": 168335,
+  "taxonomy_group_counts": {
+    "target_bacteria": 2481,
+    "target_archaea": 178,
+    "target_fungi": 575
+  },
+  "source_resolution_counts": {
+    "proteome": 1357,
+    "taxon_organism": 1877
+  },
+  "metatraits_ncbiall_species_ids": 18262,
+  "metatraits_ncbiall_species_names": 18262,
+  "metatraits_ncbiall_rows": 1902646,
+  "metatraits_ncbino_species_ids": 18258,
+  "metatraits_ncbino_species_names": 18258,
+  "metatraits_ncbino_rows": 430044,
+  "source_signature_coverage": {
+    "ncbi_all_union": {
+      "sources": 1956,
+      "fraction": 0.6048237476808905,
+      "uid_weight": 132001,
+      "uid_fraction": 0.7841565925089851
+    },
+    "ncbi_no_predictions_union": {
+      "sources": 1956,
+      "fraction": 0.6048237476808905,
+      "uid_weight": 132001,
+      "uid_fraction": 0.7841565925089851
+    },
+    "ncbi2gtdb_union": {
+      "sources": 2303,
+      "fraction": 0.7121212121212122,
+      "uid_weight": 157977,
+      "uid_fraction": 0.9384679359610301
+    }
+  },
+  "unique_species_guess_count": 2172,
+  "final_clean_enzyme_to_microbe_source": {
+    "path": "custom/github_upload/reaction_enzyme_microbe_training_clean_2026-06-01/tables/enzyme_to_microbe_source.csv",
+    "unique_source_signatures": 2478,
+    "example_rows": 145607,
+    "unique_species_guess_count": 1722,
+    "metatraits_all_source_signature_union": {
+      "sources": 1638,
+      "fraction": 0.6610169491525424,
+      "row_weight": 114325,
+      "row_fraction": 0.7851614276786143
+    },
+    "metatraits_no_predictions_source_signature_union": {
+      "sources": 1638,
+      "fraction": 0.6610169491525424,
+      "row_weight": 114325,
+      "row_fraction": 0.7851614276786143
+    }
+  }
+}

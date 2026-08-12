@@ -1,0 +1,36 @@
+{
+  "metatraits_overlap_status": "computed",
+  "metatraits_coverage_column": "union_in_ncbi_all",
+  "metatraits_coverage_file_rows": 3234,
+  "bacdive_source_signatures": 2478,
+  "bacdive_row_count_total": 145607,
+  "source_signature_level": {
+    "main": {
+      "both_covered": 1508,
+      "bacdive_only": 238,
+      "metatraits_only": 130,
+      "neither": 602
+    },
+    "conservative": {
+      "both_covered": 472,
+      "bacdive_only": 120,
+      "metatraits_only": 1166,
+      "neither": 720
+    }
+  },
+  "row_weighted": {
+    "main": {
+      "both_covered": 107812,
+      "bacdive_only": 13431,
+      "metatraits_only": 6513,
+      "neither": 17851
+    },
+    "conservative": {
+      "both_covered": 43898,
+      "bacdive_only": 8043,
+      "metatraits_only": 70427,
+      "neither": 23239
+    }
+  },
+  "universe_note": "BacDive has 2478 source_signatures; MetaTraits coverage file has 3234. Match by source_signature. 2478 BacDive signatures found in MetaTraits file."
+}

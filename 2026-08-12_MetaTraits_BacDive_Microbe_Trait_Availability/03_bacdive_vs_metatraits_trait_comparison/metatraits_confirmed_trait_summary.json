@@ -1,0 +1,14 @@
+{
+  "confirmed_covered_sources": 1638,
+  "coverage_fraction_2478": 0.661017,
+  "trait_count_ncbi_all_sum_from_coverage_csv": 256668,
+  "unique_trait_names_reconstructed_confirmed_sources": 923,
+  "unique_group_1": 9,
+  "unique_group_2": 49,
+  "mean_unique_trait_names_per_confirmed_covered_source": 156.761905,
+  "median_unique_trait_names_per_confirmed_covered_source": 154.0,
+  "min_max_unique_trait_names_per_confirmed_covered_source": [
+    2,
+    219
+  ]
+}

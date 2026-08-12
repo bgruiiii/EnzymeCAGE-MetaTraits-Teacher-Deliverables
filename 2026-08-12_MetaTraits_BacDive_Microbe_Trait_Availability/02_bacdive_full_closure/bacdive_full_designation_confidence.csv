@@ -1,0 +1,43 @@
+source_signature,row_count,bacdive_status,designation_confidence,designation_confidence_reason,designation_token_overlap,designation_longest_overlap_len,designation_has_culture_token_overlap,designation_has_taxid_match,matched_bacdive_id,matched_bacdive_species
+taxon:158879|organism:staphylococcus aureus (strain n315),334,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=4),n315,4,False,False,134446,staphylococcus aureus
+proteome:UP000000800,98,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=4),mopn,4,False,False,23837,chlamydia muridarum
+proteome:UP000000811,89,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=7),nichols,7,False,False,176908,treponema pallidum
+taxon:272844|organism:pyrococcus abyssi (strain ge5 / orsay),196,bacdive_exact_designation,designation_medium,"overlapping token length is 3 (longest=3), no stronger evidence",ge5,3,False,False,16859,pyrococcus abyssi
+taxon:407148|organism:campylobacter jejuni subsp. jejuni serotype o:6 (strain 81116 / nctc 11828),145,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=5),81116,5,False,False,130893,campylobacter jejuni
+taxon:297246|organism:legionella pneumophila (strain paris),147,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=5),paris,5,False,False,134435,legionella pneumophila
+proteome:UP000000597,120,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=8),toulouse,8,False,False,139102,bartonella quintana
+proteome:UP000001029,37,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=6),pei191,6,False,False,161556,elusimicrobium minutum
+proteome:UP000001260,76,bacdive_exact_designation,designation_weak_short_token,overlap is only a 1-2 char token or ambiguous numeric (longest=2),fe,2,False,False,22958,chlamydia felis
+proteome:UP000001868,65,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=4),hlk1,4,False,False,2344,phenylobacterium zucineum
+proteome:UP000001735,88,bacdive_exact_designation,designation_medium,"overlapping token length is 3 (longest=3), no stronger evidence",g27,3,False,False,157648,helicobacter pylori
+proteome:UP000002383,96,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=8),hl-ebgr7,8,False,False,133741,thioalkalivibrio sulfidiphilus
+proteome:UP000006697,139,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=6),ulpas1,6,False,False,11303,herminiimonas arsenicoxydans
+proteome:UP000000644,141,bacdive_exact_designation,designation_medium,"overlapping token length is 3 (longest=3), no stronger evidence",cj2,3,False,False,2982,polaromonas naphthalenivorans
+proteome:UP000000374,108,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=6),ef01-2,6,False,False,3022,verminephrobacter eiseniae
+proteome:UP000000269,88,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=6),ohilas,6,False,False,2863,alkaliphilus oremlandii
+proteome:UP000001933,103,bacdive_exact_designation,designation_weak_short_token,overlap is only a 1-2 char token or ambiguous numeric (longest=2),sb,2,False,False,23324,syntrophus aciditrophicus
+proteome:UP000001582,225,bacdive_exact_designation,designation_medium,"overlapping token length is 3 (longest=3), no stronger evidence",pa7,3,False,False,12760,pseudomonas paraeruginosa
+taxon:419610|organism:methylorubrum extorquens (strain pa1) (methylobacterium extorquens),75,bacdive_exact_designation,designation_medium,"overlapping token length is 3 (longest=3), no stronger evidence",pa1,3,False,False,7148,methylorubrum extorquens
+proteome:UP000001036,101,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=7),ueda107,7,False,False,140658,cellvibrio japonicus
+proteome:UP000002453,65,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=6),tcf52b,6,False,False,132828,thermosipho africanus
+proteome:UP000000658,218,bacdive_exact_designation,designation_medium,"overlapping token length is 3 (longest=3), no stronger evidence",l48,3,False,False,24436,pseudomonas entomophila
+proteome:UP000001935,135,bacdive_exact_designation,designation_strong,taxid match is true,2cp-c,5,False,True,3757,anaeromyxobacter dehalogenans
+proteome:UP000009175,183,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=4),sb2b,4,False,False,134489,shewanella amazonensis
+proteome:UP000001557,176,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=5),os155,5,False,False,135744,shewanella baltica
+proteome:UP000002015,167,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=7),haw-eb3,7,False,False,14074,shewanella sediminis
+proteome:UP000001317,187,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=7),haw-eb4,7,False,False,14078,shewanella halifaxensis
+taxon:316385|organism:escherichia coli (strain k12 / dh10b),360,bacdive_exact_designation,designation_medium,"overlapping token length is 3 (longest=3), no stronger evidence",k12,3,False,False,4414,escherichia coli
+proteome:UP000008321,315,bacdive_exact_designation,designation_weak_short_token,overlap is only a 1-2 char token or ambiguous numeric (longest=2),91,2,False,False,139332,salmonella enterica
+taxon:595496|organism:escherichia coli (strain k12 / mc4100 / bw2952),352,bacdive_exact_designation,designation_medium,"overlapping token length is 3 (longest=3), no stronger evidence",k12,3,False,False,4414,escherichia coli
+taxon:749493|organism:enterococcus faecalis (strain tx4000 / jh2-2),3,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=5),jh2-2,5,False,False,137313,enterococcus faecalis
+proteome:UP000008834,23,bacdive_exact_designation,designation_medium,"overlapping token length is 3 (longest=3), no stronger evidence",hs1,3,False,False,14304,borrelia hermsii
+proteome:UP000000593,286,bacdive_exact_designation,designation_medium,"overlapping token length is 3 (longest=3), no stronger evidence",ss9,3,False,False,136429,photobacterium profundum
+proteome:UP000002675,323,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=5),yj016,5,False,False,139679,vibrio vulnificus
+proteome:UP000002275,318,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=5),cmcp6,5,False,False,137008,vibrio vulnificus
+proteome:UP000001131,118,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=7),challis,7,False,False,135109,streptococcus gordonii
+proteome:UP000000796,55,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=4),iowa,4,False,False,166636,rickettsia rickettsii
+taxon:469008|organism:escherichia coli (strain b / bl21-de3),11,bacdive_exact_designation,designation_weak_short_token,overlap is only a 1-2 char token or ambiguous numeric (longest=1),b,1,False,False,4441,escherichia coli
+proteome:UP000002233,15,bacdive_exact_designation,designation_medium,"overlapping token length is 3 (longest=3), no stronger evidence",w23,3,False,False,23702,bacillus spizizenii
+taxon:413997|organism:escherichia coli (strain b / rel606),9,bacdive_exact_designation,designation_weak_short_token,overlap is only a 1-2 char token or ambiguous numeric (longest=1),b,1,False,False,4441,escherichia coli
+proteome:UP000008560,3,bacdive_exact_designation,designation_strong,overlapping designation token length >= 4 (longest=4),638r,4,False,False,159983,bacteroides fragilis
+taxon:83333|organism:escherichia coli (strain k12),1,bacdive_exact_designation,designation_medium,"overlapping token length is 3 (longest=3), no stronger evidence",k12,3,False,False,4414,escherichia coli

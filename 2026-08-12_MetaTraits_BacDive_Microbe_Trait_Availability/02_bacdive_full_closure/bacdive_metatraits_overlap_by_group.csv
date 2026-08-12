@@ -1,0 +1,7 @@
+taxonomy_group,source_resolution_level,total,both_covered,bacdive_only,metatraits_only,neither
+target_archaea,proteome,113,37,58,11,7
+target_archaea,taxon_organism,40,14,24,1,1
+target_bacteria,proteome,950,731,90,82,47
+target_bacteria,taxon_organism,947,726,66,36,119
+target_fungi,proteome,170,0,0,0,170
+target_fungi,taxon_organism,258,0,0,0,258

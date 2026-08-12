@@ -1,33 +1,46 @@
 # 当前老师审阅入口（MetaTraits / 菌侧）
 
-更新时间：2026-08-05  
-用途：给黄老师打开 GitHub 后的第一入口，避免从根目录历史散文件中自行判断最新状态。
+更新时间：2026-08-12  
+用途：给老师打开 GitHub 后的第一入口，避免从根目录历史散文件中自行判断最新状态。
 
 ## 1. 老师优先看哪些文件
 
 | 优先级 | 内容 | 路径 |
 |---|---|---|
-| 1 | 2026-08-03 菌层要求再确认索引 | [`../M3_2026_08_03_METATRAITS_REQUIREMENTS_RECONFIRMATION_INDEX_2026-08-04.md`](../M3_2026_08_03_METATRAITS_REQUIREMENTS_RECONFIRMATION_INDEX_2026-08-04.md) |
-| 2 | D5 新合同预调研再确认索引 | [`../METATRAITS_D5_2026_08_03_TEACHER_LIST_RECONFIRMATION_INDEX_2026-08-04.md`](../METATRAITS_D5_2026_08_03_TEACHER_LIST_RECONFIRMATION_INDEX_2026-08-04.md) |
-| 3 | D1-D8 / confidence / Task7 再确认包 | [`../2026-08-04_M3_Bacteria_Layer_D1_D8_Confidence_and_Task7_Reconfirmation/`](../2026-08-04_M3_Bacteria_Layer_D1_D8_Confidence_and_Task7_Reconfirmation/) |
-| 4 | Task 7 TraitValue `not_applicable` contract | [`../TRAIT_VALUE_NOT_APPLICABLE_SCHEMA_CONTRACT.md`](../TRAIT_VALUE_NOT_APPLICABLE_SCHEMA_CONTRACT.md) |
-| 5 | 07-23 / 07-24 两份老师任务清单逐项回应 | [`../M3_2026_07_23_24_TEACHER_TASK_LIST_FINAL_RESPONSE_2026-07-27.md`](../M3_2026_07_23_24_TEACHER_TASK_LIST_FINAL_RESPONSE_2026-07-27.md) |
+| 1 | 2026-08-12 MetaTraits + BacDive 微生物侧性状/可获得性交付包 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/) |
+| 2 | 本次交付包入口 README | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/README.md`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/README.md) |
+| 3 | BacDive vs MetaTraits 性状可获得性对比报告 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/03_bacdive_vs_metatraits_trait_comparison/BACDIVE_VS_METATRAITS_TRAIT_AVAILABILITY_COMPARISON_2026-08-12.md`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/03_bacdive_vs_metatraits_trait_comparison/BACDIVE_VS_METATRAITS_TRAIT_AVAILABILITY_COMPARISON_2026-08-12.md) |
+| 4 | BacDive full closure Codex 复核审计 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/02_bacdive_full_closure/CODEX_LOCAL_AUDIT_BACDIVE_FULL_CLOSURE_2478_2026-08-12.md`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/02_bacdive_full_closure/CODEX_LOCAL_AUDIT_BACDIVE_FULL_CLOSURE_2478_2026-08-12.md) |
+| 5 | BacDive species-level representative strain / 保藏编号 v2 审计 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/04_bacdive_species_representative_strain_expansion/CODEX_AUDIT_BACDIVE_SPECIES_REPRESENTATIVE_STRAIN_EXPANSION_V2_2026-08-12.md`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/04_bacdive_species_representative_strain_expansion/CODEX_AUDIT_BACDIVE_SPECIES_REPRESENTATIVE_STRAIN_EXPANSION_V2_2026-08-12.md) |
 
 ## 2. 当前状态一句话
 
-截至 2026-08-05，菌侧 D5、D1-D8、enzyme-to-organism confidence、organism ID 对齐、污水 soft trait 策略和 Task 7 `not_applicable` contract 均已重新指路并 push。M4b/M4c 仍未启动，除非黄老师另行授权。
+截至 2026-08-12，菌侧探索已形成新的可执行设计：MetaTraits 作为物种级主性状矩阵来源；BacDive 作为菌株身份、species-level representative strain availability、保藏编号、培养基、分离来源和国家/地理来源补充。
 
-## 3. 当前不能误写成完成的内容
+## 3. 本次关键结果
 
 ```text
-MetaTraits official versioned snapshot 尚未由老师/维护方提供并冻结；
-production organism_uid -> traits 通路尚未闭合；
-organism_confidence 0-1 数值尚未在 M4b/M4c 中实现；
-M4b/M4c 尚未启动；
-污水 trait 不作为 hard filter 自动删除候选菌；
-species/strain 性状继承仍被禁止。
+Final clean microbe source universe: 2,478 source_signatures / 145,607 enzyme-source rows
+MetaTraits coverage: 1,638 / 2,478 = 66.1%
+BacDive validated species-or-better: 1,746 / 2,478 = 70.5%
+BacDive exact_strain_main: 597 / 2,478 = 24.1%
+BacDive hard exact strain: 555 / 2,478 = 22.4%
+BacDive + MetaTraits both covered: 1,508 source_signatures
+BacDive only: 238 source_signatures
+MetaTraits only: 130 source_signatures
+BacDive species-level representative expansion v2: 1,149 / 1,149 have at least one representative strain record and at least one culture collection number
 ```
 
-## 4. 为什么根目录仍保留历史文件
+## 4. 当前不能误写成完成的内容
 
-根目录中保留了若干历史提交文件，是为了不破坏已经发给老师的旧 GitHub 链接。当前审阅请优先看本文件夹和仓库顶层 README 的最新入口；历史文件仅作为可追溯证据保留。
+```text
+MetaTraits species-level trait 不等于 strain-level trait；
+BacDive species-level representative strain record 不等于原始 UniProt exact strain；
+BacDive exact-strain evidence 需要按 main / conservative / hard policy 分层；
+真菌属于 BacDive non-scope，不应计为 BacDive 查询失败；
+当前结果支持 schema 设计与后续实现，但不代表 M4b/M4c production pipeline 已经启动。
+```
+
+## 5. 为什么根目录仍保留历史文件
+
+根目录中保留了若干历史提交文件，是为了不破坏已经发给老师的旧 GitHub 链接。当前审阅请优先看本文件夹、仓库顶层 README 的 2026-08-12 入口，以及本次新增交付包。

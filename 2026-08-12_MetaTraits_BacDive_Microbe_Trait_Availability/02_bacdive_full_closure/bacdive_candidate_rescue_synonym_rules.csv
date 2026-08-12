@@ -1,0 +1,43 @@
+source_species_normalized,bacdive_species_normalized,evidence_source,evidence_note
+sinorhizobium medicae,ensifer medicae,curated_synonym_lpsn,Sinorhizobium medicae is a later synonym of Ensifer medicae per LPSN
+sinorhizobium fredii,ensifer fredii,curated_synonym_lpsn,Sinorhizobium fredii is a later synonym of Ensifer fredii per LPSN
+rhizobium fredii,ensifer fredii,curated_synonym_lpsn,Rhizobium fredii is a later synonym of Ensifer fredii per LPSN
+brucella anthropi,ochrobactrum anthropi,curated_synonym_lpsn,Brucella anthropi is a later synonym of Ochrobactrum anthropi per LPSN; genus-level reclassification
+brucella suis,brucella suis,curated_synonym_self,Source species matches BacDive species after strain-level resolution; BacDive returns multiple Brucella species but source species is among them
+brucella abortus,brucella abortus,curated_synonym_self,Source species matches BacDive species after strain-level resolution; BacDive returns multiple Brucella species but source species is among them
+mycolicibacterium vanbaalenii,mycobacterium vanbaalenii,curated_synonym_lpsn,Mycolicibacterium vanbaalenii is a later synonym of Mycobacterium vanbaalenii per LPSN
+mycolicibacterium goodii,mycobacterium goodii,curated_synonym_lpsn,Mycolicibacterium goodii is a later synonym of Mycobacterium goodii per LPSN
+mycolicibacterium austroafricanum,mycobacterium austroafricanum,curated_synonym_lpsn,Mycolicibacterium austroafricanum is a later synonym of Mycobacterium austroafricanum per LPSN
+mycolicibacterium gilvum,mycobacterium gilvum,curated_synonym_lpsn,Mycolicibacterium gilvum is a later synonym of Mycobacterium gilvum per LPSN
+borreliella afzelii,borrelia afzelii,curated_synonym_lpsn,Borreliella afzelii is a later synonym of Borrelia afzelii per LPSN
+borreliella bavariensis,borrelia garinii subsp bavariensis,curated_synonym_lpsn,Borreliella bavariensis is a later synonym of Borrelia garinii subsp. bavariensis per LPSN
+macrococcoides caseolyticum,macrococcus caseolyticus,curated_synonym_lpsn,Macrococcoides caseolyticum is a later synonym of Macrococcus caseolyticus per LPSN
+nitratidesulfovibrio vulgaris,desulfovibrio vulgaris,curated_synonym_lpsn,Nitratidesulfovibrio vulgaris is a later synonym of Desulfovibrio vulgaris per LPSN
+lachnoclostridium phytofermentans,clostridium phytofermentans,curated_synonym_lpsn,Lachnoclostridium phytofermentans is a later synonym of Clostridium phytofermentans per LPSN
+mycoplasmopsis synoviae,mycoplasma synoviae,curated_synonym_lpsn,Mycoplasmopsis synoviae is a later synonym of Mycoplasma synoviae per LPSN
+mycoplasmopsis agalactiae,mycoplasma agalactiae,curated_synonym_lpsn,Mycoplasmopsis agalactiae is a later synonym of Mycoplasma agalactiae per LPSN
+stutzerimonas stutzeri,pseudomonas stutzeri,curated_synonym_lpsn,Stutzerimonas stutzeri is a later synonym of Pseudomonas stutzeri per LPSN
+ancylobacter novellus,starkeya novella,curated_synonym_lpsn,Ancylobacter novellus is a later synonym of Starkeya novella per LPSN
+xylanibacter ruminicola,prevotella ruminicola,curated_synonym_lpsn,Xylanibacter ruminicola is a later synonym of Prevotella ruminicola per LPSN
+metapseudomonas furukawaii,pseudomonas furukawaii,curated_synonym_lpsn,Metapseudomonas furukawaii is a later synonym of Pseudomonas furukawaii per LPSN
+pantoea ananas,pantoea ananatis,curated_synonym_lpsn,Pantoea ananas is a later synonym of Pantoea ananatis per LPSN
+musicola paradisiaca,dickeya paradisiaca,curated_synonym_lpsn,Musicola paradisiaca is a later synonym of Dickeya paradisiaca per LPSN
+pseudofrankia inefficax,frankia inefficax,curated_synonym_lpsn,Pseudofrankia inefficax is a later synonym of Frankia inefficax per LPSN
+clostridium acidurici,gottschalkia acidurici,curated_synonym_lpsn,Clostridium acidurici is a later synonym of Gottschalkia acidurici per LPSN
+vibrio anguillarum,listonella anguillarum,curated_synonym_lpsn,Vibrio anguillarum is a later synonym of Listonella anguillarum per LPSN
+paramagnetospirillum magnetotacticum,magnetospirillum magnetotacticum,curated_synonym_lpsn,Paramagnetospirillum magnetotacticum is a later synonym of Magnetospirillum magnetotacticum per LPSN
+allomeiothermus silvanus,meiothermus silvanus,curated_synonym_lpsn,Allomeiothermus silvanus is a later synonym of Meiothermus silvanus per LPSN
+neorickettsia risticii,ehrlichia risticii,curated_synonym_lpsn,Neorickettsia risticii is a later synonym of Ehrlichia risticii per LPSN
+priestia aryabhattai,bacillus aryabhattai,curated_synonym_lpsn,Priestia aryabhattai is a later synonym of Bacillus aryabhattai per LPSN
+piscinibacter sakaiensis,ideonella sakaiensis,curated_synonym_lpsn,Piscinibacter sakaiensis is a later synonym of Ideonella sakaiensis per LPSN
+ectopseudomonas oleovorans,pseudomonas oleovorans,curated_synonym_lpsn,Ectopseudomonas oleovorans is a later synonym of Pseudomonas oleovorans per LPSN
+rhodospirillum centenum,rhodocista centenaria,curated_synonym_lpsn,Rhodospirillum centenum is a later synonym of Rhodocista centenaria per LPSN
+rhodoferax ferrireducens,albidiferax ferrireducens,curated_synonym_lpsn,Rhodoferax ferrireducens is a later synonym of Albidiferax ferrireducens per LPSN
+paracidovorax citrulli,acidovorax citrulli,curated_synonym_lpsn,Paracidovorax citrulli is a later synonym of Acidovorax citrulli per LPSN
+christiangramia forsetii,gramella forsetii,curated_synonym_lpsn,Christiangramia forsetii is a later synonym of Gramella forsetii per LPSN
+geotalea uraniireducens,geobacter uraniireducens,curated_synonym_lpsn,Geotalea uraniireducens is a later synonym of Geobacter uraniireducens per LPSN
+citrifermentans bemidjiense,geomonas bemidjiensis,curated_synonym_lpsn,Citrifermentans bemidjiense is a later synonym of Geomonas bemidjiensis per LPSN
+mycobacteroides abscessus,mycobacterium abscessus,curated_synonym_lpsn,Mycobacteroides abscessus is a later synonym of Mycobacterium abscessus per LPSN
+methanothermobacter wolfeii,methanothermobacter wolfei,curated_synonym_lpsn,Methanothermobacter wolfeii is an orthographic variant of Methanothermobacter wolfei per LPSN
+heliobacterium mobile,heliobacillus mobilis,curated_synonym_lpsn,Heliobacterium mobile is a later synonym of Heliobacillus mobilis per LPSN
+agrobacterium fabrum,agrobacterium radiobacter,curated_synonym_lpsn,Agrobacterium fabrum is a later synonym of Agrobacterium radiobacter per LPSN; species-level reclassification within genus

@@ -1,0 +1,301 @@
+trait_name,group_1,group_2,unit,source_count,fraction_of_2478,fraction_of_metatraits_covered_1638
+gram positive,Morphology,Cell envelope,boolean,1637,0.660613,0.999389
+temperature growth,Environmental preferences,Temperature,Celsius,1636,0.66021,0.998779
+aerotolerant,Environmental preferences,Atmosphere,boolean,1631,0.658192,0.995726
+presence of motility,Physiology,Motility,boolean,1626,0.656174,0.992674
+sporulation,Physiology,Sporulation,boolean,1623,0.654964,0.990842
+temperature maximum,Environmental preferences,Temperature,Celsius,1623,0.654964,0.990842
+temperature minimum,Environmental preferences,Temperature,Celsius,1623,0.654964,0.990842
+salinity maximum,Environmental preferences,Salinity,% NaCl (w/v),1622,0.65456,0.990232
+salinity minimum,Environmental preferences,Salinity,% NaCl (w/v),1622,0.65456,0.990232
+reduction: nitrate,Metabolism,Reduction,boolean,1621,0.654157,0.989621
+GC percentage,Genome,Composition,%,1620,0.653753,0.989011
+coding density,Genome,Composition,%,1620,0.653753,0.989011
+estimated gene count,Genome,Gene content,genes,1620,0.653753,0.989011
+estimated genome size,Genome,Genome size,bp,1620,0.653753,0.989011
+gene count,Genome,Gene content,genes,1620,0.653753,0.989011
+genome size,Genome,Genome size,bp,1620,0.653753,0.989011
+pH growth,Environmental preferences,pH,pH,1618,0.652946,0.98779
+pH maximum,Environmental preferences,pH,pH,1618,0.652946,0.98779
+pH minimum,Environmental preferences,pH,pH,1618,0.652946,0.98779
+salinity growth,Environmental preferences,Salinity,% NaCl (w/v),1618,0.652946,0.98779
+hydrolysis: urea,Metabolism,Hydrolase activity,boolean,1617,0.652542,0.987179
+obligate aerobic,Environmental preferences,Atmosphere,boolean,1617,0.652542,0.987179
+obligate anaerobic,Environmental preferences,Atmosphere,boolean,1617,0.652542,0.987179
+acidophilic,Environmental preferences,pH,boolean,1608,0.64891,0.981685
+aerobic growth: anoxygenic phototrophy,Metabolism,Aerobic growth,boolean,1608,0.64891,0.981685
+aerobic growth: chemoheterotrophy,Metabolism,Aerobic growth,boolean,1608,0.64891,0.981685
+ammonification: nitrate,Metabolism,Ammonification,boolean,1608,0.64891,0.981685
+ammonification: nitrite,Metabolism,Ammonification,boolean,1608,0.64891,0.981685
+carbon source: methyl,Metabolism,Carbon utilization,boolean,1608,0.64891,0.981685
+degradation: aromatic compound,Metabolism,Catabolic process,boolean,1608,0.64891,0.981685
+degradation: aromatic hydrocarbon,Metabolism,Catabolic process,boolean,1608,0.64891,0.981685
+degradation: cellulose,Metabolism,Catabolic process,boolean,1608,0.64891,0.981685
+degradation: chitin,Metabolism,Catabolic process,boolean,1608,0.64891,0.981685
+degradation: hydrocarbon,Metabolism,Catabolic process,boolean,1608,0.64891,0.981685
+degradation: lignin,Metabolism,Catabolic process,boolean,1608,0.64891,0.981685
+degradation: plastic,Metabolism,Catabolic process,boolean,1608,0.64891,0.981685
+denitrification pathway,Metabolism,Denitrification,boolean,1608,0.64891,0.981685
+denitrification: nitrate,Metabolism,Denitrification,boolean,1608,0.64891,0.981685
+denitrification: nitrite,Metabolism,Denitrification,boolean,1608,0.64891,0.981685
+denitrification: nitrous oxide,Metabolism,Denitrification,boolean,1608,0.64891,0.981685
+electron acceptor: arsenate,Metabolism,Electron acceptor,boolean,1608,0.64891,0.981685
+electron acceptor: elemental sulfur,Metabolism,Electron acceptor,boolean,1608,0.64891,0.981685
+electron acceptor: fumarate,Metabolism,Electron acceptor,boolean,1608,0.64891,0.981685
+electron acceptor: manganese,Metabolism,Electron acceptor,boolean,1608,0.64891,0.981685
+electron acceptor: nitrate,Metabolism,Electron acceptor,boolean,1608,0.64891,0.981685
+electron acceptor: nitrite,Metabolism,Electron acceptor,boolean,1608,0.64891,0.981685
+electron acceptor: sulfate,Metabolism,Electron acceptor,boolean,1608,0.64891,0.981685
+electron acceptor: sulfite,Metabolism,Electron acceptor,boolean,1608,0.64891,0.981685
+electron acceptor: sulfur compounds,Metabolism,Electron acceptor,boolean,1608,0.64891,0.981685
+electron acceptor: thiosulfate,Metabolism,Electron acceptor,boolean,1608,0.64891,0.981685
+fermentation,Metabolism,Fermentation,boolean,1608,0.64891,0.981685
+growth: anoxygenic photoautotrophy,Metabolism,Growth,boolean,1608,0.64891,0.981685
+growth: chemoheterotrophy,Metabolism,Growth,boolean,1608,0.64891,0.981685
+growth: photoautotrophy,Metabolism,Growth,boolean,1608,0.64891,0.981685
+growth: photoheterotrophy,Metabolism,Growth,boolean,1608,0.64891,0.981685
+growth: phototrophy,Metabolism,Growth,boolean,1608,0.64891,0.981685
+hydrolysis: xylan,Metabolism,Hydrolase activity,boolean,1608,0.64891,0.981685
+nitrification,Metabolism,Nitrification,boolean,1608,0.64891,0.981685
+nitrogen fixation,Metabolism,Ammonification,boolean,1608,0.64891,0.981685
+oxidation in darkness: hydrogen,Metabolism,Oxidation in darkness,boolean,1608,0.64891,0.981685
+oxidation in darkness: iron,Metabolism,Oxidation in darkness,boolean,1608,0.64891,0.981685
+oxidation in darkness: sulfide,Metabolism,Oxidation in darkness,boolean,1608,0.64891,0.981685
+oxidation in darkness: sulfur compounds,Metabolism,Oxidation in darkness,boolean,1608,0.64891,0.981685
+oxidation: ammonia,Metabolism,Oxidation,boolean,1608,0.64891,0.981685
+oxidation: manganese,Metabolism,Oxidation,boolean,1608,0.64891,0.981685
+oxidation: methanol,Metabolism,Oxidation,boolean,1608,0.64891,0.981685
+produces: acetate,Metabolism,Produces metabolite,boolean,1608,0.64891,0.981685
+produces: methane from acetate,Metabolism,Produces metabolite,boolean,1608,0.64891,0.981685
+produces: methane from formate,Metabolism,Produces metabolite,boolean,1608,0.64891,0.981685
+psychrophilic,Environmental preferences,Temperature,boolean,1608,0.64891,0.981685
+reduction: arsenate,Metabolism,Reduction,boolean,1608,0.64891,0.981685
+reduction: arsenate detoxification,Metabolism,Reduction,boolean,1608,0.64891,0.981685
+reduction: chlorate,Metabolism,Reduction,boolean,1608,0.64891,0.981685
+respiration: iron,Metabolism,Respiration,boolean,1608,0.64891,0.981685
+respiration: nitrogen,Metabolism,Respiration,boolean,1608,0.64891,0.981685
+thermophilic,Environmental preferences,Temperature,boolean,1608,0.64891,0.981685
+enzyme activity: alkaline phosphatase (EC3.1.3.1),Enzymes,Enzyme activity,boolean,1607,0.648507,0.981074
+indole test,Metabolites,Metabolite tests,boolean,1599,0.645278,0.97619
+voges-proskauer test,Metabolism,Metabolite tests,boolean,1599,0.645278,0.97619
+enzyme activity: arginine dihydrolase (EC3.5.3.6),Enzymes,Enzyme activity,boolean,1597,0.644471,0.974969
+produces: hydrogen sulfide,Metabolism,Produces metabolite,boolean,1595,0.643664,0.973748
+hydrolysis: gelatin,Metabolism,Hydrolase activity,boolean,1594,0.643261,0.973138
+hydrolysis: esculin,Metabolism,Hydrolase activity,boolean,1592,0.642454,0.971917
+methyl red test,Metabolites,Metabolite tests,boolean,1589,0.641243,0.970085
+reduction: nitrite,Metabolism,Reduction,boolean,1587,0.640436,0.968864
+enzyme activity: catalase (EC1.11.1.6),Enzymes,Enzyme activity,boolean,1586,0.640032,0.968254
+enzyme activity: lysine decarboxylase (EC4.1.1.18),Enzymes,Enzyme activity,boolean,1585,0.639629,0.967643
+enzyme activity: ornithine decarboxylase (EC4.1.1.17),Enzymes,Enzyme activity,boolean,1585,0.639629,0.967643
+enzyme activity: DNase,Enzymes,Enzyme activity,boolean,1583,0.638822,0.966422
+growth: cellobiose,Metabolism,Growth,boolean,1583,0.638822,0.966422
+hydrolysis: casein,Metabolism,Hydrolase activity,boolean,1583,0.638822,0.966422
+presence of hemolysis,Metabolites,Metabolite tests,factor,1583,0.638822,0.966422
+capnophilic,Environmental preferences,Atmosphere,boolean,1582,0.638418,0.965812
+cell color: yellow pigment,Morphology,Cell morphology,boolean,1582,0.638418,0.965812
+enzyme activity: coagulase,Enzymes,Enzyme activity,boolean,1582,0.638418,0.965812
+enzyme activity: lipase,Enzymes,Enzyme activity,boolean,1582,0.638418,0.965812
+enzyme activity: oxidase,Enzymes,Enzyme activity,boolean,1582,0.638418,0.965812
+enzyme activity: pyrrolidonyl arylamidase (EC3.4.19.3),Enzymes,Enzyme activity,boolean,1582,0.638418,0.965812
+facultative anaerobe,Environmental preferences,Atmosphere,boolean,1582,0.638418,0.965812
+fermentation: glucose,Metabolism,Fermentation,boolean,1582,0.638418,0.965812
+gram negative,Morphology,Cell envelope,boolean,1582,0.638418,0.965812
+growth: 42 degrees Celsius,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: 6.5% NaCl,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: D-mannitol,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: D-mannose,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: D-sorbitol,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: D-xylose,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: L-arabinose,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: L-rhamnose,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: MacConkey agar,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: acetate,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: bile acid susceptible,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: blood agar,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: glycerol,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: lactose,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: malonate,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: maltose,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: melibiose,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: myo-inositol,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: potassium cyanide,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: raffinose,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: salicin,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: sucrose,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: tartrate,Metabolism,Growth,boolean,1582,0.638418,0.965812
+growth: trehalose,Metabolism,Growth,boolean,1582,0.638418,0.965812
+hydrolysis: 4-nitrophenyl beta-D-galactopyranoside,Metabolism,Hydrolase activity,boolean,1582,0.638418,0.965812
+hydrolysis: starch,Metabolism,Hydrolase activity,boolean,1582,0.638418,0.965812
+oxidation: glucose,Metabolism,Oxidation,boolean,1582,0.638418,0.965812
+utilizes: citrate,Metabolism,Utilizes metabolite,boolean,1582,0.638418,0.965812
+utilizes: galactarate,Metabolism,Utilizes metabolite,boolean,1582,0.638418,0.965812
+oxygen preference,Environmental preferences,Atmosphere,factor,1528,0.616626,0.932845
+cell shape,Morphology,Cell morphology,factor,1506,0.607748,0.919414
+biosafety level,Safety,Biosafety level,factor,1477,0.596045,0.901709
+temperature preference,Environmental preferences,Temperature,factor,1279,0.516142,0.78083
+produces: indole,Metabolism,Produces metabolite,boolean,1077,0.434625,0.657509
+enzyme activity: beta-galactosidase (EC3.2.1.23),Enzymes,Enzyme activity,boolean,1030,0.415658,0.628816
+enzyme activity: alpha-glucosidase (EC3.2.1.20),Enzymes,Enzyme activity,boolean,1024,0.413236,0.625153
+enzyme activity: alpha-galactosidase (EC3.2.1.22),Enzymes,Enzyme activity,boolean,1020,0.411622,0.622711
+enzyme activity: alpha-fucosidase (EC3.2.1.51),Enzymes,Enzyme activity,boolean,1019,0.411219,0.6221
+enzyme activity: alpha-chymotrypsin (EC3.4.21.1),Enzymes,Enzyme activity,boolean,991,0.399919,0.605006
+enzyme activity: acid phosphatase (EC3.1.3.2),Enzymes,Enzyme activity,boolean,990,0.399516,0.604396
+enzyme activity: alpha-mannosidase (EC3.2.1.24),Enzymes,Enzyme activity,boolean,990,0.399516,0.604396
+enzyme activity: beta-glucosidase (EC3.2.1.21),Enzymes,Enzyme activity,boolean,877,0.353914,0.535409
+hydrolysis: arginine,Metabolism,Hydrolase activity,boolean,845,0.341001,0.515873
+enzyme activity: alcohol dehydrogenase (EC1.1.1.1),Enzymes,Enzyme activity,boolean,790,0.318805,0.482295
+builds acid from: cellobiose,Metabolism,Builds acid from,boolean,698,0.281679,0.426129
+builds acid from: D-arabitol,Metabolism,Builds acid from,boolean,689,0.278047,0.420635
+builds acid from: D-arabinose,Metabolism,Builds acid from,boolean,649,0.261905,0.396215
+builds acid from: arbutin,Metabolism,Builds acid from,boolean,649,0.261905,0.396215
+builds acid from: amygdalin,Metabolism,Builds acid from,boolean,645,0.260291,0.393773
+enzyme activity: beta-glucuronidase (EC3.2.1.31),Enzymes,Enzyme activity,boolean,642,0.25908,0.391941
+builds acid from: D-fructose,Metabolism,Builds acid from,boolean,637,0.257062,0.388889
+builds acid from: D-glucose,Metabolism,Builds acid from,boolean,633,0.255448,0.386447
+produces: acetoin,Metabolism,Produces metabolite,boolean,622,0.251009,0.379731
+builds acid from: D-fucose,Metabolism,Builds acid from,boolean,619,0.249798,0.3779
+fermentation: D-glucose,Metabolism,Fermentation,boolean,596,0.240517,0.363858
+builds acid from: D-galactose,Metabolism,Builds acid from,boolean,577,0.232849,0.352259
+salinity preference,Environmental preferences,Salinity,factor,563,0.227199,0.343712
+enzyme activity: urease (EC3.5.1.5),Enzymes,Enzyme activity,boolean,522,0.210654,0.318681
+builds acid from: D-lyxose,Metabolism,Builds acid from,boolean,512,0.206618,0.312576
+builds acid from: D-mannitol,Metabolism,Builds acid from,boolean,509,0.205408,0.310745
+enzyme activity: gelatinase,Enzymes,Enzyme activity,boolean,509,0.205408,0.310745
+carbon source: citrate,Metabolism,Carbon utilization,boolean,506,0.204197,0.308913
+enzyme activity: amylase,Enzymes,Enzyme activity,boolean,474,0.191283,0.289377
+assimilation: citrate,Metabolism,Assimilation,boolean,466,0.188055,0.284493
+fermentation: D-mannitol,Metabolism,Fermentation,boolean,440,0.177563,0.26862
+enzyme activity: cytochrome oxidase (EC1.9.3.1),Enzymes,Enzyme activity,boolean,407,0.164245,0.248474
+assimilation: D-glucose,Metabolism,Assimilation,boolean,370,0.149314,0.225885
+generalism score,Habitat,Generalism,score,356,0.143664,0.217338
+generalist,Habitat,Generalism,boolean,356,0.143664,0.217338
+habitat count,Habitat,Generalism,count,356,0.143664,0.217338
+assimilation: adipate,Metabolism,Assimilation,boolean,351,0.141646,0.214286
+builds acid from: L-arabinose,Metabolism,Builds acid from,boolean,345,0.139225,0.210623
+hydrolysis: hippurate,Metabolism,Hydrolase activity,boolean,335,0.13519,0.204518
+assimilation: D-mannitol,Metabolism,Assimilation,boolean,331,0.133575,0.202076
+assimilation: D-mannose,Metabolism,Assimilation,boolean,325,0.131154,0.198413
+enzyme activity: tryptophan deaminase (EC4.1.99.1),Enzymes,Enzyme activity,boolean,318,0.128329,0.194139
+assimilation: decanoate,Metabolism,Assimilation,boolean,312,0.125908,0.190476
+fermentation: amygdalin,Metabolism,Fermentation,boolean,298,0.120258,0.181929
+respiration: nitrate,Metabolism,Respiration,boolean,286,0.115416,0.174603
+degradation: lysine,Metabolism,Catabolic process,boolean,282,0.113801,0.172161
+fermentation: lactose,Metabolism,Fermentation,boolean,273,0.110169,0.166667
+builds acid from: D-ribose,Metabolism,Builds acid from,boolean,271,0.109362,0.165446
+pangenome openness,Genome,Pangenome,score,269,0.108555,0.164225
+intra species nucleotide diversity,Genome,Population diversity,%,267,0.107748,0.163004
+builds acid from: D-tagatose,Metabolism,Builds acid from,boolean,263,0.106134,0.160562
+fermentation: D-mannose,Metabolism,Fermentation,boolean,258,0.104116,0.157509
+enzyme activity: alpha-arabinosidase (EC3.2.1.55),Enzymes,Enzyme activity,boolean,252,0.101695,0.153846
+enzyme activity: alanine arylamidase (EC3.4.11.2),Enzymes,Enzyme activity,boolean,251,0.101291,0.153236
+cell width maximum,Morphology,Cell size phenotype,µm,237,0.095642,0.144689
+cell width minimum,Morphology,Cell size phenotype,µm,237,0.095642,0.144689
+builds acid from: D-mannose,Metabolism,Builds acid from,boolean,227,0.091606,0.138584
+enzyme activity: alpha-maltosidase,Enzymes,Enzyme activity,boolean,227,0.091606,0.138584
+energy source: tryptophan,Metabolism,Energy source,boolean,225,0.090799,0.137363
+enzyme activity: beta-Galactosidase 6-phosphate,Enzymes,Enzyme activity,boolean,224,0.090395,0.136752
+cell length maximum,Morphology,Cell size phenotype,µm,220,0.088781,0.13431
+cell length minimum,Morphology,Cell size phenotype,µm,220,0.088781,0.13431
+fermentation: D-ribose,Metabolism,Fermentation,boolean,215,0.086764,0.131258
+builds acid from: alpha-cyclodextrin,Metabolism,Builds acid from,boolean,213,0.085956,0.130037
+enzyme activity: Alanyl-Phenylalanyl-Proline arylamidase,Enzymes,Enzyme activity,boolean,213,0.085956,0.130037
+enzyme activity: N-acetyl-beta-glucosaminidase (EC3.2.1.52),Enzymes,Enzyme activity,boolean,213,0.085956,0.130037
+builds acid from: D-galacturonic acid,Metabolism,Builds acid from,boolean,210,0.084746,0.128205
+enzyme activity: L-aspartate arylamidase (EC3.4.11.21),Enzymes,Enzyme activity,boolean,207,0.083535,0.126374
+builds acid from: D-sorbitol,Metabolism,Builds acid from,boolean,205,0.082728,0.125153
+fermentation: L-rhamnose,Metabolism,Fermentation,boolean,202,0.081517,0.123321
+builds acid from: L-rhamnose,Metabolism,Builds acid from,boolean,201,0.081114,0.122711
+cell width,Morphology,Cell size phenotype,µm,201,0.081114,0.122711
+assimilation: gluconate,Metabolism,Assimilation,boolean,197,0.0795,0.120269
+degradation: ornithine,Metabolism,Catabolic process,boolean,196,0.079096,0.119658
+produces: nitrite,Metabolism,Produces metabolite,boolean,196,0.079096,0.119658
+produces: dinitrogen,Metabolism,Produces metabolite,boolean,183,0.07385,0.111722
+builds acid from: L-arabitol,Metabolism,Builds acid from,boolean,182,0.073446,0.111111
+fermentation: L-arabinose,Metabolism,Fermentation,boolean,180,0.072639,0.10989
+cell length,Morphology,Cell size phenotype,µm,179,0.072236,0.10928
+cell color,Morphology,Cell morphology,factor,176,0.071025,0.107448
+fermentation: melibiose,Metabolism,Fermentation,boolean,175,0.070621,0.106838
+builds acid from: glycogen,Metabolism,Builds acid from,boolean,165,0.066586,0.100733
+builds gas from: sodium thiosulfate,Metabolism,Builds gas from,boolean,165,0.066586,0.100733
+fermentation: D-xylose,Metabolism,Fermentation,boolean,163,0.065779,0.099512
+enzyme activity: beta-mannosidase (EC3.2.1.25),Enzymes,Enzyme activity,boolean,152,0.06134,0.092796
+enzyme activity: glycyl tryptophan arylamidase,Enzymes,Enzyme activity,boolean,146,0.058918,0.089133
+degradation: L-glutamate,Metabolism,Catabolic process,boolean,144,0.058111,0.087912
+enzyme activity: cytochrome-c oxidase (EC1.9.3.1),Enzymes,Enzyme activity,boolean,143,0.057708,0.087302
+degradation: glucose,Metabolism,Catabolic process,boolean,139,0.056094,0.08486
+assimilation: malonate,Metabolism,Assimilation,boolean,134,0.054076,0.081807
+fermentation: raffinose,Metabolism,Fermentation,boolean,132,0.053269,0.080586
+pH preference,Environmental preferences,pH,factor,132,0.053269,0.080586
+builds acid from: lactose,Metabolism,Builds acid from,boolean,131,0.052865,0.079976
+builds acid from: erythritol,Metabolism,Builds acid from,boolean,128,0.051655,0.078144
+enzyme activity: gamma-glutamyltransferase (EC2.3.2.2),Enzymes,Enzyme activity,boolean,116,0.046812,0.070818
+fermentation: myo-inositol,Metabolism,Fermentation,boolean,116,0.046812,0.070818
+builds acid from: maltose,Metabolism,Builds acid from,boolean,110,0.044391,0.067155
+fermentation: maltose,Metabolism,Fermentation,boolean,108,0.043584,0.065934
+fermentation: mannitol,Metabolism,Fermentation,boolean,103,0.041566,0.062882
+assimilation: L-arabinose,Metabolism,Assimilation,boolean,100,0.040355,0.06105
+builds acid from: D-xylose,Metabolism,Builds acid from,boolean,99,0.039952,0.06044
+degradation: cellobiose,Metabolism,Catabolic process,boolean,98,0.039548,0.059829
+degradation: D-arabinose,Metabolism,Catabolic process,boolean,97,0.039144,0.059219
+fermentation: glycogen,Metabolism,Fermentation,boolean,96,0.038741,0.058608
+utilizes: arabinose,Metabolism,Utilizes metabolite,boolean,96,0.038741,0.058608
+enzyme activity: tryptophan deaminase,Enzymes,Enzyme activity,boolean,95,0.038337,0.057998
+enzyme activity: lecithinase,Enzymes,Enzyme activity,boolean,92,0.037127,0.056166
+enzyme activity: phenylalanine ammonia-lyase (EC4.3.1.24),Enzymes,Enzyme activity,boolean,87,0.035109,0.053114
+utilizes: cellulose,Metabolism,Utilizes metabolite,boolean,86,0.034705,0.052503
+flagellum arrangement,Morphology,Cell appendages,factor,85,0.034302,0.051893
+carbon source: acetate,Metabolism,Carbon utilization,boolean,83,0.033495,0.050672
+assimilation: malate,Metabolism,Assimilation,boolean,81,0.032688,0.049451
+builds acid from: esculin,Metabolism,Builds acid from,boolean,77,0.031073,0.047009
+fermentation: sucrose,Metabolism,Fermentation,boolean,76,0.03067,0.046398
+carbon source: fructose,Metabolism,Carbon utilization,boolean,72,0.029056,0.043956
+enzyme activity: L-arginine arylamidase,Enzymes,Enzyme activity,boolean,71,0.028652,0.043346
+enzyme activity: caseinase (EC3.4.21.50),Enzymes,Enzyme activity,boolean,68,0.027441,0.041514
+fermentation: arabinose,Metabolism,Fermentation,boolean,66,0.026634,0.040293
+fermentation: cellobiose,Metabolism,Fermentation,boolean,64,0.025827,0.039072
+fermentation: D-fructose,Metabolism,Fermentation,boolean,60,0.024213,0.03663
+degradation: D-fructose,Metabolism,Catabolic process,boolean,57,0.023002,0.034799
+enzyme activity: leucine arylamidase (EC3.4.11.1),Enzymes,Enzyme activity,boolean,57,0.023002,0.034799
+utilizes: fructose,Metabolism,Utilizes metabolite,boolean,57,0.023002,0.034799
+utilizes: glucose,Metabolism,Utilizes metabolite,boolean,56,0.022599,0.034188
+enzyme activity: tween esterase,Enzymes,Enzyme activity,boolean,53,0.021388,0.032357
+builds acid from: sucrose,Metabolism,Builds acid from,boolean,51,0.020581,0.031136
+utilizes: mannitol,Metabolism,Utilizes metabolite,boolean,50,0.020178,0.030525
+fermentation: sorbitol,Metabolism,Fermentation,boolean,48,0.01937,0.029304
+utilizes: myo-inositol,Metabolism,Utilizes metabolite,boolean,48,0.01937,0.029304
+growth: 2-dehydro-D-gluconate,Metabolism,Growth,boolean,45,0.01816,0.027473
+builds acid from: glycerol,Metabolism,Builds acid from,boolean,44,0.017756,0.026862
+hydrolysis: tributyrin,Metabolism,Hydrolase activity,boolean,44,0.017756,0.026862
+builds acid from: arabinose,Metabolism,Builds acid from,boolean,43,0.017353,0.026252
+enzyme activity: pyrazinamidase (EC3.5.1.B15),Enzymes,Enzyme activity,boolean,40,0.016142,0.02442
+growth: 2-oxoglutarate,Metabolism,Growth,boolean,40,0.016142,0.02442
+produces: polysaccharides,Metabolism,Produces metabolite,boolean,40,0.016142,0.02442
+degradation: D-glucose,Metabolism,Catabolic process,boolean,38,0.015335,0.023199
+growth: 3-hydroxybutyrate,Metabolism,Growth,boolean,37,0.014931,0.022589
+carbon source: glucose,Metabolism,Carbon utilization,boolean,36,0.014528,0.021978
+enzyme activity: beta-lactamase (EC3.5.2.6),Enzymes,Enzyme activity,boolean,36,0.014528,0.021978
+enzyme activity: proline-arylamidase (EC3.4.11.5),Enzymes,Enzyme activity,boolean,36,0.014528,0.021978
+assimilation: acetate,Metabolism,Assimilation,boolean,35,0.014124,0.021368
+builds gas from: nitrate,Metabolism,Builds gas from,boolean,32,0.012914,0.019536
+growth: 3-phenylpropionate,Metabolism,Growth,boolean,31,0.01251,0.018926
+builds gas from: nitrite,Metabolism,Builds gas from,boolean,30,0.012107,0.018315
+degradation: lactose,Metabolism,Catabolic process,boolean,30,0.012107,0.018315
+growth: 3-O-methyl-D-glucose,Metabolism,Growth,boolean,30,0.012107,0.018315
+growth: 3-coumarate,Metabolism,Growth,boolean,30,0.012107,0.018315
+growth: 5-aminovalerate,Metabolism,Growth,boolean,30,0.012107,0.018315
+assimilation: propionate,Metabolism,Assimilation,boolean,29,0.011703,0.017705
+carbon source: arabinose,Metabolism,Carbon utilization,boolean,29,0.011703,0.017705
+carbon source: cellobiose,Metabolism,Carbon utilization,boolean,28,0.011299,0.017094
+degradation: maltose,Metabolism,Catabolic process,boolean,28,0.011299,0.017094
+assimilation: succinate,Metabolism,Assimilation,boolean,26,0.010492,0.015873
+enzyme activity: esterase,Enzymes,Enzyme activity,boolean,26,0.010492,0.015873
+reduction: triphenyltetrazolium chloride,Metabolism,Reduction,boolean,25,0.010089,0.015263
+degradation: D-xylose,Metabolism,Catabolic process,boolean,24,0.009685,0.014652
+assimilation: maltose,Metabolism,Assimilation,boolean,23,0.009282,0.014042
+carbon source: maltose,Metabolism,Carbon utilization,boolean,23,0.009282,0.014042
+assimilation: N-acetylglucosamine,Metabolism,Assimilation,boolean,22,0.008878,0.013431
+enzyme activity: glutamate decarboxylase (EC4.1.1.15),Enzymes,Enzyme activity,boolean,22,0.008878,0.013431
+degradation: phenol,Metabolism,Catabolic process,boolean,21,0.008475,0.012821
+builds acid from: inulin,Metabolism,Builds acid from,boolean,20,0.008071,0.01221
+builds acid from: melezitose,Metabolism,Builds acid from,boolean,20,0.008071,0.01221
+fermentation: N-acetylglucosamine,Metabolism,Fermentation,boolean,20,0.008071,0.01221

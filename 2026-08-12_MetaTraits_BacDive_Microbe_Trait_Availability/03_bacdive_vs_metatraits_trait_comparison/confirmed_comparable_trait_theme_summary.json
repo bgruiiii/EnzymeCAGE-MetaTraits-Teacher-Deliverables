@@ -1,0 +1,258 @@
+{
+  "gram_stain": {
+    "metatraits_group2_used": [
+      "Morphology / Cell envelope"
+    ],
+    "metatraits_trait_names": 2,
+    "metatraits_sources_with_any": 1637,
+    "fraction_of_2478": 0.660613,
+    "fraction_of_metatraits_covered_1638": 0.999389,
+    "example_traits": [
+      "gram negative",
+      "gram positive"
+    ],
+    "bacdive_validated_sources_with_value": 446,
+    "bacdive_fraction_of_2478": 0.179984,
+    "bacdive_fraction_of_bacdive_validated_1746": 0.255441
+  },
+  "cell_shape": {
+    "metatraits_group2_used": [
+      "Morphology / Cell morphology"
+    ],
+    "metatraits_trait_names": 3,
+    "metatraits_sources_with_any": 1613,
+    "fraction_of_2478": 0.650928,
+    "fraction_of_metatraits_covered_1638": 0.984737,
+    "example_traits": [
+      "cell color",
+      "cell color: yellow pigment",
+      "cell shape"
+    ],
+    "bacdive_validated_sources_with_value": 429,
+    "bacdive_fraction_of_2478": 0.173123,
+    "bacdive_fraction_of_bacdive_validated_1746": 0.245704
+  },
+  "motility": {
+    "metatraits_group2_used": [
+      "Physiology / Motility"
+    ],
+    "metatraits_trait_names": 1,
+    "metatraits_sources_with_any": 1626,
+    "fraction_of_2478": 0.656174,
+    "fraction_of_metatraits_covered_1638": 0.992674,
+    "example_traits": [
+      "presence of motility"
+    ],
+    "bacdive_validated_sources_with_value": 413,
+    "bacdive_fraction_of_2478": 0.166667,
+    "bacdive_fraction_of_bacdive_validated_1746": 0.236541
+  },
+  "oxygen_tolerance": {
+    "metatraits_group2_used": [
+      "Environmental preferences / Atmosphere"
+    ],
+    "metatraits_trait_names": 6,
+    "metatraits_sources_with_any": 1631,
+    "fraction_of_2478": 0.658192,
+    "fraction_of_metatraits_covered_1638": 0.995726,
+    "example_traits": [
+      "aerotolerant",
+      "capnophilic",
+      "facultative anaerobe",
+      "obligate aerobic",
+      "obligate anaerobic",
+      "oxygen preference"
+    ],
+    "bacdive_validated_sources_with_value": 754,
+    "bacdive_fraction_of_2478": 0.304278,
+    "bacdive_fraction_of_bacdive_validated_1746": 0.431844
+  },
+  "temperature": {
+    "metatraits_group2_used": [
+      "Environmental preferences / Temperature"
+    ],
+    "metatraits_trait_names": 6,
+    "metatraits_sources_with_any": 1638,
+    "fraction_of_2478": 0.661017,
+    "fraction_of_metatraits_covered_1638": 1.0,
+    "example_traits": [
+      "psychrophilic",
+      "temperature growth",
+      "temperature maximum",
+      "temperature minimum",
+      "temperature preference",
+      "thermophilic"
+    ]
+  },
+  "ph": {
+    "metatraits_group2_used": [
+      "Environmental preferences / pH"
+    ],
+    "metatraits_trait_names": 5,
+    "metatraits_sources_with_any": 1621,
+    "fraction_of_2478": 0.654157,
+    "fraction_of_metatraits_covered_1638": 0.989621,
+    "example_traits": [
+      "acidophilic",
+      "pH growth",
+      "pH maximum",
+      "pH minimum",
+      "pH preference"
+    ]
+  },
+  "salinity": {
+    "metatraits_group2_used": [
+      "Environmental preferences / Salinity"
+    ],
+    "metatraits_trait_names": 4,
+    "metatraits_sources_with_any": 1622,
+    "fraction_of_2478": 0.65456,
+    "fraction_of_metatraits_covered_1638": 0.990232,
+    "example_traits": [
+      "salinity growth",
+      "salinity maximum",
+      "salinity minimum",
+      "salinity preference"
+    ]
+  },
+  "metabolite_utilization": {
+    "metatraits_group2_used": [
+      "Metabolism / Utilizes metabolite",
+      "Metabolism / Metabolite tests",
+      "Metabolites / Metabolite tests",
+      "Metabolism / Carbon utilization"
+    ],
+    "metatraits_trait_names": 151,
+    "metatraits_sources_with_any": 1628,
+    "fraction_of_2478": 0.656981,
+    "fraction_of_metatraits_covered_1638": 0.993895,
+    "example_traits": [
+      "carbon source: (-)-quinic acid",
+      "carbon source: (R)-mandelate",
+      "carbon source: (S)-lactate",
+      "carbon source: (S)-mandelic acid",
+      "carbon source: 2,3-butanediol",
+      "carbon source: 2-aminobenzoate",
+      "carbon source: 2-aminobutyrate",
+      "carbon source: 2-aminopentanoic acid",
+      "carbon source: 2-dehydro-D-gluconate",
+      "carbon source: 2-hydroxybutyrate",
+      "carbon source: 2-oxobutanoate",
+      "carbon source: 2-oxoglutarate"
+    ],
+    "bacdive_validated_sources_with_value": 743,
+    "bacdive_fraction_of_2478": 0.299839,
+    "bacdive_fraction_of_bacdive_validated_1746": 0.425544
+  },
+  "enzyme_activity": {
+    "metatraits_group2_used": [
+      "Enzymes / Enzyme activity"
+    ],
+    "metatraits_trait_names": 73,
+    "metatraits_sources_with_any": 1611,
+    "fraction_of_2478": 0.650121,
+    "fraction_of_metatraits_covered_1638": 0.983516,
+    "example_traits": [
+      "enzyme activity: 6-phospho-beta-galactosidase (EC3.2.1.85)",
+      "enzyme activity: Alanyl-Phenylalanyl-Proline arylamidase",
+      "enzyme activity: DNase",
+      "enzyme activity: L-arginine arylamidase",
+      "enzyme activity: L-aspartate arylamidase (EC3.4.11.21)",
+      "enzyme activity: N-acetyl-beta-glucosaminidase (EC3.2.1.52)",
+      "enzyme activity: acid phosphatase (EC3.1.3.2)",
+      "enzyme activity: adenyl cyclase hemolysin",
+      "enzyme activity: agarase (EC3.2.1.81)",
+      "enzyme activity: alanine arylamidase (EC3.4.11.2)",
+      "enzyme activity: alcohol dehydrogenase (EC1.1.1.1)",
+      "enzyme activity: alkaline phosphatase (EC3.1.3.1)"
+    ],
+    "bacdive_validated_sources_with_value": 0,
+    "bacdive_fraction_of_2478": 0.0,
+    "bacdive_fraction_of_bacdive_validated_1746": 0.0
+  },
+  "biosafety": {
+    "metatraits_group2_used": [
+      "Safety / Biosafety level"
+    ],
+    "metatraits_trait_names": 1,
+    "metatraits_sources_with_any": 1477,
+    "fraction_of_2478": 0.596045,
+    "fraction_of_metatraits_covered_1638": 0.901709,
+    "example_traits": [
+      "biosafety level"
+    ]
+  },
+  "genome": {
+    "metatraits_group2_used": [
+      "Genome / Composition",
+      "Genome / Gene content",
+      "Genome / Genome size"
+    ],
+    "metatraits_trait_names": 6,
+    "metatraits_sources_with_any": 1620,
+    "fraction_of_2478": 0.653753,
+    "fraction_of_metatraits_covered_1638": 0.989011,
+    "example_traits": [
+      "GC percentage",
+      "coding density",
+      "estimated gene count",
+      "estimated genome size",
+      "gene count",
+      "genome size"
+    ]
+  },
+  "habitat_generalism": {
+    "metatraits_group2_used": [
+      "Habitat / Generalism"
+    ],
+    "metatraits_trait_names": 3,
+    "metatraits_sources_with_any": 356,
+    "fraction_of_2478": 0.143664,
+    "fraction_of_metatraits_covered_1638": 0.217338,
+    "example_traits": [
+      "generalism score",
+      "generalist",
+      "habitat count"
+    ]
+  },
+  "temperature_range": {
+    "bacdive_validated_sources_with_value": 1391,
+    "bacdive_fraction_of_2478": 0.56134,
+    "bacdive_fraction_of_bacdive_validated_1746": 0.796678
+  },
+  "temperature_optimum": {
+    "bacdive_validated_sources_with_value": 0,
+    "bacdive_fraction_of_2478": 0.0,
+    "bacdive_fraction_of_bacdive_validated_1746": 0.0
+  },
+  "culture_medium": {
+    "bacdive_validated_sources_with_value": 1159,
+    "bacdive_fraction_of_2478": 0.467716,
+    "bacdive_fraction_of_bacdive_validated_1746": 0.663803
+  },
+  "isolation_source": {
+    "bacdive_validated_sources_with_value": 1346,
+    "bacdive_fraction_of_2478": 0.54318,
+    "bacdive_fraction_of_bacdive_validated_1746": 0.770905
+  },
+  "country": {
+    "bacdive_validated_sources_with_value": 1346,
+    "bacdive_fraction_of_2478": 0.54318,
+    "bacdive_fraction_of_bacdive_validated_1746": 0.770905
+  },
+  "biosafety_or_pathogenicity": {
+    "bacdive_validated_sources_with_value": 0,
+    "bacdive_fraction_of_2478": 0.0,
+    "bacdive_fraction_of_bacdive_validated_1746": 0.0
+  },
+  "temperature_any": {
+    "bacdive_validated_sources_with_value": 1391,
+    "bacdive_fraction_of_2478": 0.56134,
+    "bacdive_fraction_of_bacdive_validated_1746": 0.796678
+  },
+  "isolation_or_country": {
+    "bacdive_validated_sources_with_value": 1346,
+    "bacdive_fraction_of_2478": 0.54318,
+    "bacdive_fraction_of_bacdive_validated_1746": 0.770905
+  }
+}
