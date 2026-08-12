@@ -10,6 +10,7 @@
 | BacDive 全量 2,478 source closure | 完成 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/02_bacdive_full_closure/`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/02_bacdive_full_closure/) |
 | BacDive vs MetaTraits 性状数量/类别对比 | 完成 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/03_bacdive_vs_metatraits_trait_comparison/`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/03_bacdive_vs_metatraits_trait_comparison/) |
 | BacDive species-level representative strain / 保藏编号 v2 展开 | 完成 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/04_bacdive_species_representative_strain_expansion/`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/04_bacdive_species_representative_strain_expansion/) |
+| 性状面板与 prediction 使用策略讨论材料 | 完成，待老师/领域 reviewer 裁定 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/05_next_discussion_trait_panel_and_prediction_policy/`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/05_next_discussion_trait_panel_and_prediction_policy/) |
 | SHA256 manifest | 完成 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/DELIVERABLE_SHA256SUMS.txt`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/DELIVERABLE_SHA256SUMS.txt) |
 
 ## 当前推荐设计
@@ -17,6 +18,8 @@
 ```text
 MetaTraits = primary species-level trait matrix
 BacDive = exact-strain evidence + species-level representative strain availability + culture collection numbers + culture medium + isolation/source metadata
+
+Next decision = define pollutant-degradation core trait panel, then decide whether predicted MetaTraits can soft-fill observed-missing core traits
 ```
 
 ## 仍保持边界/未启动
@@ -28,6 +31,7 @@ BacDive = exact-strain evidence + species-level representative strain availabili
 | BacDive species representative strain | 不写成原始 UniProt exact strain |
 | BacDive exact-strain claims | 需按 main / conservative / hard policy 分层 |
 | fungi in BacDive | non-scope，不计为 BacDive failure |
+| Prediction-like traits 使用策略 | 待裁定，不写成已进入 production 主特征 |
 
 ## 历史已完成项
 

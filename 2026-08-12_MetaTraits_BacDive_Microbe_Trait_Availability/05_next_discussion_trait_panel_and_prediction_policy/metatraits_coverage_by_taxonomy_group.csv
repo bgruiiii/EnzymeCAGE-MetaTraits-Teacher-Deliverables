@@ -1,0 +1,4 @@
+taxonomy_group,source_count,metatraits_all_covered,metatraits_no_predictions_covered,all_fraction_in_group,no_predictions_fraction_in_group
+target_archaea,153,63,63,0.411765,0.411765
+target_bacteria,1897,1575,1575,0.830258,0.830258
+target_fungi,428,0,0,0.0,0.0

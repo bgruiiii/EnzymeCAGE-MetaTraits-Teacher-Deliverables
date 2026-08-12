@@ -1,0 +1,17 @@
+proposed_panel_item,source_category,example_traits_or_fields,suggested_priority_for_discussion,reason
+oxygen_tolerance,Environmental preferences / Atmosphere,aerotolerant; oxygen preference; obligate aerobic; obligate anaerobic; facultative anaerobe,high,directly affects wastewater reactor niche and degradation feasibility
+temperature,Environmental preferences / Temperature,temperature growth; minimum; maximum; preference; psychrophilic; thermophilic,high,growth feasibility under wastewater/process temperature
+pH,Environmental preferences / pH,pH growth; pH minimum; pH maximum; pH preference; acidophilic,high,wastewater pH compatibility and process robustness
+salinity,Environmental preferences / Salinity,salinity growth; salinity minimum; salinity maximum; salinity preference,medium_high,"important for saline/industrial wastewater, less universal for municipal wastewater"
+motility,Physiology / Motility,presence of motility,medium,"may affect colonization, biofilm entry and spatial access to pollutants"
+sporulation,Physiology / Sporulation,sporulation,medium,survival and persistence under stress
+cell_envelope_gram,Morphology / Cell envelope,gram positive; gram negative,medium,affects membrane permeability and environmental robustness
+cell_shape,Morphology / Cell morphology,cell shape,low_medium,"basic phenotype, useful mostly as context"
+genome_basic,Genome,GC percentage; genome size; gene count; coding density,medium,"proxy for genomic capacity and annotation density, but indirect"
+degradation_capacity,Metabolism / Catabolic process,degradation: aromatic compound; aromatic hydrocarbon; hydrocarbon; lignin; plastic; cellulose; chitin,high,closest to pollutant degradation relevance among MetaTraits categories
+carbon_and_substrate_utilization,Metabolism / Carbon utilization / Utilizes metabolite / Metabolite tests,carbon source and metabolite utilization traits,high,substrate range and metabolic flexibility
+respiration_electron_acceptor,Metabolism / Respiration / Electron acceptor / Denitrification / Nitrification,respiration; nitrate/nitrite/sulfate/iron/sulfur electron acceptor traits,high,important for aerobic/anaerobic wastewater niches
+enzyme_activity,Enzymes / Enzyme activity,oxidase; catalase; hydrolases; arylamidases; glycosidases; other enzyme activity traits,medium_high,useful but not always substrate-specific for pollutant degradation
+biosafety,Safety / Biosafety level,biosafety level,high_as_filter_or_warning,needed for practical strain selection and exclusion/warning
+habitat_generalism,Habitat / Generalism,generalism score; generalist; habitat count,medium,"context for ecological breadth, but low observed coverage in current snapshot"
+bacdive_availability,BacDive provenance,culture collection numbers; type strain; culture medium; isolation source; country,high_for_practical_followup,"not primary trait vector, but essential for obtainable representative strains"

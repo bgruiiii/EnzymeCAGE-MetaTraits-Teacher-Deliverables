@@ -16,6 +16,8 @@
 - BacDive exact_strain_main 覆盖 597 / 2,478 = 24.1%，hard exact 覆盖 555 / 2,478 = 22.4%；
 - BacDive 与 MetaTraits main-policy overlap: both covered 1,508，BacDive only 238，MetaTraits only 130，neither 602；
 - BacDive species-level representative strain expansion v2: 1,149 / 1,149 species-level BacDive hits 均有至少一个 representative strain record 和至少一个 culture collection number。
+- MetaTraits observed-only 与 all snapshot 对比显示：source 覆盖均为 1,638 / 2,478，但 all snapshot 的 covered source 平均 unique trait_name 约 156.8，no_predictions 为 47.7；因此 prediction-like 信息主要补充性状密度，不增加当前本地 source 覆盖。
+- 新增待讨论项：先定义污染物降解微生物核心性状面板，再裁定 observed 缺失时是否允许 MetaTraits predicted traits 作为 soft feature 补齐；真菌需单独策略。
 
 建议阅读顺序：
 
@@ -23,8 +25,9 @@
 2. [`03_bacdive_vs_metatraits_trait_comparison/BACDIVE_VS_METATRAITS_TRAIT_AVAILABILITY_COMPARISON_2026-08-12.md`](2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/03_bacdive_vs_metatraits_trait_comparison/BACDIVE_VS_METATRAITS_TRAIT_AVAILABILITY_COMPARISON_2026-08-12.md)
 3. [`02_bacdive_full_closure/CODEX_LOCAL_AUDIT_BACDIVE_FULL_CLOSURE_2478_2026-08-12.md`](2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/02_bacdive_full_closure/CODEX_LOCAL_AUDIT_BACDIVE_FULL_CLOSURE_2478_2026-08-12.md)
 4. [`04_bacdive_species_representative_strain_expansion/CODEX_AUDIT_BACDIVE_SPECIES_REPRESENTATIVE_STRAIN_EXPANSION_V2_2026-08-12.md`](2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/04_bacdive_species_representative_strain_expansion/CODEX_AUDIT_BACDIVE_SPECIES_REPRESENTATIVE_STRAIN_EXPANSION_V2_2026-08-12.md)
+5. [`05_next_discussion_trait_panel_and_prediction_policy/TRAIT_PANEL_AND_PREDICTION_POLICY_DISCUSSION_REQUEST_2026-08-12.md`](2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/05_next_discussion_trait_panel_and_prediction_policy/TRAIT_PANEL_AND_PREDICTION_POLICY_DISCUSSION_REQUEST_2026-08-12.md)
 
-解释边界：MetaTraits 是 species-level trait source，不写成 strain-level trait；BacDive species-level representative strain records 不写成原始 UniProt exact strain；exact-strain evidence 按 main/conservative/hard policy 分层。历史文件保留用于追溯，当前审阅以本 2026-08-12 入口为准。
+解释边界：MetaTraits 是 species-level trait source，不写成 strain-level trait；BacDive species-level representative strain records 不写成原始 UniProt exact strain；exact-strain evidence 按 main/conservative/hard policy 分层；prediction-like traits 尚未裁定为 production 主特征。历史文件保留用于追溯，当前审阅以本 2026-08-12 入口为准。
 
 
 ## 老师当前优先审阅入口 — 2026-08-05

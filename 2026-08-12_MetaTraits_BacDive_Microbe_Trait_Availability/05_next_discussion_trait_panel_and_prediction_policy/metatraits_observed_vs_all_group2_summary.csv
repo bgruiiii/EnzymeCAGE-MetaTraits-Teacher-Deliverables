@@ -1,0 +1,50 @@
+group_1,group_2,source_count_all,source_count_no_predictions,delta_sources,all_fraction_2478,no_predictions_fraction_2478
+Environmental preferences,Temperature,1638,1606,32,0.661017,0.648103
+Morphology,Cell envelope,1637,1627,10,0.660613,0.656578
+Environmental preferences,Atmosphere,1631,1528,103,0.658192,0.616626
+Metabolism,Produces metabolite,1629,1125,504,0.657385,0.453995
+Metabolism,Hydrolase activity,1627,1021,606,0.656578,0.412026
+Physiology,Motility,1626,1454,172,0.656174,0.586764
+Physiology,Sporulation,1623,1262,361,0.654964,0.509282
+Environmental preferences,Salinity,1622,919,703,0.65456,0.370864
+Environmental preferences,pH,1621,420,1201,0.654157,0.169492
+Metabolism,Fermentation,1621,788,833,0.654157,0.317998
+Metabolism,Reduction,1621,695,926,0.654157,0.280468
+Genome,Composition,1620,1620,0,0.653753,0.653753
+Genome,Gene content,1620,1620,0,0.653753,0.653753
+Genome,Genome size,1620,1620,0,0.653753,0.653753
+Metabolism,Growth,1618,116,1502,0.652946,0.046812
+Metabolism,Oxidation,1617,5,1612,0.652542,0.002018
+Metabolism,Catabolic process,1615,505,1110,0.651735,0.203793
+Metabolism,Carbon utilization,1614,576,1038,0.651332,0.232446
+Morphology,Cell morphology,1613,1507,106,0.650928,0.608152
+Enzymes,Enzyme activity,1611,1150,461,0.650121,0.464084
+Metabolism,Respiration,1611,286,1325,0.650121,0.115416
+Metabolism,Aerobic growth,1608,1,1607,0.64891,0.000404
+Metabolism,Ammonification,1608,0,1608,0.64891,0.0
+Metabolism,Denitrification,1608,0,1608,0.64891,0.0
+Metabolism,Electron acceptor,1608,7,1601,0.64891,0.002825
+Metabolism,Nitrification,1608,0,1608,0.64891,0.0
+Metabolism,Oxidation in darkness,1608,0,1608,0.64891,0.0
+Metabolites,Metabolite tests,1604,934,670,0.647296,0.376917
+Metabolism,Metabolite tests,1599,749,850,0.645278,0.30226
+Metabolism,Utilizes metabolite,1591,106,1485,0.64205,0.042776
+Safety,Biosafety level,1477,1477,0,0.596045,0.596045
+Metabolism,Builds acid from,757,757,0,0.305488,0.305488
+Metabolism,Assimilation,668,668,0,0.269572,0.269572
+Morphology,Cell size phenotype,433,433,0,0.174738,0.174738
+Habitat,Generalism,356,0,356,0.143664,0.0
+Genome,Pangenome,269,0,269,0.108555,0.0
+Genome,Population diversity,267,0,267,0.107748,0.0
+Metabolism,Energy source,233,233,0,0.094027,0.094027
+Metabolism,Builds gas from,197,197,0,0.0795,0.0795
+Morphology,Cell appendages,85,85,0,0.034302,0.034302
+Metabolism,Nitrogen source,6,6,0,0.002421,0.002421
+Metabolism,Builds base from,4,4,0,0.001614,0.001614
+Metabolism,Electron donor,3,3,0,0.001211,0.001211
+Metabolism,Anaerobic growth,2,2,0,0.000807,0.000807
+Metabolism,Aerobic catabolization,1,1,0,0.000404,0.000404
+Metabolism,Anaerobic catabolization,1,1,0,0.000404,0.000404
+Metabolism,Anaerobic growth in the dark,1,1,0,0.000404,0.000404
+Metabolism,Anaerobic growth with light,1,1,0,0.000404,0.000404
+Metabolism,Required for growth,1,1,0,0.000404,0.000404

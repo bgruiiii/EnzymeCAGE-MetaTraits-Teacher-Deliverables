@@ -12,6 +12,9 @@
 | species-level trait 边界 | MetaTraits 只能作为 species-level trait，不等于 strain-level trait | 是否接受 species-level trait_resolution 标注进入后续 schema |
 | species-level representative strain 边界 | BacDive representative records 不等于原始 UniProt exact strain | 是否接受 representative strain availability 作为可获得性证据，而非 exact-strain claim |
 | 后续 production schema | 当前已形成 schema 建议，但尚未进入 M4b/M4c production implementation | 是否授权后续实现/集成 |
+| 污染物降解核心性状面板 | MetaTraits 可提供 environmental preferences、metabolism、physiology、genome、enzymes、safety 等类别；不同类别 observed 覆盖差异很大 | 请裁定哪些性状应作为污水污染物降解微生物的核心面板 |
+| Prediction-like traits 使用策略 | all 与 no_predictions 的 source 覆盖同为 1,638 / 2,478，但 covered source 平均 unique trait_name 为 156.8 vs 47.7 | 是否允许对核心性状中 observed 缺失的项目使用 predicted soft feature，并保留 evidence_type |
+| 真菌 trait 策略 | 当前 428 个 target_fungi 在本地 MetaTraits NCBI summary 中未覆盖，BacDive 又属于 prokaryote-focused non-scope | 是否暂不加入真菌性状、寻找真菌专用资源，或允许预测性状单独标注进入 |
 
 ## 2. 仍不能误写成完成的内容
 
@@ -20,11 +23,12 @@ M4b / M4c production pipeline 尚未启动；
 MetaTraits species-level trait 不能冒充 strain-level trait；
 BacDive species-level representative strain 不能冒充原始 UniProt exact strain；
 BacDive exact-strain evidence 需要保留 main / conservative / hard policy 分层；
-fungi 属于 BacDive non-scope，不计为 BacDive 查询失败。
+fungi 属于 BacDive non-scope，不计为 BacDive 查询失败；
+prediction-like traits 尚未裁定为 production 主特征，若使用应保留 evidence_type 与 missing/observed/predicted 标记。
 ```
 
 ## 3. 建议汇报口径
 
 ```text
-菌侧已完成 MetaTraits 与 BacDive 的全量可获得性探索和对比。结果支持使用 MetaTraits 作为物种级主性状矩阵，并使用 BacDive 补充 exact-strain evidence、species-level representative strain availability、保藏编号、培养基和分离来源。后续是否进入 production schema / M4b/M4c 实现仍需正式授权。
+菌侧已完成 MetaTraits 与 BacDive 的全量可获得性探索和对比。结果支持使用 MetaTraits 作为物种级主性状矩阵，并使用 BacDive 补充 exact-strain evidence、species-level representative strain availability、保藏编号、培养基和分离来源。下一步建议先裁定污染物降解核心性状面板，以及 observed 缺失时 predicted trait 是否可作为 soft feature 补齐；后续是否进入 production schema / M4b/M4c 实现仍需正式授权。
 ```

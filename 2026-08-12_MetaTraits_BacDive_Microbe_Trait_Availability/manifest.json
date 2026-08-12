@@ -1,8 +1,8 @@
 {
   "date": "2026-08-12",
   "package": "metatraits_bacdive_microbe_trait_deliverable_2026-08-12",
-  "file_count": 27,
-  "total_bytes": 41235255,
+  "file_count": 33,
+  "total_bytes": 41349281,
   "files": [
     {
       "path": "01_metatraits_species_coverage/METATRAITS_SPECIES_LEVEL_COVERAGE_PROBE_2026-08-12.md",
@@ -135,9 +135,39 @@
       "sha256": "94bf94705dd85de067643b9beaf18098996b11c2eca07f4303bf577006da57d2"
     },
     {
+      "path": "05_next_discussion_trait_panel_and_prediction_policy/TRAIT_PANEL_AND_PREDICTION_POLICY_DISCUSSION_REQUEST_2026-08-12.md",
+      "bytes": 13544,
+      "sha256": "eb49e707515f739052b0fbc922dc4fe6c2da88f6eb0657c1eb31c288a8500cbf"
+    },
+    {
+      "path": "05_next_discussion_trait_panel_and_prediction_policy/metatraits_coverage_by_taxonomy_group.csv",
+      "bytes": 265,
+      "sha256": "ac62718437ef3f8d805211bc802582b5ed2427c458de402fb4bb47b47b2e4b03"
+    },
+    {
+      "path": "05_next_discussion_trait_panel_and_prediction_policy/metatraits_observed_vs_all_group2_summary.csv",
+      "bytes": 2888,
+      "sha256": "e2de6da5388f09ee636f14ae9e77a5785cc6d1b1d59291f6fced53e26be1d654"
+    },
+    {
+      "path": "05_next_discussion_trait_panel_and_prediction_policy/metatraits_observed_vs_all_trait_catalog.csv",
+      "bytes": 83772,
+      "sha256": "46b238b4c81a009187866bf341a1120dc8ad904d1c09d9e30d2a31c17afbb64f"
+    },
+    {
+      "path": "05_next_discussion_trait_panel_and_prediction_policy/prediction_policy_discussion_summary.json",
+      "bytes": 7345,
+      "sha256": "8fd5b9feac8a917b99203e9cd348d61cd7919b33ad44522fbd552604a9f82a7e"
+    },
+    {
+      "path": "05_next_discussion_trait_panel_and_prediction_policy/proposed_pollutant_degradation_trait_panel_for_domain_review.csv",
+      "bytes": 2941,
+      "sha256": "f077508e94dd9a611ed55f6adf2910bfd67cf0a673b125618a1fe97697b4ba3c"
+    },
+    {
       "path": "README.md",
-      "bytes": 9625,
-      "sha256": "78a0294182b5bcc29a65c8a5effff2952a40a1d4855752c834df590da8ba9920"
+      "bytes": 12896,
+      "sha256": "c72602e13e50f75cf34a40c608c63eadc0d3a977283c5a989b3a6491ea1fddde"
     }
   ]
 }

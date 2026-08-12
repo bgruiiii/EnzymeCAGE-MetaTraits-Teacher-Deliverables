@@ -1,0 +1,325 @@
+{
+  "date": "2026-08-12",
+  "purpose": "support domain discussion on observed vs predicted MetaTraits and BacDive availability layer",
+  "universe_source_signatures": 2478,
+  "taxonomy_group_counts": {
+    "target_bacteria": 1897,
+    "target_archaea": 153,
+    "target_fungi": 428
+  },
+  "metatraits_all_covered": 1638,
+  "metatraits_no_predictions_covered": 1638,
+  "fungi_metatraits_all_covered": 0,
+  "fungi_metatraits_no_predictions_covered": 0,
+  "metatraits_all_unique_trait_names": 923,
+  "metatraits_no_predictions_unique_trait_names": 850,
+  "prediction_like_added_trait_names_all_minus_no_predictions": 73,
+  "metatraits_all_mean_unique_traits_per_covered_source": 156.7619,
+  "metatraits_no_predictions_mean_unique_traits_per_covered_source": 47.6947,
+  "metatraits_all_median_unique_traits_per_covered_source": 154.0,
+  "metatraits_no_predictions_median_unique_traits_per_covered_source": 42.0,
+  "top_group2_all": [
+    {
+      "group_1": "Environmental preferences",
+      "group_2": "Temperature",
+      "source_count": 1638
+    },
+    {
+      "group_1": "Morphology",
+      "group_2": "Cell envelope",
+      "source_count": 1637
+    },
+    {
+      "group_1": "Environmental preferences",
+      "group_2": "Atmosphere",
+      "source_count": 1631
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Produces metabolite",
+      "source_count": 1629
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Hydrolase activity",
+      "source_count": 1627
+    },
+    {
+      "group_1": "Physiology",
+      "group_2": "Motility",
+      "source_count": 1626
+    },
+    {
+      "group_1": "Physiology",
+      "group_2": "Sporulation",
+      "source_count": 1623
+    },
+    {
+      "group_1": "Environmental preferences",
+      "group_2": "Salinity",
+      "source_count": 1622
+    },
+    {
+      "group_1": "Environmental preferences",
+      "group_2": "pH",
+      "source_count": 1621
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Fermentation",
+      "source_count": 1621
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Reduction",
+      "source_count": 1621
+    },
+    {
+      "group_1": "Genome",
+      "group_2": "Composition",
+      "source_count": 1620
+    },
+    {
+      "group_1": "Genome",
+      "group_2": "Gene content",
+      "source_count": 1620
+    },
+    {
+      "group_1": "Genome",
+      "group_2": "Genome size",
+      "source_count": 1620
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Growth",
+      "source_count": 1618
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Oxidation",
+      "source_count": 1617
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Catabolic process",
+      "source_count": 1615
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Carbon utilization",
+      "source_count": 1614
+    },
+    {
+      "group_1": "Morphology",
+      "group_2": "Cell morphology",
+      "source_count": 1613
+    },
+    {
+      "group_1": "Enzymes",
+      "group_2": "Enzyme activity",
+      "source_count": 1611
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Respiration",
+      "source_count": 1611
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Aerobic growth",
+      "source_count": 1608
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Ammonification",
+      "source_count": 1608
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Denitrification",
+      "source_count": 1608
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Electron acceptor",
+      "source_count": 1608
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Nitrification",
+      "source_count": 1608
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Oxidation in darkness",
+      "source_count": 1608
+    },
+    {
+      "group_1": "Metabolites",
+      "group_2": "Metabolite tests",
+      "source_count": 1604
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Metabolite tests",
+      "source_count": 1599
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Utilizes metabolite",
+      "source_count": 1591
+    }
+  ],
+  "top_group2_no_predictions": [
+    {
+      "group_1": "Morphology",
+      "group_2": "Cell envelope",
+      "source_count": 1627
+    },
+    {
+      "group_1": "Genome",
+      "group_2": "Composition",
+      "source_count": 1620
+    },
+    {
+      "group_1": "Genome",
+      "group_2": "Gene content",
+      "source_count": 1620
+    },
+    {
+      "group_1": "Genome",
+      "group_2": "Genome size",
+      "source_count": 1620
+    },
+    {
+      "group_1": "Environmental preferences",
+      "group_2": "Temperature",
+      "source_count": 1606
+    },
+    {
+      "group_1": "Environmental preferences",
+      "group_2": "Atmosphere",
+      "source_count": 1528
+    },
+    {
+      "group_1": "Morphology",
+      "group_2": "Cell morphology",
+      "source_count": 1507
+    },
+    {
+      "group_1": "Safety",
+      "group_2": "Biosafety level",
+      "source_count": 1477
+    },
+    {
+      "group_1": "Physiology",
+      "group_2": "Motility",
+      "source_count": 1454
+    },
+    {
+      "group_1": "Physiology",
+      "group_2": "Sporulation",
+      "source_count": 1262
+    },
+    {
+      "group_1": "Enzymes",
+      "group_2": "Enzyme activity",
+      "source_count": 1150
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Produces metabolite",
+      "source_count": 1125
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Hydrolase activity",
+      "source_count": 1021
+    },
+    {
+      "group_1": "Metabolites",
+      "group_2": "Metabolite tests",
+      "source_count": 934
+    },
+    {
+      "group_1": "Environmental preferences",
+      "group_2": "Salinity",
+      "source_count": 919
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Fermentation",
+      "source_count": 788
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Builds acid from",
+      "source_count": 757
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Metabolite tests",
+      "source_count": 749
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Reduction",
+      "source_count": 695
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Assimilation",
+      "source_count": 668
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Carbon utilization",
+      "source_count": 576
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Catabolic process",
+      "source_count": 505
+    },
+    {
+      "group_1": "Morphology",
+      "group_2": "Cell size phenotype",
+      "source_count": 433
+    },
+    {
+      "group_1": "Environmental preferences",
+      "group_2": "pH",
+      "source_count": 420
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Respiration",
+      "source_count": 286
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Energy source",
+      "source_count": 233
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Builds gas from",
+      "source_count": 197
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Growth",
+      "source_count": 116
+    },
+    {
+      "group_1": "Metabolism",
+      "group_2": "Utilizes metabolite",
+      "source_count": 106
+    },
+    {
+      "group_1": "Morphology",
+      "group_2": "Cell appendages",
+      "source_count": 85
+    }
+  ]
+}

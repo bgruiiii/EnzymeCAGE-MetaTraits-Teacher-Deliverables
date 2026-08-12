@@ -10,7 +10,8 @@ Date: 2026-08-12
 2. 同一批来源能否在 BacDive 中获得菌株或物种级证据；
 3. 如果不强求锁定 UniProt 原始菌株，BacDive 是否能提供该物种下可获得的代表菌株与保藏编号；
 4. MetaTraits 与 BacDive 在性状数量、覆盖率和信息类型上如何互补；
-5. 后续微生物侧特征构建应采用什么设计。
+5. 后续微生物侧特征构建应采用什么设计；
+6. 在 observed traits 不完整、尤其真菌缺少当前本地覆盖时，是否允许对 domain-defined core traits 使用 prediction 补齐。
 
 ## 2. 总体结论
 
@@ -56,6 +57,15 @@ MetaTraits 性状维度：
 923 个 reconstructed trait_name
 confirmed covered source 平均约 156.8 个 unique trait_name
 ```
+
+Observed-only 与 all snapshot 对比：
+
+```text
+ncbi_species_summary_all.tsv.gz: covered 1,638 / 2,478, unique_trait_name 923, covered source 平均 156.8 个 unique trait_name
+ncbi_species_summary_no_predictions.tsv.gz: covered 1,638 / 2,478, unique_trait_name 850, covered source 平均 47.7 个 unique trait_name
+```
+
+解释：prediction-like 信息当前没有提高 source 覆盖数，但显著提高已覆盖物种的性状密度。因此是否使用 prediction，更准确地说是“observed 缺失的核心性状是否允许 predicted soft fill”，而不是“用 prediction 扩大到更多 source”。
 
 主要性状类别包括：
 
@@ -145,7 +155,8 @@ metatraits_bacdive_microbe_trait_deliverable_2026-08-12/
 ├── 01_metatraits_species_coverage/
 ├── 02_bacdive_full_closure/
 ├── 03_bacdive_vs_metatraits_trait_comparison/
-└── 04_bacdive_species_representative_strain_expansion/
+├── 04_bacdive_species_representative_strain_expansion/
+└── 05_next_discussion_trait_panel_and_prediction_policy/
 ```
 
 ## 6. 子目录说明
@@ -166,8 +177,8 @@ BacDive 全量 2,478 source closure 结果。
 
 | File | Meaning |
 |---|---|
-| `bacdive_full_closure_report.md` | 本地 AI 生成的 BacDive closure 报告 |
-| `bacdive_full_closure_audit.md` | 本地 AI 自审计 |
+| `bacdive_full_closure_report.md` | 执行端生成的 BacDive closure 初始报告 |
+| `bacdive_full_closure_audit.md` | 执行端自审计 |
 | `CODEX_LOCAL_AUDIT_BACDIVE_FULL_CLOSURE_2478_2026-08-12.md` | Codex 复核审计 |
 | `bacdive_full_closure_summary.json` | closure 汇总数字 |
 | `bacdive_full_closure_results.jsonl` | 2,478 个 source_signature 的完整 BacDive closure 明细 |
@@ -204,6 +215,19 @@ BacDive species-level representative strain / culture collection expansion v2。
 | `bacdive_species_representative_source_summary_v2.csv` | 每个 species-level source 的 representative strain 可获得性汇总 |
 | `bacdive_species_representative_strain_records_v2.csv` | 展开的 52,956 条 BacDive representative strain records |
 
+### 05_next_discussion_trait_panel_and_prediction_policy
+
+后续性状面板和 prediction 使用策略待讨论材料。
+
+| File | Meaning |
+|---|---|
+| `TRAIT_PANEL_AND_PREDICTION_POLICY_DISCUSSION_REQUEST_2026-08-12.md` | 面向老师/领域 reviewer 的问题清单：核心性状如何定义、observed 缺失时是否允许 prediction soft fill、真菌如何处理 |
+| `prediction_policy_discussion_summary.json` | observed vs all/prediction-like 总体统计 |
+| `metatraits_observed_vs_all_group2_summary.csv` | MetaTraits group_2 在 all 与 no_predictions 中的覆盖对比 |
+| `metatraits_observed_vs_all_trait_catalog.csv` | 每个 MetaTraits trait_name 的 all/no_predictions 覆盖对比 |
+| `metatraits_coverage_by_taxonomy_group.csv` | bacteria / archaea / fungi 覆盖对比 |
+| `proposed_pollutant_degradation_trait_panel_for_domain_review.csv` | 建议交给领域审阅的污染物降解微生物性状面板 |
+
 ## 7. 推荐阅读顺序
 
 建议先读：
@@ -212,6 +236,7 @@ BacDive species-level representative strain / culture collection expansion v2。
 2. `03_bacdive_vs_metatraits_trait_comparison/BACDIVE_VS_METATRAITS_TRAIT_AVAILABILITY_COMPARISON_2026-08-12.md`
 3. `02_bacdive_full_closure/CODEX_LOCAL_AUDIT_BACDIVE_FULL_CLOSURE_2478_2026-08-12.md`
 4. `04_bacdive_species_representative_strain_expansion/CODEX_AUDIT_BACDIVE_SPECIES_REPRESENTATIVE_STRAIN_EXPANSION_V2_2026-08-12.md`
+5. `05_next_discussion_trait_panel_and_prediction_policy/TRAIT_PANEL_AND_PREDICTION_POLICY_DISCUSSION_REQUEST_2026-08-12.md`
 
 如果需要查具体 source_signature：
 
@@ -219,6 +244,7 @@ BacDive species-level representative strain / culture collection expansion v2。
 - BacDive closure 看 `02_bacdive_full_closure/bacdive_full_closure_results.jsonl`
 - BacDive representative strain / 保藏编号看 `04_bacdive_species_representative_strain_expansion/bacdive_species_representative_source_summary_v2.csv`
 - 展开后的 strain record 明细看 `04_bacdive_species_representative_strain_expansion/bacdive_species_representative_strain_records_v2.csv`
+- 性状面板与 prediction 使用策略待讨论清单看 `05_next_discussion_trait_panel_and_prediction_policy/TRAIT_PANEL_AND_PREDICTION_POLICY_DISCUSSION_REQUEST_2026-08-12.md`
 
 ## 8. 当前设计建议
 
@@ -255,6 +281,19 @@ bacdive_has_country
 bacdive_record_inclusion_basis
 ```
 
+### 8.3 Trait evidence / prediction policy layer
+
+当前建议先提交老师和领域 reviewer 裁定，不直接进入 production：
+
+```text
+MetaTraits observed traits 优先；
+对 domain-defined core traits，如果 observed 缺失且 MetaTraits predicted 存在，可考虑作为 predicted soft feature 补齐；
+observed 与 predicted 必须保留不同 evidence_type，不混成同一证据等级；
+真菌 source 需要单独策略：当前本地 MetaTraits NCBI summary 未覆盖，BacDive 又是 prokaryote-focused non-scope。
+```
+
+待裁定的第一步不是直接使用所有 prediction，而是先定义“污水污染物降解微生物”的核心性状面板，例如 oxygen tolerance、temperature、pH、salinity、catabolic process、carbon/substrate utilization、respiration/electron acceptor、enzyme activity、biosafety，以及 BacDive availability/provenance。
+
 ## 9. 解释边界
 
 需要保持以下边界：
@@ -264,6 +303,7 @@ bacdive_record_inclusion_basis
 3. BacDive exact-strain evidence 需要按 main / conservative / hard policy 分层。
 4. 真菌在 BacDive 中属于 non-scope，不应计为 BacDive 查询失败。
 5. 大 species 的 representative strain records 很多，建模时应使用 source-level summary 或 top-k/capped 方案，避免 record count 直接放大样本权重。
+6. Prediction-like traits 尚未被裁定为可直接进入主特征；若使用，必须标注 evidence_type，并优先限制在老师/领域 reviewer 定义的核心性状面板内。
 
 ## 10. 结论
 
@@ -275,4 +315,4 @@ BacDive 提供 exact-strain evidence、species-level representative strain avail
 ```
 
 这比单独使用任一数据库更稳健：MetaTraits 负责“性状全不全”，BacDive 负责“菌株/代表菌株是否可获得、来源是否可追溯”。
-
+下一步需要裁定核心性状面板以及 observed 缺失时 predicted trait 是否可作为 soft feature 补齐。

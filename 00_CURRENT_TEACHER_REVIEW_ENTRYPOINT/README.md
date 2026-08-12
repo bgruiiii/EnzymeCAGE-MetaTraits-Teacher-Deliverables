@@ -12,6 +12,7 @@
 | 3 | BacDive vs MetaTraits 性状可获得性对比报告 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/03_bacdive_vs_metatraits_trait_comparison/BACDIVE_VS_METATRAITS_TRAIT_AVAILABILITY_COMPARISON_2026-08-12.md`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/03_bacdive_vs_metatraits_trait_comparison/BACDIVE_VS_METATRAITS_TRAIT_AVAILABILITY_COMPARISON_2026-08-12.md) |
 | 4 | BacDive full closure Codex 复核审计 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/02_bacdive_full_closure/CODEX_LOCAL_AUDIT_BACDIVE_FULL_CLOSURE_2478_2026-08-12.md`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/02_bacdive_full_closure/CODEX_LOCAL_AUDIT_BACDIVE_FULL_CLOSURE_2478_2026-08-12.md) |
 | 5 | BacDive species-level representative strain / 保藏编号 v2 审计 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/04_bacdive_species_representative_strain_expansion/CODEX_AUDIT_BACDIVE_SPECIES_REPRESENTATIVE_STRAIN_EXPANSION_V2_2026-08-12.md`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/04_bacdive_species_representative_strain_expansion/CODEX_AUDIT_BACDIVE_SPECIES_REPRESENTATIVE_STRAIN_EXPANSION_V2_2026-08-12.md) |
+| 6 | 性状面板与 prediction 使用策略待讨论清单 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/05_next_discussion_trait_panel_and_prediction_policy/TRAIT_PANEL_AND_PREDICTION_POLICY_DISCUSSION_REQUEST_2026-08-12.md`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/05_next_discussion_trait_panel_and_prediction_policy/TRAIT_PANEL_AND_PREDICTION_POLICY_DISCUSSION_REQUEST_2026-08-12.md) |
 
 ## 2. 当前状态一句话
 
@@ -29,6 +30,7 @@ BacDive + MetaTraits both covered: 1,508 source_signatures
 BacDive only: 238 source_signatures
 MetaTraits only: 130 source_signatures
 BacDive species-level representative expansion v2: 1,149 / 1,149 have at least one representative strain record and at least one culture collection number
+MetaTraits all vs no_predictions: source coverage both 1,638 / 2,478; mean unique traits per covered source 156.8 vs 47.7
 ```
 
 ## 4. 当前不能误写成完成的内容
@@ -39,6 +41,7 @@ BacDive species-level representative strain record 不等于原始 UniProt exact
 BacDive exact-strain evidence 需要按 main / conservative / hard policy 分层；
 真菌属于 BacDive non-scope，不应计为 BacDive 查询失败；
 当前结果支持 schema 设计与后续实现，但不代表 M4b/M4c production pipeline 已经启动。
+prediction-like traits 的使用策略尚需裁定；当前建议是先定义核心性状面板，再决定 observed 缺失时是否允许 predicted soft fill。
 ```
 
 ## 5. 为什么根目录仍保留历史文件
