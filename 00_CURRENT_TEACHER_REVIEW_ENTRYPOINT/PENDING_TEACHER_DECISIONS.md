@@ -1,7 +1,17 @@
 # 仍需后续裁定的问题（MetaTraits / 菌侧）
 
-日期：2026-08-12  
+日期：2026-08-13  
 说明：本文件只列“尚未正式裁定或尚未进入 production 实现”的事项，避免把探索结果写成已经批准或已经上线。
+
+## 0. 2026-08-13 C7 立项待裁定
+
+| 问题 | 当前证据 | 需要裁定/确认 |
+|---|---|---|
+| M4b/C7 是否授权 | C1-C6、MT-TQ-02、08-12 hybrid 数据面均已满足前置；C7 蓝图已提交 | 是否授权进入 M4b/C7 立项流程 |
+| TraitFilterLayer v1 范围 | 蓝图建议只做 staged soft trait layer，不做 hard filtering / production mutation | 是否接受该 v1 范围 |
+| observed/predicted 路线 | 建议 B：observed 优先，核心缺失 trait predicted soft-fill，并保留 evidence/provenance | 是否接受 B 路线 |
+| 核心 trait panel | 候选面板已列出，但需师姐/领域侧讨论 | 是否先由领域侧确认后再冻结 |
+| 真菌策略 | 当前 MetaTraits/BacDive 对真菌不形成普通 observed 覆盖；建议评估预测补充或真菌专用资源 | 是否按单独路线处理真菌 |
 
 ## 1. 本次 2026-08-12 结果后的建议裁定点
 

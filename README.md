@@ -1,12 +1,25 @@
 # MetaTraits Teacher Deliverables
 
-## 老师当前优先审阅入口 — 2026-08-12
+## 老师当前优先审阅入口 — 2026-08-13
 
-请优先打开本次新增交付包：
+请优先打开当前入口和本次新增 C7 交付包：
+
+- [`00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/`](00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/)
+- [`2026-08-13_M4b_C7_TraitFilterLayer_Initiation/`](2026-08-13_M4b_C7_TraitFilterLayer_Initiation/)
+
+本次 2026-08-13 新增包提交 M4b/C7 TraitFilterLayer 立项蓝图：实装范围、
+输入输出契约和验收标准。08-12 MetaTraits + BacDive hybrid 数据面仍是 C7
+的前置证据包。
+
+推荐路线：B，即 observed traits 优先；核心 trait 缺失时 predicted soft-fill；
+每条性状保留 evidence_type / prediction_used / source_database / provenance。
+该路线仍需老师裁定，不写成已实装或已批准。
+
+## Current 2026-08-12 hybrid data-plane package
 
 - [`2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/`](2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/)
 
-本次交付包汇总了 EnzymeCAGE 微生物侧 MetaTraits 与 BacDive 的最新探索结果：MetaTraits 作为物种级主性状矩阵来源，BacDive 作为菌株身份、代表菌株可获得性、保藏编号、培养基和分离来源补充来源。
+该交付包汇总了 EnzymeCAGE 微生物侧 MetaTraits 与 BacDive 的最新探索结果：MetaTraits 作为物种级主性状矩阵来源，BacDive 作为菌株身份、代表菌株可获得性、保藏编号、培养基和分离来源补充来源。
 
 核心结果：
 
