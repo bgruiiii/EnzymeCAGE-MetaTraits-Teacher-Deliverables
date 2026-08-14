@@ -1,19 +1,21 @@
 # MetaTraits Teacher Deliverables
 
-## 老师当前优先审阅入口 — 2026-08-13
+## 老师当前优先审阅入口 — 2026-08-14
 
-请优先打开当前入口和本次新增 C7 交付包：
+请优先打开当前入口和本次新增 C7-1 交付包：
 
 - [`00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/`](00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/)
+- [`2026-08-14_M4b_C7_1_Trait_Panel_Candidate/`](2026-08-14_M4b_C7_1_Trait_Panel_Candidate/)
 - [`2026-08-13_M4b_C7_TraitFilterLayer_Initiation/`](2026-08-13_M4b_C7_TraitFilterLayer_Initiation/)
 
-本次 2026-08-13 新增包提交 M4b/C7 TraitFilterLayer 立项蓝图：实装范围、
-输入输出契约和验收标准。08-12 MetaTraits + BacDive hybrid 数据面仍是 C7
-的前置证据包。
+本次 2026-08-14 新增包提交 M4b/C7 的 C7-1 trait panel 候选表：每个候选
+trait 附来源库、证据级别、soft role、允许/禁止类别引用、数据覆盖率和
+师姐讨论意见栏，等待老师逐项冻结。08-13 立项蓝图和 08-12 MetaTraits +
+BacDive hybrid 数据面仍是 C7 的前置证据包。
 
-推荐路线：B，即 observed traits 优先；核心 trait 缺失时 predicted soft-fill；
-每条性状保留 evidence_type / prediction_used / source_database / provenance。
-该路线仍需老师裁定，不写成已实装或已批准。
+候选面板口径：第一屏展示温度、pH、耗氧/厌氧、盐度和 BacDive 保藏编号；
+其他保留性状按追问展开。biosafety level 已按师姐意见从 C7-1 trait panel
+删除；真菌本轮 identity-only，预测路线单独评估、单独裁定。
 
 ## Current 2026-08-12 hybrid data-plane package
 

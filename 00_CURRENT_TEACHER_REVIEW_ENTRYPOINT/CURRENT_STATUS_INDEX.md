@@ -1,11 +1,12 @@
 # MetaTraits / 菌侧当前状态索引
 
-日期：2026-08-13
+日期：2026-08-14
 
 ## 已完成并准备给老师审阅
 
 | 项 | 状态 | 老师查看路径 |
 |---|---|---|
+| C7-1 trait panel 候选表 | 完成候选表，待老师逐项冻结；未实装 | [`../2026-08-14_M4b_C7_1_Trait_Panel_Candidate/`](../2026-08-14_M4b_C7_1_Trait_Panel_Candidate/) |
 | M4b/C7 TraitFilterLayer 立项材料 | 完成草案，待老师裁定；未实装 | [`../2026-08-13_M4b_C7_TraitFilterLayer_Initiation/`](../2026-08-13_M4b_C7_TraitFilterLayer_Initiation/) |
 | C7 推荐 B 路线 | 建议 observed 优先，核心缺失 trait predicted soft-fill，保留 evidence/provenance；待老师裁定 | [`../2026-08-13_M4b_C7_TraitFilterLayer_Initiation/M4B_C7_TRAITFILTERLAYER_INITIATION_BLUEPRINT_2026-08-13.md`](../2026-08-13_M4b_C7_TraitFilterLayer_Initiation/M4B_C7_TRAITFILTERLAYER_INITIATION_BLUEPRINT_2026-08-13.md) |
 | MetaTraits 物种级覆盖检查 | 完成 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/01_metatraits_species_coverage/`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/01_metatraits_species_coverage/) |
@@ -21,7 +22,7 @@
 MetaTraits = primary species-level trait matrix
 BacDive = exact-strain evidence + species-level representative strain availability + culture collection numbers + culture medium + isolation/source metadata
 
-Next decision = teacher review of M4b/C7; define pollutant-degradation core trait panel; decide whether recommended route B can be adopted
+Next decision = teacher-side item-by-item freeze of C7-1 trait panel; then C7-2 route and fungal policy review
 ```
 
 ## 仍保持边界/未启动
@@ -29,12 +30,13 @@ Next decision = teacher review of M4b/C7; define pollutant-degradation core trai
 | 项 | 状态 |
 |---|---|
 | M4b / M4c production implementation | 未启动 |
-| M4b/C7 authorization | 待老师裁定 |
+| C7-1 trait panel | 候选表已提交，待老师逐项冻结 |
+| C7-2 route/fungal policy | 未启动，等待 C7-1 freeze 后按授权推进 |
 | MetaTraits species-level trait | 不写成 strain-level trait |
 | BacDive species representative strain | 不写成原始 UniProt exact strain |
 | BacDive exact-strain claims | 需按 main / conservative / hard policy 分层 |
 | fungi in BacDive | non-scope，不计为 BacDive failure |
-| Prediction-like traits 使用策略 | 待裁定，不写成已进入 production 主特征 |
+| Prediction-like traits 使用策略 | C7-1 仅候选口径；C7-2 仍需裁定，不写成已进入 production 主特征 |
 
 ## 历史已完成项
 
