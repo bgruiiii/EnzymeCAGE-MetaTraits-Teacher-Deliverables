@@ -1,14 +1,15 @@
 # MetaTraits / 菌侧当前状态索引
 
-日期：2026-08-14
+日期：2026-08-15
 
 ## 已完成并准备给老师审阅
 
 | 项 | 状态 | 老师查看路径 |
 |---|---|---|
-| C7-1 trait panel 候选表 | 完成候选表，待老师逐项冻结；未实装 | [`../2026-08-14_M4b_C7_1_Trait_Panel_Candidate/`](../2026-08-14_M4b_C7_1_Trait_Panel_Candidate/) |
-| M4b/C7 TraitFilterLayer 立项材料 | 完成草案，待老师裁定；未实装 | [`../2026-08-13_M4b_C7_TraitFilterLayer_Initiation/`](../2026-08-13_M4b_C7_TraitFilterLayer_Initiation/) |
-| C7 推荐 B 路线 | 建议 observed 优先，核心缺失 trait predicted soft-fill，保留 evidence/provenance；待老师裁定 | [`../2026-08-13_M4b_C7_TraitFilterLayer_Initiation/M4B_C7_TRAITFILTERLAYER_INITIATION_BLUEPRINT_2026-08-13.md`](../2026-08-13_M4b_C7_TraitFilterLayer_Initiation/M4B_C7_TRAITFILTERLAYER_INITIATION_BLUEPRINT_2026-08-13.md) |
+| C7-2 feature encoding 提案 | 完成提案和本地审计，提交老师审阅；未实装、未接 production | [`../2026-08-15_M4b_C7_2_Feature_Encoding_Proposal/`](../2026-08-15_M4b_C7_2_Feature_Encoding_Proposal/) |
+| C7-1 trait panel | 老师 2026-08-14 第二份裁定已逐项冻结 F1-F15；本包保留冻结前候选表证据 | [`../2026-08-14_M4b_C7_1_Trait_Panel_Candidate/`](../2026-08-14_M4b_C7_1_Trait_Panel_Candidate/) |
+| M4b/C7 TraitFilterLayer 立项材料 | 老师已授权立项流程；作为 C7-2 的历史蓝图证据 | [`../2026-08-13_M4b_C7_TraitFilterLayer_Initiation/`](../2026-08-13_M4b_C7_TraitFilterLayer_Initiation/) |
+| C7 observed/predicted 路线和真菌策略 | 老师最新裁定已纳入 C7-2 约束：observed 优先、允许类别 predicted 软补齐、真菌 identity-only | [`../2026-08-15_M4b_C7_2_Feature_Encoding_Proposal/M4B_C7_2_FEATURE_ENCODING_PROPOSAL_2026-08-15.md`](../2026-08-15_M4b_C7_2_Feature_Encoding_Proposal/M4B_C7_2_FEATURE_ENCODING_PROPOSAL_2026-08-15.md) |
 | MetaTraits 物种级覆盖检查 | 完成 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/01_metatraits_species_coverage/`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/01_metatraits_species_coverage/) |
 | BacDive 全量 2,478 source closure | 完成 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/02_bacdive_full_closure/`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/02_bacdive_full_closure/) |
 | BacDive vs MetaTraits 性状数量/类别对比 | 完成 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/03_bacdive_vs_metatraits_trait_comparison/`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/03_bacdive_vs_metatraits_trait_comparison/) |
@@ -22,7 +23,8 @@
 MetaTraits = primary species-level trait matrix
 BacDive = exact-strain evidence + species-level representative strain availability + culture collection numbers + culture medium + isolation/source metadata
 
-Next decision = teacher-side item-by-item freeze of C7-1 trait panel; then C7-2 route and fungal policy review
+Current decision request = teacher-side review/freeze of C7-2 feature encoding proposal.
+C7-1 F1-F15 panel is already teacher-frozen by the 2026-08-14 second formal裁定.
 ```
 
 ## 仍保持边界/未启动
@@ -30,13 +32,14 @@ Next decision = teacher-side item-by-item freeze of C7-1 trait panel; then C7-2 
 | 项 | 状态 |
 |---|---|
 | M4b / M4c production implementation | 未启动 |
-| C7-1 trait panel | 候选表已提交，待老师逐项冻结 |
-| C7-2 route/fungal policy | 未启动，等待 C7-1 freeze 后按授权推进 |
+| C7-2 feature encoding | 提案已提交，等待老师审阅/冻结 |
+| TraitFilterLayer schema / validator | 未实装，需等 C7-2 裁定后按小任务推进 |
+| 2,478 source staged status table | 未生成 |
 | MetaTraits species-level trait | 不写成 strain-level trait |
 | BacDive species representative strain | 不写成原始 UniProt exact strain |
 | BacDive exact-strain claims | 需按 main / conservative / hard policy 分层 |
 | fungi in BacDive | non-scope，不计为 BacDive failure |
-| Prediction-like traits 使用策略 | C7-1 仅候选口径；C7-2 仍需裁定，不写成已进入 production 主特征 |
+| Prediction-like traits 使用策略 | 只能按老师冻结边界软补齐并显式标注，不写成 production 主特征 |
 
 ## 历史已完成项
 

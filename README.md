@@ -1,21 +1,23 @@
 # MetaTraits Teacher Deliverables
 
-## 老师当前优先审阅入口 — 2026-08-14
+## 老师当前优先审阅入口 — 2026-08-15
 
-请优先打开当前入口和本次新增 C7-1 交付包：
+请优先打开当前入口和本次新增 C7-2 交付包：
 
 - [`00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/`](00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/)
+- [`2026-08-15_M4b_C7_2_Feature_Encoding_Proposal/`](2026-08-15_M4b_C7_2_Feature_Encoding_Proposal/)
 - [`2026-08-14_M4b_C7_1_Trait_Panel_Candidate/`](2026-08-14_M4b_C7_1_Trait_Panel_Candidate/)
 - [`2026-08-13_M4b_C7_TraitFilterLayer_Initiation/`](2026-08-13_M4b_C7_TraitFilterLayer_Initiation/)
 
-本次 2026-08-14 新增包提交 M4b/C7 的 C7-1 trait panel 候选表：每个候选
-trait 附来源库、证据级别、soft role、允许/禁止类别引用、数据覆盖率和
-师姐讨论意见栏，等待老师逐项冻结。08-13 立项蓝图和 08-12 MetaTraits +
-BacDive hybrid 数据面仍是 C7 的前置证据包。
+本次 2026-08-15 新增包提交 M4b/C7 的 C7-2 feature encoding 提案。该提案
+引用老师 2026-08-14 第二份正式裁定中已冻结的 F1-F15 trait panel，保持
+真菌 identity-only，按老师 7.2 loader 契约设计 `TRAIN_SET_MANIFEST.csv`，
+按老师 7.3 菌层消费接口设计 `trait_annotation.jsonl`。当前仍是 staged
+proposal，未实装、未接 production。
 
-候选面板口径：第一屏展示温度、pH、耗氧/厌氧、盐度和 BacDive 保藏编号；
-其他保留性状按追问展开。biosafety level 已按师姐意见从 C7-1 trait panel
-删除；真菌本轮 identity-only，预测路线单独评估、单独裁定。
+C7-1 冻结面板口径：第一屏展示温度、pH、耗氧/厌氧、盐度和 BacDive 保藏
+编号；其他保留性状按追问展开。biosafety level 不进入 C7-1/C7-2 trait
+panel；真菌本轮 identity-only，预测路线单独评估、单独裁定。
 
 ## Current 2026-08-12 hybrid data-plane package
 
