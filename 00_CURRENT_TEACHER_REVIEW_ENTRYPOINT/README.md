@@ -1,22 +1,22 @@
 # 当前老师审阅入口（MetaTraits / 菌侧）
 
-更新时间：2026-08-15
+更新时间：2026-08-16
 用途：给老师打开 GitHub 后的第一入口，避免从根目录历史散文件中自行判断最新状态。
 
 ## 1. 老师优先看哪些文件
 
 | 优先级 | 内容 | 路径 |
 |---|---|---|
-| 1 | 2026-08-15 C7-2 feature encoding 提案 | [`../2026-08-15_M4b_C7_2_Feature_Encoding_Proposal/`](../2026-08-15_M4b_C7_2_Feature_Encoding_Proposal/) |
-| 2 | C7-2 主提案 | [`../2026-08-15_M4b_C7_2_Feature_Encoding_Proposal/M4B_C7_2_FEATURE_ENCODING_PROPOSAL_2026-08-15.md`](../2026-08-15_M4b_C7_2_Feature_Encoding_Proposal/M4B_C7_2_FEATURE_ENCODING_PROPOSAL_2026-08-15.md) |
-| 3 | C7-2 本地审计 | [`../2026-08-15_M4b_C7_2_Feature_Encoding_Proposal/audits/M4B_C7_2_FEATURE_ENCODING_PROPOSAL_LOCAL_AUDIT_2026-08-15.md`](../2026-08-15_M4b_C7_2_Feature_Encoding_Proposal/audits/M4B_C7_2_FEATURE_ENCODING_PROPOSAL_LOCAL_AUDIT_2026-08-15.md) |
+| 1 | 2026-08-16 C7-2 feature encoding 提案 | [`../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/`](../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/) |
+| 2 | C7-2 主提案 | [`../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/M4B_C7_2_FEATURE_ENCODING_PROPOSAL_2026-08-15.md`](../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/M4B_C7_2_FEATURE_ENCODING_PROPOSAL_2026-08-15.md) |
+| 3 | C7-2 本地审计 | [`../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/audits/M4B_C7_2_FEATURE_ENCODING_PROPOSAL_LOCAL_AUDIT_2026-08-15.md`](../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/audits/M4B_C7_2_FEATURE_ENCODING_PROPOSAL_LOCAL_AUDIT_2026-08-15.md) |
 | 4 | 2026-08-14 C7-1 frozen trait panel 证据包 | [`../2026-08-14_M4b_C7_1_Trait_Panel_Candidate/`](../2026-08-14_M4b_C7_1_Trait_Panel_Candidate/) |
 | 5 | 2026-08-13 M4b/C7 TraitFilterLayer 立项材料 | [`../2026-08-13_M4b_C7_TraitFilterLayer_Initiation/`](../2026-08-13_M4b_C7_TraitFilterLayer_Initiation/) |
 | 6 | 2026-08-12 MetaTraits + BacDive 微生物侧性状/可获得性交付包 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/) |
 
 ## 2. 当前状态一句话
 
-截至 2026-08-15，老师已在 2026-08-14 第二份正式裁定中逐项冻结 C7-1
+截至 2026-08-16，老师已在 2026-08-14 第二份正式裁定中逐项冻结 C7-1
 F1-F15 trait panel。菌侧本次提交 C7-2 feature encoding 提案，按冻结的
 F1-F15 条目、真菌 identity-only 边界、7.2 loader 契约和 7.3 菌层消费接口
 设计后续 staged 编码方案；尚未实装、尚未接 production。
