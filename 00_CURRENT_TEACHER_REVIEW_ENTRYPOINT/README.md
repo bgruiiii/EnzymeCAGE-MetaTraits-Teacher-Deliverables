@@ -1,25 +1,25 @@
 # 当前老师审阅入口（MetaTraits / 菌侧）
 
-更新时间：2026-08-16
+更新时间：2026-08-18
 用途：给老师打开 GitHub 后的第一入口，避免从根目录历史散文件中自行判断最新状态。
 
 ## 1. 老师优先看哪些文件
 
 | 优先级 | 内容 | 路径 |
 |---|---|---|
-| 1 | 2026-08-16 C7-2 feature encoding 提案 | [`../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/`](../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/) |
-| 2 | C7-2 主提案 | [`../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/M4B_C7_2_FEATURE_ENCODING_PROPOSAL_2026-08-15.md`](../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/M4B_C7_2_FEATURE_ENCODING_PROPOSAL_2026-08-15.md) |
-| 3 | C7-2 本地审计 | [`../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/audits/M4B_C7_2_FEATURE_ENCODING_PROPOSAL_LOCAL_AUDIT_2026-08-15.md`](../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/audits/M4B_C7_2_FEATURE_ENCODING_PROPOSAL_LOCAL_AUDIT_2026-08-15.md) |
-| 4 | 2026-08-14 C7-1 frozen trait panel 证据包 | [`../2026-08-14_M4b_C7_1_Trait_Panel_Candidate/`](../2026-08-14_M4b_C7_1_Trait_Panel_Candidate/) |
-| 5 | 2026-08-13 M4b/C7 TraitFilterLayer 立项材料 | [`../2026-08-13_M4b_C7_TraitFilterLayer_Initiation/`](../2026-08-13_M4b_C7_TraitFilterLayer_Initiation/) |
+| 1 | 2026-08-18 C7-2 只读 schema/validator bounded 30 交付包 | [`../2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/`](../2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/) |
+| 2 | C7-2 校验报告 | [`../2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/TRAIT_FEATURE_ENCODING_VALIDATION_REPORT.md`](../2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/TRAIT_FEATURE_ENCODING_VALIDATION_REPORT.md) |
+| 3 | C7-2 边界报告 | [`../2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/BOUNDARY_VALIDATION_REPORT.md`](../2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/BOUNDARY_VALIDATION_REPORT.md) |
+| 4 | 老师 2026-08-17 已冻结通过的 C7-2 feature encoding 提案 | [`../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/`](../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/) |
+| 5 | 2026-08-14 C7-1 frozen trait panel 证据包 | [`../2026-08-14_M4b_C7_1_Trait_Panel_Candidate/`](../2026-08-14_M4b_C7_1_Trait_Panel_Candidate/) |
 | 6 | 2026-08-12 MetaTraits + BacDive 微生物侧性状/可获得性交付包 | [`../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/`](../2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/) |
 
 ## 2. 当前状态一句话
 
-截至 2026-08-16，老师已在 2026-08-14 第二份正式裁定中逐项冻结 C7-1
-F1-F15 trait panel。菌侧本次提交 C7-2 feature encoding 提案，按冻结的
-F1-F15 条目、真菌 identity-only 边界、7.2 loader 契约和 7.3 菌层消费接口
-设计后续 staged 编码方案；尚未实装、尚未接 production。
+截至 2026-08-18，老师已在 2026-08-17 裁定中冻结 C7-2 feature encoding
+设计契约，并授权下一步只读 schema/validator 实装 + bounded staged 子集。
+菌侧本次提交 30 行 bounded 验证包：10 细菌、10 古菌、10 真菌；细菌部分优先
+选择环境/工业语境示例；仍为 staged-only，未接 production。
 
 ## 3. 本次关键结果
 
@@ -42,6 +42,19 @@ C7-1 冻结面板第一屏展示：
 temperature / pH / oxygen-anaerobic status / salinity / BacDive culture collection number
 ```
 
+C7-2 8/18 bounded 30 中，10 个细菌第一屏五项覆盖：
+
+```text
+temperature observed: 10/10
+pH observed: 5/10, predicted soft-fill: 5/10
+oxygen / anaerobic observed: 10/10
+salinity observed: 8/10, predicted soft-fill: 2/10
+BacDive culture collection / availability observed: 10/10
+```
+
+古菌第一屏结果：BacDive availability 10/10 observed，MetaTraits 四项本地未观察。
+真菌第一屏结果：本轮全部 identity-only，不做软补齐。
+
 C7-1 明确删除：
 
 ```text
@@ -56,9 +69,8 @@ BacDive species-level representative strain record 不等于原始 UniProt exact
 BacDive exact-strain evidence 需要按 main / conservative / hard policy 分层；
 真菌属于 BacDive non-scope，不应计为 BacDive 查询失败；
 当前结果支持 schema 设计与后续实现，但不代表 M4b/M4c production pipeline 已经启动。
-C7-1 已被老师逐项冻结，但 C7-2 feature encoding 仍是提交给老师审阅的提案；
-C7-2 尚未被老师冻结；
-TraitFilterLayer schema/validator 尚未实装；
+C7-2 feature encoding 已被老师 2026-08-17 冻结为设计契约；
+8/18 schema/validator 包是只读 bounded staged 子集验证，仍不代表 production 实装；
 2,478 source staged status table 尚未生成；
 prediction-like traits 只能按老师冻结边界软补齐并显式标注，不写成 production 主特征。
 ```

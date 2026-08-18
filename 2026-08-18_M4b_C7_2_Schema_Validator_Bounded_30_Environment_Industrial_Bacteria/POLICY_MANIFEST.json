@@ -1,0 +1,99 @@
+{
+  "allowed_predicted_soft_fill": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F6",
+    "F7",
+    "F8"
+  ],
+  "created_date": "2026-08-18",
+  "forbidden_predicted_soft_fill": [
+    "F5",
+    "F9",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15"
+  ],
+  "frozen_design_contract": "M4B_C7_2_FEATURE_ENCODING_PROPOSAL_2026-08-15",
+  "fungal_missing_reason": "fungi_no_local_trait_source",
+  "fungal_trait_policy": "identity_only",
+  "hard_rejection_enabled": false,
+  "mutation_guards": {
+    "formal_assets_mutated": false,
+    "production_d4_mutated": false,
+    "production_pool_mutated": false
+  },
+  "package_id": "C7_2_SCHEMA_VALIDATOR_BOUNDED_30_ENVIRONMENT_INDUSTRIAL_BACTERIA_STAGED_ONLY_2026-08-18",
+  "prediction_sources": {
+    "bacdive": "prior audited local closure/cache result only; no new BacDive API query was run",
+    "metatraits": "local downloaded snapshot only; no online genome prediction was run"
+  },
+  "production_integration_enabled": false,
+  "scope": "read_only_schema_validator_bounded_staged_subset",
+  "source_sha256": {
+    "bacdive_jsonl": "0cea0f8cead08398b03d985db1c35f421771652ce92475bfdedb9a1ce0cb9818",
+    "bacdive_representative_summary": "24a254b0cd0c5982e4522bf09aefe65f6eedee5569e465bbff62583eedcf0787",
+    "c7_1_table": "e45d153a94225037de4f3f51c703efde969cb50908a4bc1043da36717d83bcc4",
+    "c7_2_proposal": "7eddb0479d146ecd079f0aa11313e4623ef77455a7d6f8841469537f501f6111",
+    "e2_archive": "b01e717139f6eb48739e0861f82b339cdc0132ee4777acdd18354ee9da38bdd4",
+    "metatraits_all": "9118379f800c5f2d8f0d0787ffd3045cbe3bb84a592657b06723252c13799bcd",
+    "metatraits_no_predictions": "9e16ca57b94819fa591f32bc1cf194c82eae85b0dbbc454a3c1a449257a33873",
+    "microbe_universe": "278867b69aa191e430cddfe5a6ad19047b6805f02db58bf230542eed1327a7ff",
+    "teacher_reply": "ebbd4edbec5f562fba85ff574caf7595ec9b9873e61e1ac576442b3138debdb0",
+    "uid_to_source": "7b92e8e625cb73f070c8e902687ea5bbdbf749f04a19828e550e3fe205684fe6"
+  },
+  "subset_policy": {
+    "p0dxv0_included": false,
+    "p0dxv0_reason": "excluded unless independent verified staged asset manifest is used; 1,704 and 1,705 effective口径 kept distinct",
+    "row_count": 30,
+    "source": "real 1,704 staged PASS enzyme assets with real UID-to-source_signature mapping inside the 2,478 microbe universe",
+    "taxonomy_distribution": {
+      "target_archaea": 10,
+      "target_bacteria": 10,
+      "target_fungi": 10
+    }
+  },
+  "teacher_authorization_id": "TEACHER_REPLY_C7_2_FREEZE_AND_1650_ACCESSION_REVIEW_2026-08-17",
+  "trait_names": {
+    "F1": "oxygen_tolerance",
+    "F10": "motility",
+    "F11": "cell_morphology",
+    "F12": "cell_envelope_gram",
+    "F13": "sporulation",
+    "F14": "genome_basic",
+    "F15": "habitat_generalism",
+    "F2": "temperature",
+    "F3": "pH",
+    "F4": "salinity",
+    "F5": "bacdive_availability",
+    "F6": "respiration_electron_acceptor",
+    "F7": "carbon_and_substrate_utilization",
+    "F8": "degradation_capacity_broad",
+    "F9": "enzyme_activity"
+  },
+  "trait_panel_id": "M4B_C7_PANEL_FROZEN_2026_08_14",
+  "trait_panel_items": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    "F9",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15"
+  ],
+  "trait_score_enabled": false,
+  "uncalibrated_confidence_enabled": false
+}

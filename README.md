@@ -1,19 +1,29 @@
 # MetaTraits Teacher Deliverables
 
-## 老师当前优先审阅入口 — 2026-08-16
+## 老师当前优先审阅入口 — 2026-08-18
 
-请优先打开当前入口和本次新增 C7-2 交付包：
+请优先打开当前入口和本次新增 C7-2 schema/validator 交付包：
 
 - [`00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/`](00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/)
+- [`2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/`](2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/)
 - [`2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/`](2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/)
 - [`2026-08-14_M4b_C7_1_Trait_Panel_Candidate/`](2026-08-14_M4b_C7_1_Trait_Panel_Candidate/)
 - [`2026-08-13_M4b_C7_TraitFilterLayer_Initiation/`](2026-08-13_M4b_C7_TraitFilterLayer_Initiation/)
 
-本次 2026-08-16 新增包提交 M4b/C7 的 C7-2 feature encoding 提案。该提案
-引用老师 2026-08-14 第二份正式裁定中已冻结的 F1-F15 trait panel，保持
-真菌 identity-only，按老师 7.2 loader 契约设计 `TRAIN_SET_MANIFEST.csv`，
-按老师 7.3 菌层消费接口设计 `trait_annotation.jsonl`。当前仍是 staged
-proposal，未实装、未接 production。
+本次 2026-08-18 新增包对应老师 2026-08-17 裁定后的下一步：C7-2
+只读 schema/validator 实装 + bounded staged 子集。包内包含
+`POLICY_MANIFEST.json`、`TRAIN_SET_MANIFEST.csv`、`trait_annotation.jsonl`、
+校验报告、边界报告、`MANIFEST.sha256` 和 `FINAL_STATUS.txt`。30 行子集来自
+`2,478` 微生物主库与老师接受的 `1,704` staged PASS 酶资产交集，其中细菌
+部分优先选取环境/工业语境示例；当前仍 staged-only，未接 production。
+
+老师 2026-08-17 已裁定 2026-08-16 C7-2 feature encoding 提案作为设计契约
+冻结通过；8/18 包是按该冻结契约做的只读小样例验证，不构成
+TraitFilterLayer production 实装。
+
+当前微生物侧主数据库为 2,478 个 source_signature；MetaTraits 本地快照覆盖
+1,638/2,478。未覆盖部分本轮不做在线基因组预测扩展，只按 C7-2 冻结边界标注
+为未观察/缺失；真菌在本轮保持 identity-only，预测路线单独评估。
 
 C7-1 冻结面板口径：第一屏展示温度、pH、耗氧/厌氧、盐度和 BacDive 保藏
 编号；其他保留性状按追问展开。biosafety level 不进入 C7-1/C7-2 trait

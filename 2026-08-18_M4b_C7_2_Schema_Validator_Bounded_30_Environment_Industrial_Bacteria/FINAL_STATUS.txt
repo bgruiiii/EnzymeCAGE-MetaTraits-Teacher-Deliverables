@@ -1,0 +1,12 @@
+FINAL_STATUS: PASS
+package_id: C7_2_SCHEMA_VALIDATOR_BOUNDED_30_ENVIRONMENT_INDUSTRIAL_BACTERIA_STAGED_ONLY_2026-08-18
+scope: read-only schema/validator bounded staged subset
+rows: 30
+taxonomy_distribution: target_bacteria=10,target_archaea=10,target_fungi=10
+staged_assets_source: teacher-accepted 1,704 staged PASS package
+p0dxv0_included: false
+metatraits_online_prediction_run: false
+bacdive_api_query_run: false
+production_d4_mutated: false
+production_pool_mutated: false
+formal_assets_mutated: false
