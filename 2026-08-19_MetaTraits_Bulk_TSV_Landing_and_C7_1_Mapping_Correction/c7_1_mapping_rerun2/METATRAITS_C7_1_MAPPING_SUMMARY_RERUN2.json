@@ -1,0 +1,63 @@
+{
+  "task_id": "metatraits_c7_1_long_form_mapping_rerun2_false_positive_fix_20260819",
+  "data_dir": "/usrdata/EnzymeCAGE_data/data/metatraits/incoming/metatraits_bulk_tsv_snapshot_20260818",
+  "catalog_filter": "ALL_SIGNATURES",
+  "total_unique_signatures": 37022,
+  "matched_unique_signatures": 28412,
+  "per_file_data_rows": {
+    "gtdb_family_summary_all.tsv.gz": 574964,
+    "gtdb_family_summary_no_predictions.tsv.gz": 62352,
+    "gtdb_genus_summary_all.tsv.gz": 2247451,
+    "gtdb_genus_summary_no_predictions.tsv.gz": 218089,
+    "gtdb_species_summary_all.tsv.gz": 7549523,
+    "gtdb_species_summary_no_predictions.tsv.gz": 638990,
+    "ncbi_family_summary_all.tsv.gz": 115956,
+    "ncbi_family_summary_no_predictions.tsv.gz": 45122,
+    "ncbi_genus_summary_all.tsv.gz": 465434,
+    "ncbi_genus_summary_no_predictions.tsv.gz": 132047,
+    "ncbi_species_summary_all.tsv.gz": 1902646,
+    "ncbi_species_summary_no_predictions.tsv.gz": 430044
+  },
+  "per_scope_data_rows": {
+    "all": 12855974,
+    "no_predictions": 1526644
+  },
+  "per_trait_observed_scope_match_count": {
+    "F1": 178,
+    "F2": 248,
+    "F3": 132,
+    "F4": 60,
+    "F5": 0,
+    "F6": 1135,
+    "F7": 6678,
+    "F8": 1653,
+    "F9": 756,
+    "F10": 90,
+    "F11": 350,
+    "F12": 87,
+    "F13": 87,
+    "F14": 108,
+    "F15": 0
+  },
+  "per_trait_all_scope_match_count": {
+    "F1": 1131,
+    "F2": 719,
+    "F3": 442,
+    "F4": 184,
+    "F5": 0,
+    "F6": 1786,
+    "F7": 7466,
+    "F8": 2247,
+    "F9": 1067,
+    "F10": 566,
+    "F11": 368,
+    "F12": 739,
+    "F13": 483,
+    "F14": 120,
+    "F15": 18
+  },
+  "evidence_example_rows": 1350,
+  "negative_assertions_passed": 8,
+  "negative_assertions_failed": 0,
+  "created_at_utc": "2026-08-19T02:40:20Z"
+}

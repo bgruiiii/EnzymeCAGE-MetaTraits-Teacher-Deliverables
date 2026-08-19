@@ -1,16 +1,36 @@
 # MetaTraits Teacher Deliverables
 
-## 老师当前优先审阅入口 — 2026-08-18
+## 老师当前优先审阅入口 — 2026-08-19
 
-请优先打开当前入口和本次新增 C7-2 schema/validator 交付包：
+请优先打开当前入口和本次新增两项：MetaTraits TSV 落晨羽 + C7-1 映射修复，
+以及 C8 TraitFilterLayer 实装方案 / 拆解待审：
 
 - [`00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/`](00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/)
+- [`2026-08-19_MetaTraits_Bulk_TSV_Landing_and_C7_1_Mapping_Correction/`](2026-08-19_MetaTraits_Bulk_TSV_Landing_and_C7_1_Mapping_Correction/)
+- [`2026-08-19_M4b_C8_TraitFilterLayer_Implementation_Plan/`](2026-08-19_M4b_C8_TraitFilterLayer_Implementation_Plan/)
 - [`2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/`](2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/)
 - [`2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/`](2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/)
 - [`2026-08-14_M4b_C7_1_Trait_Panel_Candidate/`](2026-08-14_M4b_C7_1_Trait_Panel_Candidate/)
 - [`2026-08-13_M4b_C7_TraitFilterLayer_Initiation/`](2026-08-13_M4b_C7_TraitFilterLayer_Initiation/)
 
-本次 2026-08-18 新增包对应老师 2026-08-17 裁定后的下一步：C7-2
+本次 2026-08-19 新增 MetaTraits 包对应老师 2026-08-18 P0 要求：
+MetaTraits 12 个 bulk TSV 已落 Chenyu，回报路径、文件清单、SHA256、
+官方日期追溯已整理；C7-1 TSV 字段映射已按 long-form row-level route 修正，
+rerun2 负例断言 8/8 PASS，pH 不再误匹配 Atmosphere/Morphology，Gram 不再
+误匹配 gramicidin。原始大 TSV 不上传 GitHub，仅保留 Chenyu 路径和 metadata
+回包。
+
+本次 2026-08-19 新增 C8 包对应老师 2026-08-18 要求：
+C8 TraitFilterLayer 实装方案 / 拆解待审。该方案以 C7-2 validator 为入口，
+引用已冻结 C7-1 F1-F15、C7-2 encoding contract 和 MetaTraits long-form
+rerun2 映射口径，提出 C8-0 至 C8-5 staged-only 实装拆分。它不是 C8 实装
+结果，也不接 production。C8 包内另列两个实装前待老师裁定问题：补资产后
+牵出的 137 个 2,478 外 source_signature 是否扩入 staged universe，以及
+MetaTraits 未覆盖 bacteria/archaea 是否另行授权 porTraits genome prediction
+preflight；详细见
+[`2026-08-19_M4b_C8_TraitFilterLayer_Implementation_Plan/pending_teacher_decisions/M4B_C8_PENDING_TEACHER_DECISIONS_RESCUED_SOURCES_AND_PORTRAITS_2026-08-19.md`](2026-08-19_M4b_C8_TraitFilterLayer_Implementation_Plan/pending_teacher_decisions/M4B_C8_PENDING_TEACHER_DECISIONS_RESCUED_SOURCES_AND_PORTRAITS_2026-08-19.md)。
+
+2026-08-18 C7-2 包对应老师 2026-08-17 裁定后的下一步：C7-2
 只读 schema/validator 实装 + bounded staged 子集。包内包含
 `POLICY_MANIFEST.json`、`TRAIN_SET_MANIFEST.csv`、`trait_annotation.jsonl`、
 校验报告、边界报告、`MANIFEST.sha256` 和 `FINAL_STATUS.txt`。30 行子集来自

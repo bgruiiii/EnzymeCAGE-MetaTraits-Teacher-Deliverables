@@ -1,11 +1,13 @@
 # MetaTraits / 菌侧当前状态索引
 
-日期：2026-08-18
+日期：2026-08-19
 
 ## 已完成并准备给老师审阅
 
 | 项 | 状态 | 老师查看路径 |
 |---|---|---|
+| MetaTraits TSV 落晨羽 + C7-1 long-form mapping 修复 | 按老师 2026-08-18 P0 要求整理；12/12 bulk summary TSV + 2/2 crosswalk 已在 Chenyu 数据根验证；C7-1 mapping rerun2 15/15 trait rows、8/8 负例断言 PASS；未上传大 TSV 到 GitHub | [`../2026-08-19_MetaTraits_Bulk_TSV_Landing_and_C7_1_Mapping_Correction/`](../2026-08-19_MetaTraits_Bulk_TSV_Landing_and_C7_1_Mapping_Correction/) |
+| C8 TraitFilterLayer 实装方案 / 拆解待审 | 按老师 2026-08-18 要求完成方案；以 C7-2 validator 为入口，拆成 C8-0 到 C8-5；仍 staged-only，未接 production；另列补资产来源 delta 与 porTraits preflight 两个待老师裁定问题 | [`../2026-08-19_M4b_C8_TraitFilterLayer_Implementation_Plan/`](../2026-08-19_M4b_C8_TraitFilterLayer_Implementation_Plan/) |
 | C7-2 schema/validator bounded 30 | 按老师 2026-08-17 裁定完成只读 schema/validator + bounded staged 子集；提交老师审阅；未接 production | [`../2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/`](../2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/) |
 | C7-2 feature encoding 提案 | 老师 2026-08-17 已冻结通过为设计契约；作为本次 schema/validator 的冻结依据 | [`../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/`](../2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/) |
 | C7-1 trait panel | 老师 2026-08-14 第二份裁定已逐项冻结 F1-F15；本包保留冻结前候选表证据 | [`../2026-08-14_M4b_C7_1_Trait_Panel_Candidate/`](../2026-08-14_M4b_C7_1_Trait_Panel_Candidate/) |
@@ -24,9 +26,12 @@
 MetaTraits = primary species-level trait matrix
 BacDive = exact-strain evidence + species-level representative strain availability + culture collection numbers + culture medium + isolation/source metadata
 
-Current decision request = teacher-side review of C7-2 read-only schema/validator bounded 30 package.
+Current decision request = teacher-side review of 2026-08-19 MetaTraits TSV landing / C7-1 mapping correction and C8 implementation plan / breakdown.
 C7-1 F1-F15 panel is already teacher-frozen by the 2026-08-14 second formal裁定.
 C7-2 feature encoding proposal is already teacher-frozen by the 2026-08-17 formal裁定.
+MetaTraits local TSV landing and C7-1 long-form mapping rerun2 are ready for teacher review.
+C8 TraitFilterLayer implementation plan / breakdown is ready for teacher review; it is not an implementation result.
+C8 pending teacher decisions now include rescued-asset-linked source delta and porTraits preflight boundary.
 ```
 
 ## 仍保持边界/未启动
@@ -36,6 +41,7 @@ C7-2 feature encoding proposal is already teacher-frozen by the 2026-08-17 forma
 | M4b / M4c production implementation | 未启动 |
 | C7-2 feature encoding | 老师 2026-08-17 已冻结通过为设计契约 |
 | TraitFilterLayer schema / validator | 8/18 已完成只读 bounded 30 验证包，待老师审阅；不是 production 实装 |
+| C8 TraitFilterLayer implementation | 8/19 已完成实装方案 / 拆解待审；尚未执行 C8 implementation |
 | 2,478 source staged status table | 未生成 |
 | MetaTraits species-level trait | 不写成 strain-level trait |
 | BacDive species representative strain | 不写成原始 UniProt exact strain |

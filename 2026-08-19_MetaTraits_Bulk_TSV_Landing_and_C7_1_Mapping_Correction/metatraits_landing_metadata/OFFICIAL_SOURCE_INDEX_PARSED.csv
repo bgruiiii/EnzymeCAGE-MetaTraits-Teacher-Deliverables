@@ -1,0 +1,15 @@
+file_name,official_url,last_modified,size_from_index,role,required_summary_12
+GTDB2NCBI.tsv.gz,https://www.bork.embl.de/~robbani/metatraits/GTDB2NCBI.tsv.gz,2026-06-10 10:23,2.8M,companion_crosswalk,false
+NCBI2GTDB.tsv.gz,https://www.bork.embl.de/~robbani/metatraits/NCBI2GTDB.tsv.gz,2026-06-10 10:23,2.8M,companion_crosswalk,false
+gtdb_family_summary_all.tsv.gz,https://www.bork.embl.de/~robbani/metatraits/gtdb_family_summary_all.tsv.gz,2026-06-10 10:23,9.9M,bulk_summary,true
+gtdb_family_summary_no_predictions.tsv.gz,https://www.bork.embl.de/~robbani/metatraits/gtdb_family_summary_no_predictions.tsv.gz,2026-06-10 10:23,1.4M,bulk_summary,true
+gtdb_genus_summary_all.tsv.gz,https://www.bork.embl.de/~robbani/metatraits/gtdb_genus_summary_all.tsv.gz,2026-06-10 10:23,38M,bulk_summary,true
+gtdb_genus_summary_no_predictions.tsv.gz,https://www.bork.embl.de/~robbani/metatraits/gtdb_genus_summary_no_predictions.tsv.gz,2026-06-10 10:23,4.7M,bulk_summary,true
+gtdb_species_summary_all.tsv.gz,https://www.bork.embl.de/~robbani/metatraits/gtdb_species_summary_all.tsv.gz,2026-06-10 10:23,135M,bulk_summary,true
+gtdb_species_summary_no_predictions.tsv.gz,https://www.bork.embl.de/~robbani/metatraits/gtdb_species_summary_no_predictions.tsv.gz,2026-06-10 10:23,12M,bulk_summary,true
+ncbi_family_summary_all.tsv.gz,https://www.bork.embl.de/~robbani/metatraits/ncbi_family_summary_all.tsv.gz,2026-06-10 10:23,2.5M,bulk_summary,true
+ncbi_family_summary_no_predictions.tsv.gz,https://www.bork.embl.de/~robbani/metatraits/ncbi_family_summary_no_predictions.tsv.gz,2026-06-10 10:23,893K,bulk_summary,true
+ncbi_genus_summary_all.tsv.gz,https://www.bork.embl.de/~robbani/metatraits/ncbi_genus_summary_all.tsv.gz,2026-06-10 10:23,9.4M,bulk_summary,true
+ncbi_genus_summary_no_predictions.tsv.gz,https://www.bork.embl.de/~robbani/metatraits/ncbi_genus_summary_no_predictions.tsv.gz,2026-06-10 10:23,2.3M,bulk_summary,true
+ncbi_species_summary_all.tsv.gz,https://www.bork.embl.de/~robbani/metatraits/ncbi_species_summary_all.tsv.gz,2026-06-10 10:23,35M,bulk_summary,true
+ncbi_species_summary_no_predictions.tsv.gz,https://www.bork.embl.de/~robbani/metatraits/ncbi_species_summary_no_predictions.tsv.gz,2026-06-10 10:23,6.2M,bulk_summary,true

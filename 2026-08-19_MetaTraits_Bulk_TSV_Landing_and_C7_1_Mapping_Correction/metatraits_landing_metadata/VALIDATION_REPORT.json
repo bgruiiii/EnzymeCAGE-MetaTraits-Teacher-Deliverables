@@ -1,0 +1,22 @@
+{
+  "task_id": "metatraits_bulk_tsv_landed_chenyu_20260818",
+  "official_base_url": "https://www.bork.embl.de/~robbani/metatraits",
+  "data_dir": "/usrdata/EnzymeCAGE_data/data/metatraits/incoming/metatraits_bulk_tsv_snapshot_20260818",
+  "return_dir": "/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/HPC_Returned_Result_Summaries/metatraits_bulk_tsv_landed_chenyu_20260818",
+  "required_summary_expected_count": 12,
+  "required_summary_downloaded_count": 12,
+  "required_summary_validated_count": 12,
+  "companion_crosswalk_expected_count": 2,
+  "companion_crosswalk_downloaded_count": 2,
+  "companion_crosswalk_validated_count": 2,
+  "all_required_summary_present": true,
+  "all_required_summary_gzip_test_pass": true,
+  "all_required_summary_sha256_present": true,
+  "all_companion_crosswalk_present": true,
+  "all_companion_crosswalk_gzip_test_pass": true,
+  "final_status": "METATRAITS_BULK_TSV_LANDED_CHENYU_COMPLETE",
+  "boundary_no_api_call": true,
+  "boundary_no_prediction_run": true,
+  "boundary_no_production_mutation": true,
+  "generated_at_utc": "2026-08-18T10:09:44Z"
+}

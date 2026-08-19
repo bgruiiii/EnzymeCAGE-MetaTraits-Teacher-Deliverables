@@ -1,0 +1,6 @@
+# C7-1 long-form mapping rerun2 false-positive fix (executor-only, 2026-08-19)
+# boundaries: NO MetaTraits download, NO MetaTraits API, NO BacDive API,
+#             NO prediction, NO production mutation, NO snapshot activation.
+# DATA_DIR=/usrdata/EnzymeCAGE_data/data/metatraits/incoming/metatraits_bulk_tsv_snapshot_20260818
+# Fixes: F3 group_2 exact 'pH' (no raw 'ph'); F12 group_2 exact 'Cell envelope' + gram positive/negative (no raw 'gram').
+# generated: 2026-08-19T02:34:26Z

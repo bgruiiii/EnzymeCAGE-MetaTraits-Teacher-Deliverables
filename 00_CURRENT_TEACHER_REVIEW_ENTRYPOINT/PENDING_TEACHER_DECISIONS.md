@@ -1,15 +1,19 @@
 # 仍需后续裁定的问题（MetaTraits / 菌侧）
 
-日期：2026-08-18
+日期：2026-08-19
 说明：本文件只列“尚未正式裁定或尚未进入 production 实现”的事项，避免把探索结果写成已经批准或已经上线。
 
-## 0. 2026-08-18 C7-2 schema/validator 提交后仍待裁定
+## 0. 2026-08-19 当前提交后仍待裁定
 
 | 问题 | 当前证据 | 需要裁定/确认 |
 |---|---|---|
-| C7-2 read-only schema/validator bounded 30 | 2026-08-18 已按老师 2026-08-17 裁定提交 `POLICY_MANIFEST` / `TRAIN_SET_MANIFEST` / `trait_annotation.jsonl` / 校验报告；仍 staged-only | 请老师审阅本次只读 schema/validator bounded 子集是否通过 |
+| MetaTraits TSV landing + C7-1 long-form mapping correction | 2026-08-19 已整理：12/12 summary TSV 和 2/2 crosswalk 在 Chenyu 数据根验证；SHA256、gzip、官方日期追溯齐；C7-1 mapping rerun2 15/15 rows、8/8 negative assertions PASS | 请老师审阅本次 MetaTraits TSV 落地与 C7-1 字段映射口径是否通过 |
+| C8 TraitFilterLayer implementation plan / breakdown | 2026-08-19 已提交 C8-0 到 C8-5 staged-only 拆解；引用 C7-1/C7-2/MetaTraits rerun2 证据；不是实装结果 | 请老师审阅 C8 方案，并裁定是否按 executor-only staged route 启动实现 |
+| C8 rescued-asset-linked source delta | 1,704 PASS staged 酶资产反查本地 uid-to-source 映射，得到 500 个唯一 source_signature；其中 363 个在原 2,478 universe 内，137 个在原 2,478 外 | 建议不静默改写原 2,478 口径；请老师裁定是否先生成 delta review，并决定 137 个新增来源是否扩入 C8 staged universe |
+| C8 porTraits prediction preflight | MetaTraits 本地 TSV 对原 2,478 source_signature 覆盖 1,638/2,478；all 表的 prediction-like 信息提高 trait 密度，但未扩大 source 覆盖。porTraits 是 MetaTraits 官方生态中的 genome-based prediction workflow，需 genome/MAG FASTA 与本地/HPC 模型数据库 | 请老师裁定是否另行授权 bacteria/archaea 的 porTraits preflight；fungi 本轮是否继续保持 identity-only |
+| C7-2 read-only schema/validator bounded 30 | 2026-08-18 已按老师 2026-08-17 裁定提交 `POLICY_MANIFEST` / `TRAIN_SET_MANIFEST` / `trait_annotation.jsonl` / 校验报告；仍 staged-only | 若老师尚未单独回复，请审阅本次只读 schema/validator bounded 子集是否通过 |
 | C7-2 feature encoding proposal | 老师 2026-08-17 已冻结通过为设计契约 | 不再请求冻结；仅作为本次 schema/validator 的冻结依据 |
-| TraitFilterLayer implementation | 当前仅完成只读 bounded 30 schema/validator 验证包，未接 production | 后续是否授权 2,478 source staged status table 或 production integration，需另行裁定 |
+| TraitFilterLayer implementation | 当前已有 C8 实装方案 / 拆解待审，未执行 C8 implementation，未接 production | 是否按 C8-0 至 C8-5 启动 staged-only implementation，需老师审定 |
 | 2,478 source staged status table | 当前尚未生成 C7 staged status table | 需等 schema/validator 和 staged subset smoke 后再启动 |
 | Production integration | 当前仍为 staged soft layer 候选流程 | 是否在后续 staged 验收后另行授权 production，当前不请求 |
 | P18173 / P80550 accession clarification | 老师 2026-08-17 要求单独澄清 P18173 的 Q8SXV0 vs U3PT72 选择规则、P80550 original 38aa 来源 | 这是独立 table-only 小任务，不属于本次 C7-2 schema/validator 包 |
@@ -32,6 +36,7 @@
 ```text
 C7-2 feature encoding 已被老师 2026-08-17 冻结为设计契约；
 TraitFilterLayer schema/validator 仅完成 8/18 只读 bounded 30 验证包；
+C8 目前是 8/19 实装方案 / 拆解待审，不是实装回包；
 2,478 source staged status table 尚未生成；
 M4b / M4c production pipeline 尚未启动；
 MetaTraits species-level trait 不能冒充 strain-level trait；
@@ -45,5 +50,5 @@ prediction-like traits 只能按老师冻结边界软补齐并显式标注，不
 ## 3. 建议汇报口径
 
 ```text
-菌侧已按老师 2026-08-17 裁定完成 C7-2 只读 schema/validator bounded 30 回包。包内包含 POLICY_MANIFEST、TRAIN_SET_MANIFEST、trait_annotation.jsonl、校验报告、边界报告和 MANIFEST；当前仍 staged-only，未接 production。请老师审阅本次 bounded schema/validator 结果。
+菌侧已按老师 2026-08-18 任务单整理两项材料：其一，MetaTraits 12 个 bulk TSV 已落 Chenyu，并补齐文件清单、SHA256、官方日期追溯和 C7-1 long-form 字段映射修正版；其二，C8 TraitFilterLayer 实装方案 / 拆解待审已完成。当前全部仍 staged-only，未接 production。请老师审阅并裁定下一步是否按 C8-0 至 C8-5 启动 staged-only 实装。
 ```

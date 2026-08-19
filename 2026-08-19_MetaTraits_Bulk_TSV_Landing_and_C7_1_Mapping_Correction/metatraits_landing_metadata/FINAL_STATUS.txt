@@ -1,0 +1,8 @@
+final_status=METATRAITS_BULK_TSV_LANDED_CHENYU_COMPLETE
+DATA_DIR=/usrdata/EnzymeCAGE_data/data/metatraits/incoming/metatraits_bulk_tsv_snapshot_20260818
+RETURN_DIR=/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/HPC_Returned_Result_Summaries/metatraits_bulk_tsv_landed_chenyu_20260818
+ARCHIVE=/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/HPC_Returned_Result_Summaries/metatraits_bulk_tsv_landed_chenyu_20260818.tar.gz
+IDENTITY=/usrdata/EnzymeCAGE_data/EnzymeCAGE-master/HPC_Returned_Result_Summaries/metatraits_bulk_tsv_landed_chenyu_20260818.tar.gz.identity.txt
+required_summary_validated_count=12/12
+companion_crosswalk_validated_count=2/2
+generated_at_utc=2026-08-18T10:09:44Z
