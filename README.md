@@ -1,5 +1,42 @@
 # MetaTraits Teacher Deliverables
 
+## 老师当前优先审阅入口 — 2026-08-20
+
+本次新增 C8-P porTraits 受控预检决策包：
+
+- [`2026-08-20_M4b_C8_P_porTraits_Preflight_Decision_Request/`](2026-08-20_M4b_C8_P_porTraits_Preflight_Decision_Request/)
+
+该包对应老师 2026-08-19 裁定中“MetaTraits 未覆盖 bacteria / archaea 如需
+porTraits，先交 C8-P preflight 方案、老师审定后再启动”的要求。我们已完成
+C8-P0 路径契约、C8-P1 Chenyu 环境/输入预检、C8-P2A runtime/version resolver、
+C8-P2B asset/container/quota metadata-only preflight，并逐包本地审计。当前只
+完成受控预检，未运行 porTraits、未运行 Nextflow workflow、未下载 genome
+FASTA / 数据库 / 容器、未产生 phenotype prediction、未写 production。核心
+结论是：目标集合清楚（322 bacteria + 90 archaea = 412，428 fungi 继续
+identity-only），Nextflow 与 porTraits v0.2.1 路线已找到，但实际 smoke 仍
+卡在 Singularity/Apptainer、porTraits 资产、eggNOG 来源、SIF 镜像、tiny FASTA
+授权和老师 D1-D7 裁定。
+
+## 老师当前优先审阅入口 — 2026-08-20
+
+请优先打开当前入口和本次 2026-08-20 新增两项：
+
+- [`00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/`](00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/)
+- [`2026-08-20_M4b_C8_Staged_Implementation_Bounded_30_Rerun/`](2026-08-20_M4b_C8_Staged_Implementation_Bounded_30_Rerun/)
+- [`2026-08-20_M4b_C8_P_porTraits_Preflight_Decision_Request/`](2026-08-20_M4b_C8_P_porTraits_Preflight_Decision_Request/)
+
+本次 C8 主链路包对应老师 2026-08-19 对陈浩然侧 C8 的 staged-only
+推进要求：C8-0 输入冻结、C8-1 lookup index + 137 delta review、C8-2A
+UID-source expansion harness、C8-3/C8-4 固定 30-row bounded rerun 均已整理
+并审计通过。该包不声明 C8-5 已完成；C8-5 的小型真实上游候选表 smoke 仍需
+等待上游候选表，不能用 4,681/1,704 harness 或 30 行 bounded 子集冒充真实
+候选酶。
+
+本次 C8-P porTraits 包是受控 preflight decision request：只完成环境、输入、
+版本、资产、容器和配额预检；没有运行 porTraits workflow，没有 phenotype
+prediction，没有下载 genome FASTA / 数据库 / 容器，没有写 production。该包
+请求老师裁定 D1-D7 后，才决定是否进入下一阶段准备。
+
 ## 老师当前优先审阅入口 — 2026-08-19
 
 请优先打开当前入口和本次新增两项：MetaTraits TSV 落晨羽 + C7-1 映射修复，
@@ -8,6 +45,7 @@
 - [`00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/`](00_CURRENT_TEACHER_REVIEW_ENTRYPOINT/)
 - [`2026-08-19_MetaTraits_Bulk_TSV_Landing_and_C7_1_Mapping_Correction/`](2026-08-19_MetaTraits_Bulk_TSV_Landing_and_C7_1_Mapping_Correction/)
 - [`2026-08-19_M4b_C8_TraitFilterLayer_Implementation_Plan/`](2026-08-19_M4b_C8_TraitFilterLayer_Implementation_Plan/)
+- [`2026-08-19_M4b_C7_2_Fungal_Observed_Trait_Source_Exploration_Closure/`](2026-08-19_M4b_C7_2_Fungal_Observed_Trait_Source_Exploration_Closure/)
 - [`2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/`](2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/)
 - [`2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/`](2026-08-16_M4b_C7_2_Feature_Encoding_Proposal/)
 - [`2026-08-14_M4b_C7_1_Trait_Panel_Candidate/`](2026-08-14_M4b_C7_1_Trait_Panel_Candidate/)
@@ -29,6 +67,17 @@ rerun2 映射口径，提出 C8-0 至 C8-5 staged-only 实装拆分。它不是 
 MetaTraits 未覆盖 bacteria/archaea 是否另行授权 porTraits genome prediction
 preflight；详细见
 [`2026-08-19_M4b_C8_TraitFilterLayer_Implementation_Plan/pending_teacher_decisions/M4B_C8_PENDING_TEACHER_DECISIONS_RESCUED_SOURCES_AND_PORTRAITS_2026-08-19.md`](2026-08-19_M4b_C8_TraitFilterLayer_Implementation_Plan/pending_teacher_decisions/M4B_C8_PENDING_TEACHER_DECISIONS_RESCUED_SOURCES_AND_PORTRAITS_2026-08-19.md)。
+
+本次 2026-08-19 新增真菌 observed-trait source exploration closure 包用于
+说明为什么当前 C7-2 真菌仍保持 identity-only。DSMZ/MediaDive/ATCC 能提供
+少量可审计 observed evidence，但严格合并覆盖只有 any evidence `78/575`，
+temperature `75/575`，pH `12/575`，salinity `0/575`，oxygen `68/575`，
+culture collection accession `78/575`；`575` 只是探索内部 source_signature
+行级分母，不替代 C7-2 老师口径真菌数 `428`。结论是停止当前轮次真菌
+observed-source 深挖，不合并到 C7-2，不做 hard filter，不使用真菌预测声明。
+若后续考虑用面向细菌/古菌/原核的预测工具补真菌性状，本包新增待讨论项：
+先和师姐/领域 reviewer 讨论工具迁移和 out-of-domain 边界，再单独请老师裁定；
+当前不默认执行。
 
 2026-08-18 C7-2 包对应老师 2026-08-17 裁定后的下一步：C7-2
 只读 schema/validator 实装 + bounded staged 子集。包内包含

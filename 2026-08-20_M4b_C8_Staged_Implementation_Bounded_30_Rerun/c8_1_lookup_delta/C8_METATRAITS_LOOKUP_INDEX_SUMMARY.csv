@@ -1,0 +1,16 @@
+trait_id,trait_name,main_universe_rows,observed_available_count,predicted_soft_fill_candidate_count,not_observed_count,fungi_identity_only_count,not_metatraits_source_count,prediction_allowed_for_trait,first_screen
+F1,oxygen_tolerance,2478,1268,162,620,428,0,True,observed_trait
+F2,temperature,2478,1334,100,616,428,0,True,observed_trait
+F3,pH,2478,328,1090,632,428,0,True,observed_trait
+F4,salinity,2478,574,837,639,428,0,True,observed_trait
+F5,bacdive_availability,2478,0,0,0,428,2050,False,observed_evidence_only
+F6,respiration_electron_acceptor,2478,313,1106,631,428,0,True,observed_trait
+F7,carbon_and_substrate_utilization,2478,551,871,628,428,0,True,observed_trait
+F8,degradation_capacity_broad,2478,584,838,628,428,0,True,broad_context_only
+F9,enzyme_activity,2478,671,0,1379,428,0,False,source_labelled
+F10,motility,2478,1199,0,851,428,0,False,source_labelled
+F11,cell_morphology,2478,1241,0,809,428,0,False,source_labelled
+F12,cell_envelope_gram,2478,1401,0,649,428,0,False,source_labelled
+F13,sporulation,2478,958,0,1092,428,0,False,source_labelled
+F14,genome_basic,2478,1416,0,634,428,0,False,source_labelled
+F15,habitat_generalism,2478,0,0,2050,428,0,False,ecological_background

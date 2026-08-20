@@ -1,0 +1,42 @@
+{
+  "allowed_predicted_soft_fill": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F6",
+    "F7",
+    "F8"
+  ],
+  "delta_rescued_source_review_size": 137,
+  "feature_encoding_contract": "M4B_C7_2_FEATURE_ENCODING_PROPOSAL_2026-08-15",
+  "forbidden_predicted_soft_fill": [
+    "F5",
+    "F9",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15"
+  ],
+  "fungal_trait_policy": "identity_only",
+  "hard_rejection_enabled": false,
+  "main_source_universe_size": 2478,
+  "metatraits_mapping_contract": "C7_1_TRAIT_PANEL_METATRAITS_LONG_FORM_MAPPING_RERUN2",
+  "package_id": "enzymecage_m4b_c8_3_4_bounded_30_rerun_20260820",
+  "production_integration_enabled": false,
+  "scope": "staged_only_c8_bounded_30_rerun",
+  "source_provenance": {
+    "c7_2_reference_source": "dependency_payload/inputs/c7_2_bounded_30_reference/",
+    "c8_1_rerun2_archive_sha256": "ebae0d9ffbf1cb3cec666bba0d7a8b5562d59d0a140fe3ab06c6e1da6f094b33",
+    "c8_2a_archive_sha256": "d2d9ba4ba94a830cd268355588ce6d8041ed2cd3eb66e615891a5313c9a70c79",
+    "c8_3_4_bounded_30_dependency_payload_sha256": "3e701443b70a82ac32a819999a7b69ee4540b3443ac9ecea9d1899d1bc0cef86",
+    "prior_c8_3_4_archive_sha256": "b164df242fa3002c31bb71425fb83a9494efb3a3756ecfe5aaf67142a2fa3f02"
+  },
+  "teacher_authorization_id": "TEACHER_REPLY_8_19_C8_STAGED_ONLY_IMPLEMENTATION",
+  "trait_panel_id": "M4B_C7_PANEL_FROZEN_2026_08_14",
+  "trait_score_enabled": false,
+  "uncalibrated_confidence_enabled": false,
+  "upstream_candidate_scope": "bounded_30_schema_validator_rerun_not_real_candidate_selection"
+}

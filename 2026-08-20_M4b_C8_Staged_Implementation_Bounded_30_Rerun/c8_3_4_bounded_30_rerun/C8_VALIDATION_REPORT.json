@@ -1,0 +1,33 @@
+{
+  "boundary_checks": {
+    "no_api_calls": true,
+    "no_formal_asset_mutation": true,
+    "no_hard_rejection": true,
+    "no_porTraits": true,
+    "no_production_mutation": true,
+    "no_raw_bacdive_cache_read": true,
+    "no_raw_metatraits_read": true,
+    "no_trait_score": true,
+    "no_uncalibrated_confidence": true
+  },
+  "eligibility_checks": {
+    "all_30_main_2478": true,
+    "all_30_ready_for_c8_3": true,
+    "delta_rows": 0,
+    "not_mapped_rows": 0
+  },
+  "errors": [],
+  "overall_pass": true,
+  "row_counts": {
+    "train_set_manifest": 30,
+    "trait_annotation": 30
+  },
+  "trait_policy_checks": {
+    "f15_no_ranking": true,
+    "f5_not_predicted": true,
+    "f8_no_direct_degradation": true,
+    "f9_f15_not_predicted": true,
+    "fungi_identity_only": true
+  },
+  "warnings": []
+}

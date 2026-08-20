@@ -1,0 +1,195 @@
+{
+  "task_id": "C8_0_INPUT_SOURCE_AUDIT_2026_08_20",
+  "date": "2026-08-20",
+  "scope": "input_freeze_and_path_preflight_for_c8_staged_only_implementation",
+  "status": "LOCAL_INPUT_FREEZE_COMPLETE_WITH_RUNTIME_PATH_CHECK_REQUIRED_BEFORE_C8_1",
+  "teacher_authority": {
+    "path": "custom/docs/enzyme_feature_expansion/ENZYMECAGE_LUCAPCYCLE_MODEL_TRAINING_RUN_2026-07-01/00_Authority_Teacher_Plan/老师回复8.19.md",
+    "sha256": "d5327712675dfc6321a59d8768655a57fc0faecbac70d5a56de8b0ac6206717b",
+    "decision_summary": [
+      "metatraits_bulk_tsv_landing_and_c7_1_mapping_rerun2_accepted",
+      "c8_staged_only_implementation_approved",
+      "use_c7_1_long_form_mapping_rerun2",
+      "main_denominator_remains_original_2478_source_universe",
+      "137_outside_universe_sources_are_delta_review_only",
+      "portraits_not_started_in_c8_v1",
+      "fungi_identity_only"
+    ]
+  },
+  "frozen_inputs": {
+    "c8_plan": {
+      "path": "custom/docs/enzyme_feature_expansion/ENZYMECAGE_LUCAPCYCLE_MODEL_TRAINING_RUN_2026-07-01/01_Path_Contract_Objective/M4b_C8_TraitFilterLayer_Implementation_Plan_2026-08-19/M4B_C8_TRAITFILTERLAYER_IMPLEMENTATION_PLAN_AND_TASK_BREAKDOWN_2026-08-19.md",
+      "sha256": "79b9a74901117a5c73ea17bf5dc2288aaf0a4ca294e2142d8d663e45d3ea7cc8",
+      "status": "PASS"
+    },
+    "enzyme_staged_status_table": {
+      "path": "custom/github_upload/EnzymeCAGE-Teacher-Deliverables/2026-08-14_M4_E2_Full_4681_Staged_Status_Table/tables/FULL_4681_STAGED_STATUS_TABLE.csv",
+      "sha256": "41b1166eef15d0c9dac0a2253369b7d5c9a324c6daefa5bc7481e4991f8b1b3a",
+      "data_rows": 4681,
+      "final_status_counts": {
+        "PASS_AFDB_P2RANK_PREDICTED_POCKET_D4_LOADER": 1704,
+        "BLOCKED_AFDB_P2RANK_NO_POCKET": 1324,
+        "BLOCKED_AFDB_STRUCTURE_FETCH_FAILED": 1650,
+        "BLOCKED_ESM2_3B_EXTRACTION_FAILED": 3
+      },
+      "mutation_flags_all_false": true,
+      "status": "PASS"
+    },
+    "staged_asset_manifest": {
+      "path": "custom/github_upload/EnzymeCAGE-Teacher-Deliverables/2026-08-14_M4_E2_Full_4681_Staged_Status_Table/tables/STAGED_ASSET_MANIFEST.csv",
+      "sha256": "2f208865cbf487ad7fe1674761f87f0efbd4f2fd459c029726e7e71cfb27022f",
+      "data_rows": 10224,
+      "unique_uid": 1704,
+      "status": "PASS"
+    },
+    "uid_to_source_mapping": {
+      "path": "data/processed/rhea/2026-01-21/microbe/taxonomy_filter_2026-04-28/uid_to_source_keep_bacteria_fungi_archaea.csv",
+      "sha256": "7b92e8e625cb73f070c8e902687ea5bbdbf749f04a19828e550e3fe205684fe6",
+      "data_rows": 168335,
+      "unique_uid": 168335,
+      "unique_source_signature": 3234,
+      "taxonomy_row_counts": {
+        "target_bacteria": 152044,
+        "target_archaea": 8637,
+        "target_fungi": 7654
+      },
+      "status": "PASS"
+    },
+    "main_2478_microbe_universe": {
+      "path": "custom/github_upload/EnzymeCAGE-MetaTraits-Teacher-Deliverables/2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/02_bacdive_full_closure/bacdive_metatraits_overlap_by_source_signature.csv",
+      "sha256": "278867b69aa191e430cddfe5a6ad19047b6805f02db58bf230542eed1327a7ff",
+      "data_rows": 2478,
+      "taxonomy_counts": {
+        "target_bacteria": 1897,
+        "target_archaea": 153,
+        "target_fungi": 428
+      },
+      "coverage_bins": {
+        "both_covered": 1508,
+        "bacdive_only": 238,
+        "metatraits_only": 130,
+        "neither": 602
+      },
+      "metatraits_covered": 1638,
+      "bacdive_main_covered": 1746,
+      "status": "PASS"
+    },
+    "metatraits_coverage_probe_auxiliary": {
+      "path": "custom/github_upload/EnzymeCAGE-MetaTraits-Teacher-Deliverables/2026-08-12_MetaTraits_BacDive_Microbe_Trait_Availability/01_metatraits_species_coverage/source_signature_metatraits_coverage.csv",
+      "sha256": "ae343b93910ed7dad53db89d73ec1fc082956d446e5096e9e22d2142dc5a4560",
+      "data_rows": 3234,
+      "status": "PASS_AS_AUXILIARY_TABLE",
+      "boundary_note": "not_the_c8_main_denominator"
+    },
+    "metatraits_tsv_landing_manifest": {
+      "path": "custom/github_upload/EnzymeCAGE-MetaTraits-Teacher-Deliverables/2026-08-19_MetaTraits_Bulk_TSV_Landing_and_C7_1_Mapping_Correction/metatraits_landing_metadata/METATRAITS_BULK_TSV_FILE_MANIFEST.csv",
+      "sha256": "5748c8bd4e24e28c2849b945b3b4e52c12a525eef03bb23ea4fa9df50e4342ab",
+      "data_rows": 14,
+      "gzip_pass": 14,
+      "chenyu_data_dir": "/usrdata/EnzymeCAGE_data/data/metatraits/incoming/metatraits_bulk_tsv_snapshot_20260818",
+      "runtime_path_check_before_c8_1": "REQUIRED",
+      "status": "PASS_BY_ACCEPTED_LANDING_METADATA"
+    },
+    "c7_1_long_form_mapping_rerun2": {
+      "path": "custom/github_upload/EnzymeCAGE-MetaTraits-Teacher-Deliverables/2026-08-19_MetaTraits_Bulk_TSV_Landing_and_C7_1_Mapping_Correction/c7_1_mapping_rerun2/C7_1_TRAIT_PANEL_METATRAITS_LONG_FORM_MAPPING_RERUN2.csv",
+      "sha256": "ae7000b210c3add4daa1801bd03f3f7fcade3fee74c373809a36f9a2a90de4da",
+      "data_rows": 15,
+      "trait_ids": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F15"
+      ],
+      "status": "PASS"
+    },
+    "c7_1_mapping_validation_rerun2": {
+      "path": "custom/github_upload/EnzymeCAGE-MetaTraits-Teacher-Deliverables/2026-08-19_MetaTraits_Bulk_TSV_Landing_and_C7_1_Mapping_Correction/c7_1_mapping_rerun2/VALIDATION_REPORT_RERUN2.json",
+      "sha256": "e4d1b1d459fee902555c5770786c2b64e20020c2253ab52428b52d12d608c60a",
+      "trait_panel_rows_written": 15,
+      "negative_assertions_passed": 8,
+      "negative_assertions_failed": 0,
+      "boundary_no_api_call": true,
+      "boundary_no_prediction_run": true,
+      "boundary_no_production_mutation": true,
+      "status": "PASS"
+    },
+    "c7_2_policy_manifest": {
+      "path": "custom/github_upload/EnzymeCAGE-MetaTraits-Teacher-Deliverables/2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/POLICY_MANIFEST.json",
+      "sha256": "d0feb729f4033e1dca26a42b8a0333e96d7839e51e9aa7255856dccfcb7a1a41",
+      "allowed_predicted_soft_fill": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F6",
+        "F7",
+        "F8"
+      ],
+      "forbidden_predicted_soft_fill": [
+        "F5",
+        "F9",
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F15"
+      ],
+      "fungal_trait_policy": "identity_only",
+      "status": "PASS"
+    },
+    "c7_2_train_set_manifest": {
+      "path": "custom/github_upload/EnzymeCAGE-MetaTraits-Teacher-Deliverables/2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/TRAIN_SET_MANIFEST.csv",
+      "sha256": "c18ba2c4920d88a0e27e7a7673e08b438d18a9c9373eb7f3f9cde042e6a7794b",
+      "data_rows": 30,
+      "taxonomy_distribution": {
+        "target_bacteria": 10,
+        "target_archaea": 10,
+        "target_fungi": 10
+      },
+      "status": "PASS"
+    },
+    "c7_2_trait_annotation_sample": {
+      "path": "custom/github_upload/EnzymeCAGE-MetaTraits-Teacher-Deliverables/2026-08-18_M4b_C7_2_Schema_Validator_Bounded_30_Environment_Industrial_Bacteria/trait_annotation.jsonl",
+      "sha256": "49c39c7e75130959ea59dff114012c64d483d384bc98159e4398ee35042b251b",
+      "jsonl_rows": 30,
+      "status": "PASS"
+    }
+  },
+  "red_lines": {
+    "staged_only": true,
+    "production_d4_mutation_allowed": false,
+    "production_pool_mutation_allowed": false,
+    "formal_asset_mutation_allowed": false,
+    "hard_rejection_allowed": false,
+    "trait_score_allowed": false,
+    "uncalibrated_confidence_allowed": false,
+    "metatraits_api_allowed": false,
+    "bacdive_api_allowed": false,
+    "online_genome_prediction_allowed": false,
+    "portraits_run_allowed_in_c8_v1": false,
+    "fungi_policy": "identity_only",
+    "f5_prediction_allowed": false,
+    "main_denominator": "original_2478_microbe_source_universe",
+    "outside_137_sources": "delta_review_only"
+  },
+  "outputs_created": [
+    "C8_INPUT_SOURCE_AUDIT.md",
+    "C8_INPUT_SOURCE_AUDIT.json"
+  ],
+  "next_step": {
+    "recommended": "C8_1_READ_ONLY_TRAIT_LOOKUP_INDEX",
+    "guard": "recheck_chenyu_metatraits_data_dir_before_reading_raw_tsv"
+  }
+}
